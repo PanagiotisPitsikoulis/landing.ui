@@ -40,7 +40,7 @@ const Autocomplete = forwardRef(function Autocomplete<T extends object>(
 
   const popoverContent = isOpen ? (
     <FreeSoloPopover {...getPopoverProps()}>
-      <ScrollShadow {...getListBoxWrapperProps()}>
+      <ScrollShadow {...(getListBoxWrapperProps() as any)}>
         <Listbox {...listboxProps} />
       </ScrollShadow>
     </FreeSoloPopover>

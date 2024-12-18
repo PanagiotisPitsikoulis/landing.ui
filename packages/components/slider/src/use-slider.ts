@@ -102,7 +102,7 @@ interface Props extends HTMLNextUIProps<"div"> {
   classNames?: SlotsToClasses<SliderSlots>;
   /**
    * Tooltip props.
-   * @see [Tooltip](https://nextui.org/components/tooltip) for more details.
+   * @see [Tooltip](https://landing-ui.vercel.app/components/tooltip) for more details.
    * @default {
    *  offset: 15,
    *  delay: 0,

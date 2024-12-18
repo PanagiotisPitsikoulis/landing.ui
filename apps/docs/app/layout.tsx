@@ -49,9 +49,11 @@ export const metadata: Metadata = {
   ],
   creator: "getnextui",
   alternates: {
-    canonical: "https://nextui.org",
+    canonical: "https://landing-ui.vercel.app",
     types: {
-      "application/rss+xml": [{url: "https://nextui.org/feed.xml", title: "NextUI RSS Feed"}],
+      "application/rss+xml": [
+        {url: "https://landing-ui.vercel.app/feed.xml", title: "NextUI RSS Feed"},
+      ],
     },
   },
 };

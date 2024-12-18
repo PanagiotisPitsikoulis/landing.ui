@@ -5,7 +5,7 @@ export default function App() {
     <Image
       alt="NextUI hero Image with delay"
       height={200}
-      src="https://app.requestly.io/delay/5000/https://nextui.org/images/hero-card-complete.jpeg"
+      src="https://app.requestly.io/delay/5000/https://landing-ui.vercel.app/images/hero-card-complete.jpeg"
       width={300}
     />
   );

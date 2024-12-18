@@ -11,7 +11,7 @@ const Drawer = forwardRef<"div", DrawerProps>(({children, ...props}, ref) => {
   const {domRef, getModalProps} = useDrawer({...props, ref});
 
   return (
-    <Modal ref={domRef} {...getModalProps()}>
+    <Modal ref={domRef as any} {...getModalProps()}>
       {children}
     </Modal>
   );

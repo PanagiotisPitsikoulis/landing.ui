@@ -65,7 +65,7 @@ describe("User", () => {
     const wrapper = render(
       <User
         description={
-          <Link data-testid="test-user-link" href="https://nextui.org">
+          <Link data-testid="test-user-link" href="https://landing-ui.vercel.app">
             NextUI
           </Link>
         }

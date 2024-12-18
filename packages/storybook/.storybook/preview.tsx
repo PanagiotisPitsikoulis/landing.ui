@@ -25,7 +25,7 @@ const decorators: Preview["decorators"] = [
 
 const commonTheme = {
   brandTitle: "NextUI",
-  brandUrl: "https://nextui.org",
+  brandUrl: "https://landing-ui.vercel.app",
   brandTarget: "_self",
 };
 

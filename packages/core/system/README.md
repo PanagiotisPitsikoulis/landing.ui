@@ -2,7 +2,7 @@
 
 NextUI system primitives, here you can find the `extendVariants` utility, `NextUIProvider` and some other utilities.
 
-Please refer to the [documentation](https://nextui.org) for more information.
+Please refer to the [documentation](https://landing-ui.vercel.app) for more information.
 
 ## Installation
 

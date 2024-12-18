@@ -1,7 +1,7 @@
 import {DiscordIcon, GithubIcon, XIcon} from "@/components/icons";
 
 export const TWITTER_USER_NAME = "getnextui";
-export const SITE_URL = "https://nextui.org";
+export const SITE_URL = "https://landing-ui.vercel.app";
 
 export const communityAccounts = [
   {

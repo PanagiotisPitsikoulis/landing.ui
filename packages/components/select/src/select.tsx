@@ -107,7 +107,7 @@ const Select = forwardRef(function Select<T extends object>(
 
   const renderIndicator = useMemo(() => {
     if (isLoading) {
-      return <Spinner {...getSpinnerProps()} />;
+      return <Spinner {...(getSpinnerProps() as any)} />;
     }
 
     return clonedIcon;
@@ -117,7 +117,7 @@ const Select = forwardRef(function Select<T extends object>(
     () =>
       state.isOpen ? (
         <FreeSoloPopover {...getPopoverProps()}>
-          <ScrollShadow {...getListboxWrapperProps()}>
+          <ScrollShadow {...(getListboxWrapperProps() as any)}>
             <Listbox {...getListboxProps()} />
           </ScrollShadow>
         </FreeSoloPopover>

@@ -64,13 +64,13 @@ export const BlogPost = defineDocumentType(() => ({
         return date.toLocaleDateString("en-US", options);
       },
     },
-    // add https://nextui.org to the image path
+    // add https://landing-ui.vercel.app to the image path
     imageAsParams: {
       type: "string",
       resolve: (doc) => {
         const image = doc.image;
         if (image) {
-          return `https://nextui.org${image}`;
+          return `https://landing-ui.vercel.app${image}`;
         }
       },
     },

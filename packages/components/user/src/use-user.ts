@@ -29,7 +29,7 @@ interface Props {
   isFocusable?: boolean;
   /**
    * The user avatar props
-   * @see https://nextui.org/docs/components/avatar
+   * @see https://landing-ui.vercel.app/docs/components/avatar
    */
   avatarProps?: Partial<AvatarProps>;
   /**

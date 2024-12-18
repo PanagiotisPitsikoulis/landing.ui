@@ -6,7 +6,7 @@ export default function App() {
       isBlurred
       alt="NextUI Album Cover"
       className="m-5"
-      src="https://nextui.org/images/album-cover.png"
+      src="https://landing-ui.vercel.app/images/album-cover.png"
       width={240}
     />
   );

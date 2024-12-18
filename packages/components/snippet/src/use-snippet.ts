@@ -92,7 +92,7 @@ export interface UseSnippetProps extends Omit<HTMLNextUIProps, "onCopy">, Snippe
   hideSymbol?: boolean;
   /**
    * Tooltip props.
-   * @see [Tooltip](https://nextui.org/components/tooltip) for more details.
+   * @see [Tooltip](https://landing-ui.vercel.app/components/tooltip) for more details.
    * @default {
    *  offset: 15,
    *  delay: 1000,
@@ -104,7 +104,7 @@ export interface UseSnippetProps extends Omit<HTMLNextUIProps, "onCopy">, Snippe
   tooltipProps?: Partial<TooltipProps>;
   /**
    * Copy button props.
-   * @see [Button](https://nextui.org/components/button) for more details.
+   * @see [Button](https://landing-ui.vercel.app/components/button) for more details.
    * @default {
    *   isDisabled: disableCopy,
    *   onPress: onCopy

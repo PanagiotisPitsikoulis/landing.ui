@@ -261,7 +261,7 @@ export default function App() {
 
                         <p className="mt-4">
                           Brought to you by the{" "}
-                          <Link className="text-default-700" href="https://nextui.org">
+                          <Link className="text-default-700" href="https://landing-ui.vercel.app">
                             NextUI team
                           </Link>
                           .
@@ -274,7 +274,7 @@ export default function App() {
                         <Avatar
                           name="NextUI"
                           size="sm"
-                          src="https://nextui.org/android-chrome-192x192.png"
+                          src="https://landing-ui.vercel.app/android-chrome-192x192.png"
                         />
                         <span className="text-small text-default-500">NextUI Team</span>
                       </div>

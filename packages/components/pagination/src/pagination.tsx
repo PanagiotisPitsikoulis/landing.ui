@@ -175,7 +175,11 @@ const Pagination = forwardRef<"nav", PaginationProps>((props, ref) => {
       }
 
       return (
-        <PaginationItem {...getItemProps({value})} key={value} getAriaLabel={getItemAriaLabel}>
+        <PaginationItem
+          {...(getItemProps({value}) as any)}
+          key={value}
+          getAriaLabel={getItemAriaLabel}
+        >
           {value}
         </PaginationItem>
       );

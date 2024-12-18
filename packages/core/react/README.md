@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://nextui.org">
+  <a href="https://landing-ui.vercel.app">
       <img width="20%" src="https://raw.githubusercontent.com/nextui-org/nextui/main/apps/docs/public/isotipo.png" alt="nextui" />
       <h1 align="center">NextUI</h1>
   </a>
@@ -24,11 +24,11 @@
 
 ## Getting Started
 
-Visit <a aria-label="nextui learn" href="https://nextui.org/learn">https://nextui.org/guide</a> to get started with NextUI.
+Visit <a aria-label="nextui learn" href="https://landing-ui.vercel.app/learn">https://landing-ui.vercel.app/guide</a> to get started with NextUI.
 
 ## Documentation
 
-Visit [https://nextui.org/docs](https://nextui.org/docs) to view the full documentation.
+Visit [https://landing-ui.vercel.app/docs](https://landing-ui.vercel.app/docs) to view the full documentation.
 
 ## Storybook
 

@@ -2,7 +2,7 @@
 
 Alerts are temporary notifications that provide concise feedback about an action or event.
 
-Please refer to the [documentation](https://nextui.org/docs/components/alert) for more information.
+Please refer to the [documentation](https://landing-ui.vercel.app/docs/components/alert) for more information.
 
 ## Installation
 

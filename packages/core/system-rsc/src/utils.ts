@@ -15,7 +15,11 @@ export function forwardRef<
     }
   >,
 ) {
-  return baseForwardRef(component) as InternalForwardRefRenderFunction<Component, Props, OmitKeys>;
+  return baseForwardRef(component as any) as InternalForwardRefRenderFunction<
+    Component,
+    Props,
+    OmitKeys
+  >;
 }
 
 export const toIterator = (obj: any) => {

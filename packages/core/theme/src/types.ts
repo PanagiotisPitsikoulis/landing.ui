@@ -108,7 +108,7 @@ export type ConfigThemes = Record<string, ConfigTheme>;
 
 /**
  * The NextUI config.
- * @see https://nextui.org/docs/customization/customize-theme
+ * @see https://landing-ui.vercel.app/docs/customization/customize-theme
  */
 export type NextUIPluginConfig = {
   /**

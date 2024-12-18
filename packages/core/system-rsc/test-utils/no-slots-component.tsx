@@ -6,8 +6,7 @@ import {tv} from "@landing-ui/theme";
 import {filterDOMProps, ReactRef, useDOMRef} from "@landing-ui/react-utils";
 import {objectToDeps} from "@landing-ui/shared-utils";
 
-import {mapPropsVariants} from "../src/utils";
-import {forwardRef} from "../src/utils";
+import {mapPropsVariants, forwardRef} from "../src/utils";
 /**
  * No slots
  */
