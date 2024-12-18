@@ -1,18 +1,18 @@
 import type {SelectionBehavior, MultipleSelection} from "@react-types/shared";
 import type {AriaAccordionProps} from "@react-types/accordion";
-import type {AccordionGroupVariantProps} from "@nextui-org/theme";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {AccordionGroupVariantProps} from "@landing-ui/theme";
+import type {HTMLNextUIProps, PropGetter} from "@landing-ui/system";
 
-import {useProviderContext} from "@nextui-org/system";
-import {ReactRef, filterDOMProps} from "@nextui-org/react-utils";
+import {useProviderContext} from "@landing-ui/system";
+import {ReactRef, filterDOMProps} from "@landing-ui/react-utils";
 import React, {Key, useCallback} from "react";
 import {TreeState, useTreeState} from "@react-stately/tree";
 import {mergeProps} from "@react-aria/utils";
-import {accordion} from "@nextui-org/theme";
-import {useDOMRef} from "@nextui-org/react-utils";
+import {accordion} from "@landing-ui/theme";
+import {useDOMRef} from "@landing-ui/react-utils";
 import {useMemo, useState} from "react";
-import {DividerProps} from "@nextui-org/divider";
-import {useReactAriaAccordion} from "@nextui-org/use-aria-accordion";
+import {DividerProps} from "@landing-ui/divider";
+import {useReactAriaAccordion} from "@landing-ui/use-aria-accordion";
 
 import {AccordionItemProps} from "./accordion-item";
 

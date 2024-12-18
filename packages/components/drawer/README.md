@@ -1,4 +1,4 @@
-# @nextui-org/drawer
+# @landing-ui/drawer
 
 A Quick description of the component
 
@@ -7,18 +7,18 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/drawer
+yarn add @landing-ui/drawer
 # or
-npm i @nextui-org/drawer
+npm i @landing-ui/drawer
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/nextui-org/nextui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/nextui-org/nextui/blob/master/LICENSE).
+[MIT license](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/LICENSE).

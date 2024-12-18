@@ -1,4 +1,4 @@
-import {Slider, Tooltip} from "@nextui-org/react";
+import {Slider, Tooltip} from "@landing-ui/react";
 
 export const InfoIcon = (props) => {
   return (

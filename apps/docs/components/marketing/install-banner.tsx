@@ -1,10 +1,10 @@
 "use client";
 
-import {Button, Link} from "@nextui-org/react";
-import {ArrowRightIcon} from "@nextui-org/shared-icons";
-import {clsx} from "@nextui-org/shared-utils";
+import {Button, Link} from "@landing-ui/react";
+import {ArrowRightIcon} from "@landing-ui/shared-icons";
+import {clsx} from "@landing-ui/shared-utils";
 import NextLink from "next/link";
-import {Code} from "@nextui-org/react";
+import {Code} from "@landing-ui/react";
 import {usePostHog} from "posthog-js/react";
 
 import {FeaturesGrid} from "./features-grid";
@@ -86,7 +86,7 @@ export const InstallBanner = () => {
               isExternal
               as={Link}
               className="text-sm"
-              href="https://github.com/nextui-org/nextui"
+              href="https://github.com/PanagiotisPitsikoulis/landing.ui"
               radius="full"
               size="md"
               startContent={<GithubIcon />}
@@ -95,7 +95,7 @@ export const InstallBanner = () => {
                 posthog.capture("InstallBanner - Github", {
                   action: "press",
                   category: "landing-page",
-                  data: "https://github.com/nextui-org/nextui",
+                  data: "https://github.com/PanagiotisPitsikoulis/landing.ui",
                 });
               }}
             >

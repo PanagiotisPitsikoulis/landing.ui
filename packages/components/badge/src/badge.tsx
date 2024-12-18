@@ -1,4 +1,4 @@
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@landing-ui/system";
 
 import {UseBadgeProps, useBadge} from "./use-badge";
 

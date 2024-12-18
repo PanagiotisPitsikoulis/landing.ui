@@ -1,4 +1,4 @@
-import {Select, SelectItem} from "@nextui-org/react";
+import {Select, SelectItem} from "@landing-ui/react";
 
 const generateItems = (n) => {
   const items = [

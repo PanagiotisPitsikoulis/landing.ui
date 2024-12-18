@@ -1,4 +1,4 @@
-import {DatePicker, RadioGroup, Radio, ButtonGroup, Button, cn} from "@nextui-org/react";
+import {DatePicker, RadioGroup, Radio, ButtonGroup, Button, cn} from "@landing-ui/react";
 import {startOfWeek, startOfMonth, getLocalTimeZone, today} from "@internationalized/date";
 import {useLocale, useDateFormatter} from "@react-aria/i18n";
 

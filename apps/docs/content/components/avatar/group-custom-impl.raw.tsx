@@ -4,7 +4,7 @@ import {
   useAvatarGroup,
   AvatarGroupProvider,
   AvatarGroupProps as BaseAvatarGroupProps,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 
 export interface AvatarGroupProps extends BaseAvatarGroupProps {}
 

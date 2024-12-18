@@ -1,4 +1,4 @@
-import {Skeleton} from "@nextui-org/react";
+import {Skeleton} from "@landing-ui/react";
 
 export default function App() {
   return (

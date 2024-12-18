@@ -1,4 +1,4 @@
-import {Autocomplete, AutocompleteItem} from "@nextui-org/react";
+import {Autocomplete, AutocompleteItem} from "@landing-ui/react";
 import {useAsyncList} from "@react-stately/data";
 
 export default function App() {

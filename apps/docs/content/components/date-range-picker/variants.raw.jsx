@@ -1,4 +1,4 @@
-import {DateRangePicker} from "@nextui-org/react";
+import {DateRangePicker} from "@landing-ui/react";
 
 export default function App() {
   const variants = ["flat", "bordered", "underlined", "faded"];

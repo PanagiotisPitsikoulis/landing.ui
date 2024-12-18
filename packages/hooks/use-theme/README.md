@@ -1,13 +1,13 @@
-# @nextui-org/use-theme
+# @landing-ui/use-theme
 
 React hook to switch between light and dark themes
 
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-theme
+yarn add @landing-ui/use-theme
 # or
-npm i @nextui-org/use-theme
+npm i @landing-ui/use-theme
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm i @nextui-org/use-theme
 Import `useTheme`
 
 ```tsx
-import {useTheme} from "@nextui-org/use-theme";
+import {useTheme} from "@landing-ui/use-theme";
 ```
 
 ### theme
@@ -46,10 +46,10 @@ setTheme('purple-dark')
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/nextui-org/nextui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/nextui-org/nextui/blob/master/LICENSE).
+[MIT license](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/LICENSE).

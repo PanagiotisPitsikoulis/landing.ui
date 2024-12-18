@@ -1,19 +1,19 @@
 import type {AriaLinkProps} from "@react-types/link";
-import type {LinkVariantProps} from "@nextui-org/theme";
+import type {LinkVariantProps} from "@landing-ui/theme";
 import type {MouseEventHandler} from "react";
 
-import {link} from "@nextui-org/theme";
-import {useAriaLink} from "@nextui-org/use-aria-link";
+import {link} from "@landing-ui/theme";
+import {useAriaLink} from "@landing-ui/use-aria-link";
 import {
   HTMLNextUIProps,
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@nextui-org/system";
-import {useDOMRef} from "@nextui-org/react-utils";
+} from "@landing-ui/system";
+import {useDOMRef} from "@landing-ui/react-utils";
 import {useFocusRing} from "@react-aria/focus";
-import {dataAttr, objectToDeps} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {dataAttr, objectToDeps} from "@landing-ui/shared-utils";
+import {ReactRef} from "@landing-ui/react-utils";
 import {useMemo, useCallback} from "react";
 import {mergeProps} from "@react-aria/utils";
 
@@ -74,7 +74,7 @@ export function useLink(originalProps: UseLinkProps) {
   const disableAnimation =
     originalProps?.disableAnimation ?? globalContext?.disableAnimation ?? false;
 
-  // use `@nextui-org/use-aria-link` to suppress onClick deprecation warning
+  // use `@landing-ui/use-aria-link` to suppress onClick deprecation warning
   const {linkProps} = useAriaLink(
     {
       ...otherProps,

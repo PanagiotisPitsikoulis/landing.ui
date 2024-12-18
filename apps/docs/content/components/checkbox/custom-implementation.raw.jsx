@@ -1,4 +1,4 @@
-import {useCheckbox, Chip, VisuallyHidden, tv} from "@nextui-org/react";
+import {useCheckbox, Chip, VisuallyHidden, tv} from "@landing-ui/react";
 
 export const CheckIcon = (props) => {
   return (

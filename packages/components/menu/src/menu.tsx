@@ -1,6 +1,6 @@
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@landing-ui/system";
 import {ForwardedRef, ReactElement} from "react";
-import {mergeClasses} from "@nextui-org/theme";
+import {mergeClasses} from "@landing-ui/theme";
 
 import {UseMenuProps, useMenu} from "./use-menu";
 import MenuSection from "./menu-section";

@@ -1,20 +1,20 @@
-import type {ModalVariantProps, SlotsToClasses, ModalSlots} from "@nextui-org/theme";
+import type {ModalVariantProps, SlotsToClasses, ModalSlots} from "@landing-ui/theme";
 import type {HTMLMotionProps} from "framer-motion";
 
 import {AriaModalOverlayProps} from "@react-aria/overlays";
-import {useAriaModalOverlay} from "@nextui-org/use-aria-modal-overlay";
+import {useAriaModalOverlay} from "@landing-ui/use-aria-modal-overlay";
 import {useCallback, useId, useRef, useState, useMemo, ReactNode} from "react";
-import {modal} from "@nextui-org/theme";
+import {modal} from "@landing-ui/theme";
 import {
   HTMLNextUIProps,
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@nextui-org/system";
-import {useAriaButton} from "@nextui-org/use-aria-button";
+} from "@landing-ui/system";
+import {useAriaButton} from "@landing-ui/use-aria-button";
 import {useFocusRing} from "@react-aria/focus";
-import {clsx, dataAttr, objectToDeps} from "@nextui-org/shared-utils";
-import {ReactRef, useDOMRef} from "@nextui-org/react-utils";
+import {clsx, dataAttr, objectToDeps} from "@landing-ui/shared-utils";
+import {ReactRef, useDOMRef} from "@landing-ui/react-utils";
 import {useOverlayTriggerState} from "@react-stately/overlays";
 import {OverlayTriggerProps} from "@react-stately/overlays";
 import {mergeRefs, mergeProps} from "@react-aria/utils";

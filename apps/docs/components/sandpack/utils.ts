@@ -95,9 +95,9 @@ export function extractNextUIImport(code: string): string[] {
   // Split the code into lines
   const lines = code.split("\n");
 
-  // Filter the lines to only include import statements from "@nextui-org/react"
+  // Filter the lines to only include import statements from "@landing-ui/react"
   const importStatements = lines.filter(
-    (line) => line.startsWith("import") && line.includes("@nextui-org/react"),
+    (line) => line.startsWith("import") && line.includes("@landing-ui/react"),
   );
 
   // Return the import statements
@@ -133,7 +133,7 @@ export function updateTailwindConfig(tailwindConfig: string, componentNames: str
 
   // Find the index of the line to replace
   const lineIndex = lines.findIndex((line) =>
-    line.includes("./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"),
+    line.includes("./node_modules/@landing-ui/theme/dist/**/*.{js,ts,jsx,tsx}"),
   );
 
   // If the line was found
@@ -150,7 +150,7 @@ export function updateTailwindConfig(tailwindConfig: string, componentNames: str
       lines.splice(
         lineIndex,
         0,
-        `  "./node_modules/@nextui-org/theme/dist/components/${name}.js",`,
+        `  "./node_modules/@landing-ui/theme/dist/components/${name}.js",`,
       );
     });
   }

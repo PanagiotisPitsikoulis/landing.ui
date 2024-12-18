@@ -1,10 +1,10 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {card} from "@nextui-org/theme";
-import {Link} from "@nextui-org/link";
-import {Button} from "@nextui-org/button";
-import {Code} from "@nextui-org/code";
-import {Image} from "@nextui-org/image";
+import {card} from "@landing-ui/theme";
+import {Link} from "@landing-ui/link";
+import {Button} from "@landing-ui/button";
+import {Code} from "@landing-ui/code";
+import {Image} from "@landing-ui/image";
 
 import {Card, CardBody, CardHeader, CardFooter, CardProps} from "../src";
 
@@ -118,7 +118,7 @@ const WithFooterTemplate = (args: CardProps) => (
       <p>Make beautiful websites regardless of your design experience.</p>
     </CardBody>
     <CardFooter>
-      <Link isExternal showAnchorIcon href="https://github.com/nextui-org/nextui">
+      <Link isExternal showAnchorIcon href="https://github.com/PanagiotisPitsikoulis/landing.ui">
         Visit source code on GitHub.
       </Link>
     </CardFooter>

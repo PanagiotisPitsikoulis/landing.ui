@@ -1,5 +1,5 @@
-import {forwardRef} from "@nextui-org/system";
-import {Ripple} from "@nextui-org/ripple";
+import {forwardRef} from "@landing-ui/system";
+import {Ripple} from "@landing-ui/ripple";
 
 import {CardProvider} from "./card-context";
 import {useCard, UseCardProps} from "./use-card";

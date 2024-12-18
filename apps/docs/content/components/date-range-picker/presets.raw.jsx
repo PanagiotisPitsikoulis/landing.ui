@@ -1,4 +1,4 @@
-import {DateRangePicker, Radio, RadioGroup, Button, ButtonGroup, cn} from "@nextui-org/react";
+import {DateRangePicker, Radio, RadioGroup, Button, ButtonGroup, cn} from "@landing-ui/react";
 import {
   today,
   startOfWeek,

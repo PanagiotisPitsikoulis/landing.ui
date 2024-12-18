@@ -1,20 +1,20 @@
-import type {TabsVariantProps, SlotsToClasses, TabsSlots, TabsReturnType} from "@nextui-org/theme";
+import type {TabsVariantProps, SlotsToClasses, TabsSlots, TabsReturnType} from "@landing-ui/theme";
 
 import {
   HTMLNextUIProps,
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@nextui-org/system";
-import {tabs} from "@nextui-org/theme";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, objectToDeps} from "@nextui-org/shared-utils";
-import {ReactRef, filterDOMProps} from "@nextui-org/react-utils";
+} from "@landing-ui/system";
+import {tabs} from "@landing-ui/theme";
+import {useDOMRef} from "@landing-ui/react-utils";
+import {clsx, objectToDeps} from "@landing-ui/shared-utils";
+import {ReactRef, filterDOMProps} from "@landing-ui/react-utils";
 import {useMemo, RefObject, useCallback} from "react";
 import {TabListState, TabListStateOptions, useTabListState} from "@react-stately/tabs";
 import {AriaTabListProps, useTabList} from "@react-aria/tabs";
 import {mergeProps} from "@react-aria/utils";
-import {CollectionProps} from "@nextui-org/aria-utils";
+import {CollectionProps} from "@landing-ui/aria-utils";
 import {CollectionChildren} from "@react-types/shared";
 import {HTMLMotionProps} from "framer-motion";
 

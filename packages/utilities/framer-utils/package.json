@@ -1,11 +1,11 @@
 {
-  "name": "@nextui-org/framer-utils",
+  "name": "@landing-ui/framer-utils",
   "version": "2.1.4",
   "description": "A set of framer motion transitions for react",
   "keywords": [
     "framer-utils"
   ],
-  "author": "Junior Garcia <jrgarciadev@gmail.com>",
+  "author": "Panagiotis Pitsikoulis <panagiotispitsikoulis2003@gmail.com>",
   "homepage": "https://nextui.org",
   "license": "MIT",
   "main": "src/index.ts",
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nextui-org/nextui.git",
+    "url": "git+https://github.com/PanagiotisPitsikoulis/landing.ui.git",
     "directory": "packages/utilities/framer-utils"
   },
   "bugs": {
-    "url": "https://github.com/nextui-org/nextui/issues"
+    "url": "https://github.com/PanagiotisPitsikoulis/landing.ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -39,9 +39,9 @@
     "framer-motion": ">=11.5.6 || >=12.0.0-alpha.1"
   },
   "dependencies": {
-    "@nextui-org/system": "workspace:*",
-    "@nextui-org/use-measure": "workspace:*",
-    "@nextui-org/shared-utils": "workspace:*"
+    "@landing-ui/system": "workspace:*",
+    "@landing-ui/use-measure": "workspace:*",
+    "@landing-ui/shared-utils": "workspace:*"
   },
   "devDependencies": {
     "react": "^18.0.0",

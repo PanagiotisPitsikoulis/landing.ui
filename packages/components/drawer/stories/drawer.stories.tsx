@@ -1,16 +1,16 @@
 /* eslint-disable jsx-a11y/no-autofocus */
 import React from "react";
 import {Meta} from "@storybook/react";
-import {drawer} from "@nextui-org/theme";
-import {Button} from "@nextui-org/button";
-import {Input} from "@nextui-org/input";
-import {Checkbox} from "@nextui-org/checkbox";
-import {Link} from "@nextui-org/link";
-import {Tooltip} from "@nextui-org/tooltip";
-import {Image} from "@nextui-org/image";
-import {Avatar, AvatarGroup} from "@nextui-org/avatar";
-import {MailFilledIcon, LockFilledIcon} from "@nextui-org/shared-icons";
-import {useDisclosure} from "@nextui-org/use-disclosure";
+import {drawer} from "@landing-ui/theme";
+import {Button} from "@landing-ui/button";
+import {Input} from "@landing-ui/input";
+import {Checkbox} from "@landing-ui/checkbox";
+import {Link} from "@landing-ui/link";
+import {Tooltip} from "@landing-ui/tooltip";
+import {Image} from "@landing-ui/image";
+import {Avatar, AvatarGroup} from "@landing-ui/avatar";
+import {MailFilledIcon, LockFilledIcon} from "@landing-ui/shared-icons";
+import {useDisclosure} from "@landing-ui/use-disclosure";
 
 import {Drawer, DrawerContent, DrawerHeader, DrawerBody, DrawerFooter, DrawerProps} from "../src";
 

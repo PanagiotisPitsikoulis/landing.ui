@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {Meta} from "@storybook/react";
-// import {Input} from "@nextui-org/input";
-import {Button} from "@nextui-org/button";
+// import {Input} from "@landing-ui/input";
+import {Button} from "@landing-ui/button";
 
 import {Form, FormProps} from "../src";
 

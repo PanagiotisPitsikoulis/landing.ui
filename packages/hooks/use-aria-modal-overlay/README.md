@@ -1,4 +1,4 @@
-# @nextui-org/use-aria-modal-overlay
+# @landing-ui/use-aria-modal-overlay
 
 A Quick description of the component
 
@@ -7,18 +7,18 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-aria-modal-overlay
+yarn add @landing-ui/use-aria-modal-overlay
 # or
-npm i @nextui-org/use-aria-modal-overlay
+npm i @landing-ui/use-aria-modal-overlay
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/nextui-org/nextui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/nextui-org/nextui/blob/master/LICENSE).
+[MIT license](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/LICENSE).

@@ -1,4 +1,4 @@
-import {Popover, PopoverTrigger, PopoverContent, Button, Input} from "@nextui-org/react";
+import {Popover, PopoverTrigger, PopoverContent, Button, Input} from "@landing-ui/react";
 
 export default function App() {
   const backdrops = ["opaque", "blur", "transparent"];

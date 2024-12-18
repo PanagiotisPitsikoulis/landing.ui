@@ -1,4 +1,4 @@
-import {Badge, Switch} from "@nextui-org/react";
+import {Badge, Switch} from "@landing-ui/react";
 
 export const NotificationIcon = ({size, height, width, ...props}) => {
   return (

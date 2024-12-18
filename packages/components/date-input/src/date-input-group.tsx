@@ -2,8 +2,8 @@ import type {HTMLAttributes, ReactElement, ReactNode} from "react";
 import type {GroupDOMAttributes, HelpTextProps, ValidationResult} from "@react-types/shared";
 
 import {useMemo} from "react";
-import {forwardRef} from "@nextui-org/system";
-import {dataAttr} from "@nextui-org/shared-utils";
+import {forwardRef} from "@landing-ui/system";
+import {dataAttr} from "@landing-ui/shared-utils";
 
 export interface DateInputGroupProps extends ValidationResult, HelpTextProps {
   children?: ReactElement | ReactElement[];

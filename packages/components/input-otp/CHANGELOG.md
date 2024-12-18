@@ -1,66 +1,66 @@
-# @nextui-org/input-otp
+# @landing-ui/input-otp
 
 ## 2.1.6
 
 ### Patch Changes
 
-- [#4314](https://github.com/nextui-org/nextui/pull/4314) [`5598806`](https://github.com/nextui-org/nextui/commit/5598806216166dc9fff36cafd9112412486b747f) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Fix build
+- [#4314](https://github.com/PanagiotisPitsikoulis/landing.ui/pull/4314) [`5598806`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/5598806216166dc9fff36cafd9112412486b747f) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Fix build
 
 - Updated dependencies []:
-  - @nextui-org/form@2.1.6
+  - @landing-ui/form@2.1.6
 
 ## 2.1.5
 
 ### Patch Changes
 
-- [#4296](https://github.com/nextui-org/nextui/pull/4296) [`1485eca`](https://github.com/nextui-org/nextui/commit/1485eca48fce8a0acc42fe40590b828c1a90ff48) Thanks [@macci001](https://github.com/macci001)! - Fixing the autofocus functionality in input-otp component(#4250)
+- [#4296](https://github.com/PanagiotisPitsikoulis/landing.ui/pull/4296) [`1485eca`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/1485eca48fce8a0acc42fe40590b828c1a90ff48) Thanks [@macci001](https://github.com/macci001)! - Fixing the autofocus functionality in input-otp component(#4250)
 
 - Updated dependencies []:
-  - @nextui-org/form@2.1.5
+  - @landing-ui/form@2.1.5
 
 ## 2.1.4
 
 ### Patch Changes
 
-- [#4258](https://github.com/nextui-org/nextui/pull/4258) [`1031e98`](https://github.com/nextui-org/nextui/commit/1031e985b71e69b8a7189ea049b9616257f820b3) Thanks [@wingkwong](https://github.com/wingkwong)! - sync with upstream RA versions
+- [#4258](https://github.com/PanagiotisPitsikoulis/landing.ui/pull/4258) [`1031e98`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/1031e985b71e69b8a7189ea049b9616257f820b3) Thanks [@wingkwong](https://github.com/wingkwong)! - sync with upstream RA versions
 
-- Updated dependencies [[`b16291b`](https://github.com/nextui-org/nextui/commit/b16291b2200229f0d0a9ea910e38f3f100f7931f), [`1031e98`](https://github.com/nextui-org/nextui/commit/1031e985b71e69b8a7189ea049b9616257f820b3)]:
-  - @nextui-org/form@2.1.4
+- Updated dependencies [[`b16291b`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/b16291b2200229f0d0a9ea910e38f3f100f7931f), [`1031e98`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/1031e985b71e69b8a7189ea049b9616257f820b3)]:
+  - @landing-ui/form@2.1.4
 
 ## 2.1.3
 
 ### Patch Changes
 
-- [#4255](https://github.com/nextui-org/nextui/pull/4255) [`6a94a12`](https://github.com/nextui-org/nextui/commit/6a94a125d4836b0a18d9cd2cb521c85a6bfa9050) Thanks [@wingkwong](https://github.com/wingkwong)! - fixed incorrect peerDependencies for theme and system package (#4254)
+- [#4255](https://github.com/PanagiotisPitsikoulis/landing.ui/pull/4255) [`6a94a12`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/6a94a125d4836b0a18d9cd2cb521c85a6bfa9050) Thanks [@wingkwong](https://github.com/wingkwong)! - fixed incorrect peerDependencies for theme and system package (#4254)
 
-- Updated dependencies [[`6a94a12`](https://github.com/nextui-org/nextui/commit/6a94a125d4836b0a18d9cd2cb521c85a6bfa9050)]:
-  - @nextui-org/form@2.1.3
+- Updated dependencies [[`6a94a12`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/6a94a125d4836b0a18d9cd2cb521c85a6bfa9050)]:
+  - @landing-ui/form@2.1.3
 
 ## 2.1.2
 
 ### Patch Changes
 
-- [#4247](https://github.com/nextui-org/nextui/pull/4247) [`551ab18`](https://github.com/nextui-org/nextui/commit/551ab184060b24b2c3a89598f84d4c18599649d0) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Fix peerDeps & core package client on export \*
+- [#4247](https://github.com/PanagiotisPitsikoulis/landing.ui/pull/4247) [`551ab18`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/551ab184060b24b2c3a89598f84d4c18599649d0) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Fix peerDeps & core package client on export \*
 
-- Updated dependencies [[`551ab18`](https://github.com/nextui-org/nextui/commit/551ab184060b24b2c3a89598f84d4c18599649d0)]:
-  - @nextui-org/form@2.1.2
+- Updated dependencies [[`551ab18`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/551ab184060b24b2c3a89598f84d4c18599649d0)]:
+  - @landing-ui/form@2.1.2
 
 ## 2.1.1
 
 ### Patch Changes
 
-- [`d6eee4a`](https://github.com/nextui-org/nextui/commit/d6eee4a8767556152f47f06dcf04940951abc5af) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - v2.6.2
+- [`d6eee4a`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/d6eee4a8767556152f47f06dcf04940951abc5af) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - v2.6.2
 
-- Updated dependencies [[`d6eee4a`](https://github.com/nextui-org/nextui/commit/d6eee4a8767556152f47f06dcf04940951abc5af)]:
-  - @nextui-org/form@2.1.1
-  - @nextui-org/react-utils@2.1.1
-  - @nextui-org/shared-utils@2.1.1
+- Updated dependencies [[`d6eee4a`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/d6eee4a8767556152f47f06dcf04940951abc5af)]:
+  - @landing-ui/form@2.1.1
+  - @landing-ui/react-utils@2.1.1
+  - @landing-ui/shared-utils@2.1.1
 
 ## 2.1.0
 
 ### Minor Changes
 
-- [`5786897`](https://github.com/nextui-org/nextui/commit/5786897b9950d95c12351dacd2fb41bb1e298201) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - This release includes several improvements and bug fixes:
+- [`5786897`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/5786897b9950d95c12351dacd2fb41bb1e298201) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - This release includes several improvements and bug fixes:
 
   - Updated react-aria version across all components
   - Improved Drawer styles and transitions
@@ -86,18 +86,18 @@
 
 ### Patch Changes
 
-- [#4224](https://github.com/nextui-org/nextui/pull/4224) [`26e478d`](https://github.com/nextui-org/nextui/commit/26e478dd937dedcaf41110171d971a8a3cf2ff52) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Added form support to input-otp, change default validationBehavior to "native" to avoid breaking changes, and fix select with form
+- [#4224](https://github.com/PanagiotisPitsikoulis/landing.ui/pull/4224) [`26e478d`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/26e478dd937dedcaf41110171d971a8a3cf2ff52) Thanks [@jrgarciadev](https://github.com/jrgarciadev)! - Added form support to input-otp, change default validationBehavior to "native" to avoid breaking changes, and fix select with form
 
-- Updated dependencies [[`26e478d`](https://github.com/nextui-org/nextui/commit/26e478dd937dedcaf41110171d971a8a3cf2ff52), [`6c0213d`](https://github.com/nextui-org/nextui/commit/6c0213dfc805aa3c793763c0b25f53b2b80c24dc), [`5786897`](https://github.com/nextui-org/nextui/commit/5786897b9950d95c12351dacd2fb41bb1e298201)]:
-  - @nextui-org/form@2.1.0
-  - @nextui-org/react-utils@2.1.0
-  - @nextui-org/shared-utils@2.1.0
+- Updated dependencies [[`26e478d`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/26e478dd937dedcaf41110171d971a8a3cf2ff52), [`6c0213d`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/6c0213dfc805aa3c793763c0b25f53b2b80c24dc), [`5786897`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/5786897b9950d95c12351dacd2fb41bb1e298201)]:
+  - @landing-ui/form@2.1.0
+  - @landing-ui/react-utils@2.1.0
+  - @landing-ui/shared-utils@2.1.0
 
 ## 2.0.1-beta.0
 
 ### Patch Changes
 
-- [#4052](https://github.com/nextui-org/nextui/pull/4052) [`1d5b2b6c1`](https://github.com/nextui-org/nextui/commit/1d5b2b6c1f8672e7339a6f9dc66f0244d7bb2789) Thanks [@macci001](https://github.com/macci001)! - Adding new input-otp component.
+- [#4052](https://github.com/PanagiotisPitsikoulis/landing.ui/pull/4052) [`1d5b2b6c1`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/1d5b2b6c1f8672e7339a6f9dc66f0244d7bb2789) Thanks [@macci001](https://github.com/macci001)! - Adding new input-otp component.
 
-- Updated dependencies [[`1d5b2b6c1`](https://github.com/nextui-org/nextui/commit/1d5b2b6c1f8672e7339a6f9dc66f0244d7bb2789)]:
-  - @nextui-org/theme@2.3.0-beta.17
+- Updated dependencies [[`1d5b2b6c1`](https://github.com/PanagiotisPitsikoulis/landing.ui/commit/1d5b2b6c1f8672e7339a6f9dc66f0244d7bb2789)]:
+  - @landing-ui/theme@2.3.0-beta.17

@@ -1,4 +1,4 @@
-# @nextui-org/switch
+# @landing-ui/switch
 
 The Switch component is used as an alternative between checked and not checked states.
 
@@ -7,18 +7,18 @@ Please refer to the [documentation](https://nextui.org/docs/components/switch) f
 ## Installation
 
 ```sh
-yarn add @nextui-org/switch
+yarn add @landing-ui/switch
 # or
-npm i @nextui-org/switch
+npm i @landing-ui/switch
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/nextui-org/nextui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/nextui-org/nextui/blob/master/LICENSE).
+[MIT license](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/LICENSE).

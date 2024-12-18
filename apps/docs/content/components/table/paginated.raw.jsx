@@ -7,7 +7,7 @@ import {
   TableCell,
   Pagination,
   getKeyValue,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 
 export const users = [
   {

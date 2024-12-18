@@ -1,4 +1,4 @@
-import {createContext} from "@nextui-org/react-utils";
+import {createContext} from "@landing-ui/react-utils";
 
 import {UseDropdownReturn} from "./use-dropdown";
 

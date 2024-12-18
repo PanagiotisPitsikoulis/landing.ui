@@ -1,7 +1,7 @@
 ---
-"@nextui-org/checkbox": patch
-"@nextui-org/switch": patch
-"@nextui-org/radio": patch
+"@landing-ui/checkbox": patch
+"@landing-ui/switch": patch
+"@landing-ui/radio": patch
 ---
 
-bump `@nextui-org/theme` in peerDependencies
+bump `@landing-ui/theme` in peerDependencies

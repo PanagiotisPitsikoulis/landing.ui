@@ -1,10 +1,10 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {button, inputOtp} from "@nextui-org/theme";
+import {button, inputOtp} from "@landing-ui/theme";
 import {Controller, useForm} from "react-hook-form";
 import {ValidationResult} from "@react-types/shared";
-import {Button} from "@nextui-org/button";
-import {Form} from "@nextui-org/form";
+import {Button} from "@landing-ui/button";
+import {Form} from "@landing-ui/form";
 
 import {InputOtp} from "../src";
 

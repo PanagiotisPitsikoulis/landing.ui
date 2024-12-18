@@ -2,16 +2,16 @@ import type {
   BreadcrumbItemVariantProps,
   SlotsToClasses,
   BreadcrumbItemSlots,
-} from "@nextui-org/theme";
+} from "@landing-ui/theme";
 import type {ReactNode} from "react";
 import type {BreadcrumbItemProps as AriaBreadcrumbItemProps} from "@react-types/breadcrumbs";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@landing-ui/system";
 import {useFocusRing} from "@react-aria/focus";
-import {breadcrumbItem} from "@nextui-org/theme";
-import {filterDOMProps, ReactRef, useDOMRef} from "@nextui-org/react-utils";
+import {breadcrumbItem} from "@landing-ui/theme";
+import {filterDOMProps, ReactRef, useDOMRef} from "@landing-ui/react-utils";
 import {useBreadcrumbItem as useAriaBreadcrumbItem} from "@react-aria/breadcrumbs";
-import {clsx, dataAttr, objectToDeps} from "@nextui-org/shared-utils";
+import {clsx, dataAttr, objectToDeps} from "@landing-ui/shared-utils";
 import {useMemo} from "react";
 import {mergeProps} from "@react-aria/utils";
 

@@ -1,14 +1,14 @@
 import type {AriaButtonProps} from "@react-types/button";
-import type {As, HTMLNextUIProps} from "@nextui-org/system";
-import type {ButtonProps} from "@nextui-org/button";
+import type {As, HTMLNextUIProps} from "@landing-ui/system";
+import type {ButtonProps} from "@landing-ui/button";
 import type {HTMLAttributes, ReactNode, RefObject} from "react";
 
 import {Fragment, useState} from "react";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
-import {Button} from "@nextui-org/button";
+import {Button} from "@landing-ui/button";
 import {chain, mergeProps} from "@react-aria/utils";
 import {AnimatePresence, LazyMotion, MotionConfig} from "framer-motion";
-import {ResizablePanel} from "@nextui-org/framer-utils";
+import {ResizablePanel} from "@landing-ui/framer-utils";
 
 import {ChevronLeftIcon} from "./chevron-left";
 import {ChevronRightIcon} from "./chevron-right";
@@ -18,7 +18,7 @@ import {CalendarHeader} from "./calendar-header";
 import {CalendarPicker} from "./calendar-picker";
 import {useCalendarContext} from "./calendar-context";
 
-const domAnimation = () => import("@nextui-org/dom-animation").then((res) => res.default);
+const domAnimation = () => import("@landing-ui/dom-animation").then((res) => res.default);
 
 export interface CalendarBaseProps extends HTMLNextUIProps<"div"> {
   Component?: As;

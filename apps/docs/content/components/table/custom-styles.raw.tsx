@@ -18,7 +18,7 @@ import {
   Selection,
   ChipProps,
   SortDescriptor,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 
 export type IconSvgProps = SVGProps<SVGSVGElement> & {
   size?: number;

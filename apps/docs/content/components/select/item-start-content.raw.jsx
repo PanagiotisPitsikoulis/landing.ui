@@ -1,4 +1,4 @@
-import {Select, SelectItem, Avatar} from "@nextui-org/react";
+import {Select, SelectItem, Avatar} from "@landing-ui/react";
 
 export default function App() {
   return (

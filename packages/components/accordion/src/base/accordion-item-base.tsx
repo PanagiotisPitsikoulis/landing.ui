@@ -2,10 +2,10 @@ import type {
   AccordionItemVariantProps,
   AccordionItemSlots,
   SlotsToClasses,
-} from "@nextui-org/theme";
+} from "@landing-ui/theme";
 
-import {As} from "@nextui-org/system";
-import {ItemProps, BaseItem} from "@nextui-org/aria-utils";
+import {As} from "@landing-ui/system";
+import {ItemProps, BaseItem} from "@landing-ui/aria-utils";
 import {FocusableProps, PressEvents} from "@react-types/shared";
 import {ReactNode, MouseEventHandler} from "react";
 import {HTMLMotionProps} from "framer-motion";

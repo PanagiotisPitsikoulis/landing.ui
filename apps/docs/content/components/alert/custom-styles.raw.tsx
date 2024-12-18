@@ -1,7 +1,7 @@
-import type {AlertProps} from "@nextui-org/react";
+import type {AlertProps} from "@landing-ui/react";
 
 import React from "react";
-import {Alert, Button, cn} from "@nextui-org/react";
+import {Alert, Button, cn} from "@landing-ui/react";
 
 const CustomAlert = ({children, variant, color, className, classNames, ...props}: AlertProps) => {
   const colorClass = React.useMemo(() => {

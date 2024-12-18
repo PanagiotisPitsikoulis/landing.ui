@@ -8,7 +8,7 @@ import {
   NavbarItem,
   Link,
   Button,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 
 export const AcmeLogo = () => {
   return (

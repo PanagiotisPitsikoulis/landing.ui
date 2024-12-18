@@ -1,11 +1,11 @@
 import type {ReactNode} from "react";
-import type {SlotsToClasses, AvatarGroupSlots, AvatarGroupVariantProps} from "@nextui-org/theme";
+import type {SlotsToClasses, AvatarGroupSlots, AvatarGroupVariantProps} from "@landing-ui/theme";
 
-import {avatarGroup} from "@nextui-org/theme";
-import {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, compact} from "@nextui-org/shared-utils";
-import {ReactRef, getValidChildren} from "@nextui-org/react-utils";
+import {avatarGroup} from "@landing-ui/theme";
+import {HTMLNextUIProps, PropGetter} from "@landing-ui/system";
+import {useDOMRef} from "@landing-ui/react-utils";
+import {clsx, compact} from "@landing-ui/shared-utils";
+import {ReactRef, getValidChildren} from "@landing-ui/react-utils";
 import {cloneElement, useMemo} from "react";
 
 import {AvatarProps} from "./index";

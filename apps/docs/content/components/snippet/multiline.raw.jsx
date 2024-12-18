@@ -1,11 +1,11 @@
-import {Snippet} from "@nextui-org/react";
+import {Snippet} from "@landing-ui/react";
 
 export default function App() {
   return (
     <Snippet>
-      <span>npm install @nextui-org/react</span>
-      <span>yarn add @nextui-org/react</span>
-      <span>pnpm add @nextui-org/react</span>
+      <span>npm install @landing-ui/react</span>
+      <span>yarn add @landing-ui/react</span>
+      <span>pnpm add @landing-ui/react</span>
     </Snippet>
   );
 }

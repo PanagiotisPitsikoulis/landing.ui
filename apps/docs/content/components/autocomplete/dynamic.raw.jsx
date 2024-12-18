@@ -1,4 +1,4 @@
-import {Autocomplete, AutocompleteItem} from "@nextui-org/react";
+import {Autocomplete, AutocompleteItem} from "@landing-ui/react";
 
 export const animals = [
   {label: "Cat", key: "cat", description: "The second most popular pet in the world"},

@@ -1,7 +1,7 @@
-import type {SliderValue} from "@nextui-org/react";
+import type {SliderValue} from "@landing-ui/react";
 
 import React from "react";
-import {Tooltip, Slider} from "@nextui-org/react";
+import {Tooltip, Slider} from "@landing-ui/react";
 
 export default function App() {
   const [value, setValue] = React.useState<SliderValue>(0.2);

@@ -1,4 +1,4 @@
-import {RadioGroup, Radio, cn} from "@nextui-org/react";
+import {RadioGroup, Radio, cn} from "@landing-ui/react";
 
 export const CustomRadio = (props) => {
   const {children, ...otherProps} = props;

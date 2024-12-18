@@ -1,4 +1,4 @@
-import {Autocomplete, AutocompleteItem} from "@nextui-org/react";
+import {Autocomplete, AutocompleteItem} from "@landing-ui/react";
 
 const PetIcon = (props) => {
   return (

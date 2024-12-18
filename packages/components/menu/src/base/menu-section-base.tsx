@@ -1,7 +1,7 @@
-import type {MenuSectionSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {MenuSectionSlots, SlotsToClasses} from "@landing-ui/theme";
 
-import {BaseSection, SectionProps} from "@nextui-org/aria-utils";
-import {DividerProps} from "@nextui-org/divider";
+import {BaseSection, SectionProps} from "@landing-ui/aria-utils";
+import {DividerProps} from "@landing-ui/divider";
 
 import {MenuItemProps} from "../menu-item";
 

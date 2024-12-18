@@ -1,7 +1,7 @@
-import type {TimeInputValue} from "@nextui-org/react";
+import type {TimeInputValue} from "@landing-ui/react";
 
 import React from "react";
-import {TimeInput} from "@nextui-org/react";
+import {TimeInput} from "@landing-ui/react";
 import {parseAbsoluteToLocal, Time, ZonedDateTime} from "@internationalized/date";
 import {useDateFormatter} from "@react-aria/i18n";
 

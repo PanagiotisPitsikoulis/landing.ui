@@ -1,9 +1,9 @@
 "use client";
 
 import {FC, useRef, useEffect, useState} from "react";
-import {clsx} from "@nextui-org/shared-utils";
-import {Divider, Spacer} from "@nextui-org/react";
-import {ChevronCircleTopLinearIcon} from "@nextui-org/shared-icons";
+import {clsx} from "@landing-ui/shared-utils";
+import {Divider, Spacer} from "@landing-ui/react";
+import {ChevronCircleTopLinearIcon} from "@landing-ui/shared-icons";
 import scrollIntoView from "scroll-into-view-if-needed";
 
 import {Heading} from "@/libs/docs/utils";

@@ -1,4 +1,4 @@
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@landing-ui/system";
 
 import {RadioGroupProvider} from "./radio-group-context";
 import {UseRadioGroupProps, useRadioGroup} from "./use-radio-group";

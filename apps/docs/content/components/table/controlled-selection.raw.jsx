@@ -6,7 +6,7 @@ import {
   TableRow,
   TableCell,
   getKeyValue,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 
 const rows = [
   {

@@ -1,4 +1,4 @@
-import {DateRangePicker} from "@nextui-org/react";
+import {DateRangePicker} from "@landing-ui/react";
 import {parseDate, getLocalTimeZone} from "@internationalized/date";
 import {useDateFormatter} from "@react-aria/i18n";
 

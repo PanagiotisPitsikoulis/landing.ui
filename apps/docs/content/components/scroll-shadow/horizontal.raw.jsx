@@ -1,4 +1,4 @@
-import {ScrollShadow} from "@nextui-org/react";
+import {ScrollShadow} from "@landing-ui/react";
 
 export const Content = () => (
   <div>

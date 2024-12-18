@@ -1,18 +1,18 @@
-import type {CheckboxGroupSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {CheckboxGroupSlots, SlotsToClasses} from "@landing-ui/theme";
 import type {AriaCheckboxGroupProps} from "@react-types/checkbox";
 import type {Orientation} from "@react-types/shared";
-import type {ReactRef} from "@nextui-org/react-utils";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {ReactRef} from "@landing-ui/react-utils";
+import type {HTMLNextUIProps, PropGetter} from "@landing-ui/system";
 
-import {useProviderContext} from "@nextui-org/system";
+import {useProviderContext} from "@landing-ui/system";
 import {useCallback, useMemo} from "react";
 import {chain, mergeProps} from "@react-aria/utils";
-import {checkboxGroup} from "@nextui-org/theme";
+import {checkboxGroup} from "@landing-ui/theme";
 import {useCheckboxGroup as useReactAriaCheckboxGroup} from "@react-aria/checkbox";
 import {CheckboxGroupState, useCheckboxGroupState} from "@react-stately/checkbox";
-import {filterDOMProps, useDOMRef} from "@nextui-org/react-utils";
-import {clsx, safeAriaLabel} from "@nextui-org/shared-utils";
-import {FormContext, useSlottedContext} from "@nextui-org/form";
+import {filterDOMProps, useDOMRef} from "@landing-ui/react-utils";
+import {clsx, safeAriaLabel} from "@landing-ui/shared-utils";
+import {FormContext, useSlottedContext} from "@landing-ui/form";
 
 import {CheckboxProps} from "./index";
 

@@ -1,11 +1,11 @@
-import type {BadgeSlots, BadgeVariantProps, SlotsToClasses} from "@nextui-org/theme";
+import type {BadgeSlots, BadgeVariantProps, SlotsToClasses} from "@landing-ui/theme";
 import type {ReactNode} from "react";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {HTMLNextUIProps, PropGetter} from "@landing-ui/system";
 
-import {badge} from "@nextui-org/theme";
-import {mapPropsVariants, useProviderContext} from "@nextui-org/system";
-import {clsx, objectToDeps} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {badge} from "@landing-ui/theme";
+import {mapPropsVariants, useProviderContext} from "@landing-ui/system";
+import {clsx, objectToDeps} from "@landing-ui/shared-utils";
+import {ReactRef} from "@landing-ui/react-utils";
 import {useMemo} from "react";
 
 interface Props extends HTMLNextUIProps<"span", "content"> {

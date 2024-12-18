@@ -1,6 +1,6 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {spacer} from "@nextui-org/theme";
+import {spacer} from "@landing-ui/theme";
 
 import {Spacer, SpacerProps} from "../src";
 

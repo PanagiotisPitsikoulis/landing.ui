@@ -1,10 +1,10 @@
-import type {KbdVariantProps, KbdSlots, SlotsToClasses} from "@nextui-org/theme";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system-rsc";
+import type {KbdVariantProps, KbdSlots, SlotsToClasses} from "@landing-ui/theme";
+import type {HTMLNextUIProps, PropGetter} from "@landing-ui/system-rsc";
 
-import {mapPropsVariants} from "@nextui-org/system-rsc";
-import {kbd} from "@nextui-org/theme";
-import {clsx, objectToDeps} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {mapPropsVariants} from "@landing-ui/system-rsc";
+import {kbd} from "@landing-ui/theme";
+import {clsx, objectToDeps} from "@landing-ui/shared-utils";
+import {ReactRef} from "@landing-ui/react-utils";
 import {useMemo} from "react";
 
 import {KbdKey} from "./utils";

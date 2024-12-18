@@ -1,5 +1,5 @@
 import React from "react";
-import {Code} from "@nextui-org/react";
+import {Code} from "@landing-ui/react";
 
 import {
   MoonIcon,
@@ -94,7 +94,7 @@ export default {
       icon: <MagicIcon className="text-pink-500" />,
     },
   ],
-  themingCode: `const { nextui } = require("@nextui-org/react");
+  themingCode: `const { nextui } = require("@landing-ui/react");
 
 module.exports = {
   // ...
@@ -182,7 +182,7 @@ module.exports = {
 `,
 
   darkModeCode: `import React from "react";
-import {NextUIProvider} from "@nextui-org/react";
+import {NextUIProvider} from "@landing-ui/react";
 
 const Application = ({Component, pageProps}) => {
   return (
@@ -197,7 +197,7 @@ const Application = ({Component, pageProps}) => {
 export default Application;  
 `,
   customizationCode: `import React from 'react';
-import {Button} from '@nextui-org/react';
+import {Button} from '@landing-ui/react';
 import confetti from 'canvas-confetti';
 
 const CustomButton = () => {
@@ -227,14 +227,14 @@ export default CustomButton;
   DropdownTrigger,
   DropdownMenu,
   DropdownItem,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 
 import {
   AddNoteBulkIcon,
   CopyDocumentBulkIcon,
   EditDocumentBulkIcon,
   DeleteDocumentBulkIcon,
-} from "@nextui-org/shared-icons";
+} from "@landing-ui/shared-icons";
 
 const iconClasses = "text-2xl text-default-500 pointer-events-none flex-shrink-0";
 
@@ -299,9 +299,9 @@ export const Example = () => {
   );
 };
 `,
-  darkModeExampleCode: `import {Card, CardBody, Button, Image, Progress, CardProps} from "@nextui-org/react";
+  darkModeExampleCode: `import {Card, CardBody, Button, Image, Progress, CardProps} from "@landing-ui/react";
 import {useState, FC} from "react";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@landing-ui/shared-utils";
 
 import {
   PauseCircleBoldIcon,

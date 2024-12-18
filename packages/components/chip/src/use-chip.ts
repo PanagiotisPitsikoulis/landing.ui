@@ -1,14 +1,14 @@
-import type {ChipVariantProps, ChipSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {ChipVariantProps, ChipSlots, SlotsToClasses} from "@landing-ui/theme";
 import type {ReactNode} from "react";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@landing-ui/system";
 import {mergeProps} from "@react-aria/utils";
 import {usePress} from "@react-aria/interactions";
 import {useFocusRing} from "@react-aria/focus";
-import {chip} from "@nextui-org/theme";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, objectToDeps} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {chip} from "@landing-ui/theme";
+import {useDOMRef} from "@landing-ui/react-utils";
+import {clsx, objectToDeps} from "@landing-ui/shared-utils";
+import {ReactRef} from "@landing-ui/react-utils";
 import {useMemo, isValidElement, cloneElement} from "react";
 import {PressEvent} from "@react-types/shared";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import {DatePicker} from "@nextui-org/react";
+import {DatePicker} from "@landing-ui/react";
 import {DateValue, now, parseAbsoluteToLocal} from "@internationalized/date";
 
 export default function App() {

@@ -1,11 +1,11 @@
 {
-  "name": "@nextui-org/select",
+  "name": "@landing-ui/select",
   "version": "2.4.7",
   "description": "A select displays a collapsible list of options and allows a user to select one of them.",
   "keywords": [
     "select"
   ],
-  "author": "Junior Garcia <jrgarciadev@gmail.com>",
+  "author": "Panagiotis Pitsikoulis <panagiotispitsikoulis2003@gmail.com>",
   "homepage": "https://nextui.org",
   "license": "MIT",
   "main": "src/index.ts",
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nextui-org/nextui.git",
+    "url": "git+https://github.com/PanagiotisPitsikoulis/landing.ui.git",
     "directory": "packages/components/select"
   },
   "bugs": {
-    "url": "https://github.com/nextui-org/nextui/issues"
+    "url": "https://github.com/PanagiotisPitsikoulis/landing.ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -34,25 +34,25 @@
     "postpack": "clean-package restore"
   },
   "peerDependencies": {
-    "@nextui-org/system": ">=2.4.0",
-    "@nextui-org/theme": ">=2.4.0",
+    "@landing-ui/system": ">=2.4.0",
+    "@landing-ui/theme": ">=2.4.0",
     "framer-motion": ">=11.5.6 || >=12.0.0-alpha.1",
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0"
   },
   "dependencies": {
-    "@nextui-org/aria-utils": "workspace:*",
-    "@nextui-org/listbox": "workspace:*",
-    "@nextui-org/popover": "workspace:*",
-    "@nextui-org/react-utils": "workspace:*",
-    "@nextui-org/scroll-shadow": "workspace:*",
-    "@nextui-org/shared-icons": "workspace:*",
-    "@nextui-org/shared-utils": "workspace:*",
-    "@nextui-org/spinner": "workspace:*",
-    "@nextui-org/use-aria-button": "workspace:*",
-    "@nextui-org/use-aria-multiselect": "workspace:*",
-    "@nextui-org/use-safe-layout-effect": "workspace:*",
-    "@nextui-org/form": "workspace:*",
+    "@landing-ui/aria-utils": "workspace:*",
+    "@landing-ui/listbox": "workspace:*",
+    "@landing-ui/popover": "workspace:*",
+    "@landing-ui/react-utils": "workspace:*",
+    "@landing-ui/scroll-shadow": "workspace:*",
+    "@landing-ui/shared-icons": "workspace:*",
+    "@landing-ui/shared-utils": "workspace:*",
+    "@landing-ui/spinner": "workspace:*",
+    "@landing-ui/use-aria-button": "workspace:*",
+    "@landing-ui/use-aria-multiselect": "workspace:*",
+    "@landing-ui/use-safe-layout-effect": "workspace:*",
+    "@landing-ui/form": "workspace:*",
     "@react-aria/focus": "3.19.0",
     "@react-aria/form": "3.0.11",
     "@react-aria/interactions": "3.22.5",
@@ -62,14 +62,14 @@
     "@tanstack/react-virtual": "3.10.9"
   },
   "devDependencies": {
-    "@nextui-org/avatar": "workspace:*",
-    "@nextui-org/button": "workspace:*",
-    "@nextui-org/chip": "workspace:*",
-    "@nextui-org/input": "workspace:*",
-    "@nextui-org/stories-utils": "workspace:*",
-    "@nextui-org/system": "workspace:*",
-    "@nextui-org/theme": "workspace:*",
-    "@nextui-org/use-infinite-scroll": "workspace:*",
+    "@landing-ui/avatar": "workspace:*",
+    "@landing-ui/button": "workspace:*",
+    "@landing-ui/chip": "workspace:*",
+    "@landing-ui/input": "workspace:*",
+    "@landing-ui/stories-utils": "workspace:*",
+    "@landing-ui/system": "workspace:*",
+    "@landing-ui/theme": "workspace:*",
+    "@landing-ui/use-infinite-scroll": "workspace:*",
     "@react-aria/i18n": "3.12.4",
     "@react-stately/data": "3.12.0",
     "clean-package": "2.2.0",

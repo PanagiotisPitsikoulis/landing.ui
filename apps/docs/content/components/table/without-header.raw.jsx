@@ -1,4 +1,4 @@
-import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell} from "@nextui-org/react";
+import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell} from "@landing-ui/react";
 
 export default function App() {
   return (

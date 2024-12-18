@@ -1,24 +1,24 @@
-import type {CheckboxVariantProps, CheckboxSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {CheckboxVariantProps, CheckboxSlots, SlotsToClasses} from "@landing-ui/theme";
 import type {AriaCheckboxProps} from "@react-types/checkbox";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {HTMLNextUIProps, PropGetter} from "@landing-ui/system";
 
-import {useProviderContext} from "@nextui-org/system";
+import {useProviderContext} from "@landing-ui/system";
 import {ReactNode, Ref, useCallback, useId} from "react";
 import {useMemo, useRef} from "react";
 import {useToggleState} from "@react-stately/toggle";
-import {checkbox} from "@nextui-org/theme";
-import {useCallbackRef} from "@nextui-org/use-callback-ref";
+import {checkbox} from "@landing-ui/theme";
+import {useCallbackRef} from "@landing-ui/use-callback-ref";
 import {useHover} from "@react-aria/interactions";
 import {useFocusRing} from "@react-aria/focus";
 import {mergeProps, chain} from "@react-aria/utils";
-import {__DEV__, warn, clsx, dataAttr, safeAriaLabel} from "@nextui-org/shared-utils";
+import {__DEV__, warn, clsx, dataAttr, safeAriaLabel} from "@landing-ui/shared-utils";
 import {
   useCheckbox as useReactAriaCheckbox,
   useCheckboxGroupItem as useReactAriaCheckboxGroupItem,
 } from "@react-aria/checkbox";
-import {useSafeLayoutEffect} from "@nextui-org/use-safe-layout-effect";
-import {mergeRefs} from "@nextui-org/react-utils";
-import {FormContext, useSlottedContext} from "@nextui-org/form";
+import {useSafeLayoutEffect} from "@landing-ui/use-safe-layout-effect";
+import {mergeRefs} from "@landing-ui/react-utils";
+import {FormContext, useSlottedContext} from "@landing-ui/form";
 
 import {useCheckboxGroupContext} from "./checkbox-group-context";
 

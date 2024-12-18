@@ -1,11 +1,11 @@
 {
-  "name": "@nextui-org/checkbox",
+  "name": "@landing-ui/checkbox",
   "version": "2.3.6",
   "description": "Checkboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.",
   "keywords": [
     "checkbox"
   ],
-  "author": "Junior Garcia <jrgarciadev@gmail.com>",
+  "author": "Panagiotis Pitsikoulis <panagiotispitsikoulis2003@gmail.com>",
   "homepage": "https://nextui.org",
   "license": "MIT",
   "main": "src/index.ts",
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nextui-org/nextui.git",
+    "url": "git+https://github.com/PanagiotisPitsikoulis/landing.ui.git",
     "directory": "packages/components/checkbox"
   },
   "bugs": {
-    "url": "https://github.com/nextui-org/nextui/issues"
+    "url": "https://github.com/PanagiotisPitsikoulis/landing.ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -34,17 +34,17 @@
     "postpack": "clean-package restore"
   },
   "peerDependencies": {
-    "@nextui-org/system": ">=2.4.0",
-    "@nextui-org/theme": ">=2.4.3",
+    "@landing-ui/system": ">=2.4.0",
+    "@landing-ui/theme": ">=2.4.3",
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0"
   },
   "dependencies": {
-    "@nextui-org/form": "workspace:*",
-    "@nextui-org/react-utils": "workspace:*",
-    "@nextui-org/shared-utils": "workspace:*",
-    "@nextui-org/use-callback-ref": "workspace:*",
-    "@nextui-org/use-safe-layout-effect": "workspace:*",
+    "@landing-ui/form": "workspace:*",
+    "@landing-ui/react-utils": "workspace:*",
+    "@landing-ui/shared-utils": "workspace:*",
+    "@landing-ui/use-callback-ref": "workspace:*",
+    "@landing-ui/use-safe-layout-effect": "workspace:*",
     "@react-aria/checkbox": "3.15.0",
     "@react-aria/focus": "3.19.0",
     "@react-aria/interactions": "3.22.5",
@@ -56,12 +56,12 @@
     "@react-types/shared": "3.26.0"
   },
   "devDependencies": {
-    "@nextui-org/chip": "workspace:*",
-    "@nextui-org/link": "workspace:*",
-    "@nextui-org/shared-icons": "workspace:*",
-    "@nextui-org/system": "workspace:*",
-    "@nextui-org/theme": "workspace:*",
-    "@nextui-org/user": "workspace:*",
+    "@landing-ui/chip": "workspace:*",
+    "@landing-ui/link": "workspace:*",
+    "@landing-ui/shared-icons": "workspace:*",
+    "@landing-ui/system": "workspace:*",
+    "@landing-ui/theme": "workspace:*",
+    "@landing-ui/user": "workspace:*",
     "clean-package": "2.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

@@ -1,4 +1,4 @@
-import {Select, SelectItem, Avatar, Chip} from "@nextui-org/react";
+import {Select, SelectItem, Avatar, Chip} from "@landing-ui/react";
 
 export const users = [
   {

@@ -1,7 +1,7 @@
 import {cloneElement, useMemo} from "react";
-import {forwardRef} from "@nextui-org/system";
-import {ChevronRightIcon, EllipsisIcon} from "@nextui-org/shared-icons";
-import {warn} from "@nextui-org/shared-utils";
+import {forwardRef} from "@landing-ui/system";
+import {ChevronRightIcon, EllipsisIcon} from "@landing-ui/shared-icons";
+import {warn} from "@landing-ui/shared-utils";
 import {chain} from "@react-aria/utils";
 
 import {UseBreadcrumbsProps, useBreadcrumbs} from "./use-breadcrumbs";

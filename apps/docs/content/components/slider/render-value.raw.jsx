@@ -1,4 +1,4 @@
-import {Slider, Tooltip} from "@nextui-org/react";
+import {Slider, Tooltip} from "@landing-ui/react";
 
 export default function App() {
   const [value, setValue] = React.useState(0.2);

@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/accordion",
+  "name": "@landing-ui/accordion",
   "version": "2.2.5",
   "description": "Collapse display a list of high-level options that can expand/collapse to reveal more information.",
   "keywords": [
@@ -11,7 +11,7 @@
     "expand",
     "tree view"
   ],
-  "author": "Junior Garcia <jrgarciadev@gmail.com>",
+  "author": "Panagiotis Pitsikoulis <panagiotispitsikoulis2003@gmail.com>",
   "homepage": "https://nextui.org",
   "license": "MIT",
   "main": "src/index.ts",
@@ -24,11 +24,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nextui-org/nextui.git",
+    "url": "git+https://github.com/PanagiotisPitsikoulis/landing.ui.git",
     "directory": "packages/components/accordion"
   },
   "bugs": {
-    "url": "https://github.com/nextui-org/nextui/issues"
+    "url": "https://github.com/PanagiotisPitsikoulis/landing.ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -43,18 +43,18 @@
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
     "framer-motion": ">=11.5.6 || >=12.0.0-alpha.1",
-    "@nextui-org/theme": ">=2.4.0",
-    "@nextui-org/system": ">=2.4.0"
+    "@landing-ui/theme": ">=2.4.0",
+    "@landing-ui/system": ">=2.4.0"
   },
   "dependencies": {
-    "@nextui-org/aria-utils": "workspace:*",
-    "@nextui-org/shared-icons": "workspace:*",
-    "@nextui-org/shared-utils": "workspace:*",
-    "@nextui-org/react-utils": "workspace:*",
-    "@nextui-org/framer-utils": "workspace:*",
-    "@nextui-org/divider": "workspace:*",
-    "@nextui-org/use-aria-accordion": "workspace:*",
-    "@nextui-org/dom-animation": "workspace:*",
+    "@landing-ui/aria-utils": "workspace:*",
+    "@landing-ui/shared-icons": "workspace:*",
+    "@landing-ui/shared-utils": "workspace:*",
+    "@landing-ui/react-utils": "workspace:*",
+    "@landing-ui/framer-utils": "workspace:*",
+    "@landing-ui/divider": "workspace:*",
+    "@landing-ui/use-aria-accordion": "workspace:*",
+    "@landing-ui/dom-animation": "workspace:*",
     "@react-aria/interactions": "3.22.5",
     "@react-aria/focus": "3.19.0",
     "@react-aria/utils": "3.26.0",
@@ -64,12 +64,12 @@
     "@react-types/shared": "3.26.0"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
-    "@nextui-org/system": "workspace:*",
-    "@nextui-org/button": "workspace:*",
-    "@nextui-org/avatar": "workspace:*",
-    "@nextui-org/input": "workspace:*",
-    "@nextui-org/test-utils": "workspace:*",
+    "@landing-ui/theme": "workspace:*",
+    "@landing-ui/system": "workspace:*",
+    "@landing-ui/button": "workspace:*",
+    "@landing-ui/avatar": "workspace:*",
+    "@landing-ui/input": "workspace:*",
+    "@landing-ui/test-utils": "workspace:*",
     "framer-motion": "11.9.0",
     "clean-package": "2.2.0",
     "react": "^18.0.0",

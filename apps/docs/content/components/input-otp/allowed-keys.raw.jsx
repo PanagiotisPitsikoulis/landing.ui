@@ -1,4 +1,4 @@
-import {InputOtp} from "@nextui-org/react";
+import {InputOtp} from "@landing-ui/react";
 
 export default function App() {
   const allowedKeysConfig = [

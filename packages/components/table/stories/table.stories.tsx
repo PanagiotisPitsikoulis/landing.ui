@@ -1,14 +1,14 @@
 import React, {useMemo} from "react";
 import {Meta} from "@storybook/react";
-import {table} from "@nextui-org/theme";
-import {User} from "@nextui-org/user";
-import {Chip, ChipProps} from "@nextui-org/chip";
-import {Button} from "@nextui-org/button";
-import {Spinner} from "@nextui-org/spinner";
-import {Pagination} from "@nextui-org/pagination";
-import {Tooltip} from "@nextui-org/tooltip";
-import {EditIcon, DeleteIcon, EyeIcon} from "@nextui-org/shared-icons";
-import {useInfiniteScroll} from "@nextui-org/use-infinite-scroll";
+import {table} from "@landing-ui/theme";
+import {User} from "@landing-ui/user";
+import {Chip, ChipProps} from "@landing-ui/chip";
+import {Button} from "@landing-ui/button";
+import {Spinner} from "@landing-ui/spinner";
+import {Pagination} from "@landing-ui/pagination";
+import {Tooltip} from "@landing-ui/tooltip";
+import {EditIcon, DeleteIcon, EyeIcon} from "@landing-ui/shared-icons";
+import {useInfiniteScroll} from "@landing-ui/use-infinite-scroll";
 import {useAsyncList} from "@react-stately/data";
 import useSWR from "swr";
 

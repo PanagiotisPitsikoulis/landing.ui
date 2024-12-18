@@ -1,4 +1,4 @@
-import type {IconSvgProps} from "@nextui-org/shared-icons";
+import type {IconSvgProps} from "@landing-ui/shared-icons";
 
 export const ChevronDownIcon = (props: IconSvgProps) => (
   <svg

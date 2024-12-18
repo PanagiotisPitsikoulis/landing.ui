@@ -1,4 +1,4 @@
-import {Select, SelectItem, SelectSection} from "@nextui-org/react";
+import {Select, SelectItem, SelectSection} from "@landing-ui/react";
 
 export default function App() {
   const headingClasses =

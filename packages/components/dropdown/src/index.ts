@@ -1,6 +1,6 @@
-import type {MenuItemProps, MenuSectionProps} from "@nextui-org/menu";
+import type {MenuItemProps, MenuSectionProps} from "@landing-ui/menu";
 
-import {MenuItem, MenuSection} from "@nextui-org/menu";
+import {MenuItem, MenuSection} from "@landing-ui/menu";
 
 import Dropdown from "./dropdown";
 import DropdownTrigger from "./dropdown-trigger";

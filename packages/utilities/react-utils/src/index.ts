@@ -31,4 +31,4 @@ export {
   pickChildren,
   renderFn,
   filterDOMProps,
-} from "@nextui-org/react-rsc-utils";
+} from "@landing-ui/react-rsc-utils";

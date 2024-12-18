@@ -1,11 +1,11 @@
 {
-  "name": "@nextui-org/use-intersection-observer",
+  "name": "@landing-ui/use-intersection-observer",
   "version": "2.2.2",
   "description": "Tracks the intersection of a DOM element and its containing element or the viewport.",
   "keywords": [
     "use-intersection-observer"
   ],
-  "author": "Junior Garcia <jrgarciadev@gmail.com>",
+  "author": "Panagiotis Pitsikoulis <panagiotispitsikoulis2003@gmail.com>",
   "homepage": "https://nextui.org",
   "license": "MIT",
   "main": "src/index.ts",
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nextui-org/nextui.git",
+    "url": "git+https://github.com/PanagiotisPitsikoulis/landing.ui.git",
     "directory": "packages/hooks/use-intersection-observer"
   },
   "bugs": {
-    "url": "https://github.com/nextui-org/nextui/issues"
+    "url": "https://github.com/PanagiotisPitsikoulis/landing.ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",

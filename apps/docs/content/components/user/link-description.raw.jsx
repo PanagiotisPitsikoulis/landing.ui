@@ -1,4 +1,4 @@
-import {User, Link} from "@nextui-org/react";
+import {User, Link} from "@landing-ui/react";
 
 export default function App() {
   return (

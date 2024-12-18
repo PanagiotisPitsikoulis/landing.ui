@@ -1,14 +1,14 @@
-import type {AvatarSlots, AvatarVariantProps, SlotsToClasses} from "@nextui-org/theme";
-import type {DOMElement, DOMAttributes, HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {AvatarSlots, AvatarVariantProps, SlotsToClasses} from "@landing-ui/theme";
+import type {DOMElement, DOMAttributes, HTMLNextUIProps, PropGetter} from "@landing-ui/system";
 
-import {avatar} from "@nextui-org/theme";
-import {useProviderContext} from "@nextui-org/system";
+import {avatar} from "@landing-ui/theme";
+import {useProviderContext} from "@landing-ui/system";
 import {mergeProps} from "@react-aria/utils";
-import {ReactRef, useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
-import {clsx, safeText, dataAttr} from "@nextui-org/shared-utils";
+import {ReactRef, useDOMRef, filterDOMProps} from "@landing-ui/react-utils";
+import {clsx, safeText, dataAttr} from "@landing-ui/shared-utils";
 import {useFocusRing} from "@react-aria/focus";
 import {useMemo, useCallback} from "react";
-import {useImage} from "@nextui-org/use-image";
+import {useImage} from "@landing-ui/use-image";
 import {useHover} from "@react-aria/interactions";
 
 import {useAvatarGroupContext} from "./avatar-group-context";

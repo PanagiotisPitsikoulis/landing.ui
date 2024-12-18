@@ -1,9 +1,9 @@
-import type {VariantProps} from "@nextui-org/theme";
+import type {VariantProps} from "@landing-ui/theme";
 
 import {Meta} from "@storybook/react";
 import React, {useState} from "react";
-import {tv} from "@nextui-org/theme";
-import {link} from "@nextui-org/theme";
+import {tv} from "@landing-ui/theme";
+import {link} from "@landing-ui/theme";
 
 import {Link, LinkProps} from "../src";
 

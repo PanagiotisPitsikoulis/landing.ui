@@ -1,4 +1,4 @@
-import {Divider} from "@nextui-org/react";
+import {Divider} from "@landing-ui/react";
 
 export default function App() {
   return (

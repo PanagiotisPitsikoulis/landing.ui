@@ -10,15 +10,15 @@ import {
   DropdownMenu,
   DropdownItem,
   Tooltip,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 import {useInView} from "framer-motion";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@landing-ui/shared-utils";
 import {
   AddNoteBulkIcon,
   CopyDocumentBulkIcon,
   EditDocumentBulkIcon,
   DeleteDocumentBulkIcon,
-} from "@nextui-org/shared-icons";
+} from "@landing-ui/shared-icons";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import {Fragment, useEffect, useRef, useState} from "react";

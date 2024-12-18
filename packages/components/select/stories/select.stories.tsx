@@ -4,13 +4,13 @@ import type {ValidationResult} from "@react-types/shared";
 import React, {ChangeEvent} from "react";
 import {useForm} from "react-hook-form";
 import {Meta} from "@storybook/react";
-import {select, button} from "@nextui-org/theme";
-import {PetBoldIcon, SelectorIcon} from "@nextui-org/shared-icons";
-import {Avatar} from "@nextui-org/avatar";
-import {Chip} from "@nextui-org/chip";
-import {Button} from "@nextui-org/button";
+import {select, button} from "@landing-ui/theme";
+import {PetBoldIcon, SelectorIcon} from "@landing-ui/shared-icons";
+import {Avatar} from "@landing-ui/avatar";
+import {Chip} from "@landing-ui/chip";
+import {Button} from "@landing-ui/button";
 import {Selection} from "@react-types/shared";
-import {useInfiniteScroll} from "@nextui-org/use-infinite-scroll";
+import {useInfiniteScroll} from "@landing-ui/use-infinite-scroll";
 import {
   Pokemon,
   usePokemonList,
@@ -18,8 +18,8 @@ import {
   usersData,
   Animal,
   User,
-} from "@nextui-org/stories-utils";
-import {Form} from "@nextui-org/form";
+} from "@landing-ui/stories-utils";
+import {Form} from "@landing-ui/form";
 
 import {Select, SelectedItems, SelectItem, SelectProps, SelectSection} from "../src";
 

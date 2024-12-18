@@ -1,8 +1,8 @@
 "use client";
 
 import {useState} from "react";
-import {Card, CardHeader, Button, Avatar, CardBody, CardFooter} from "@nextui-org/react";
-import {clsx} from "@nextui-org/shared-utils";
+import {Card, CardHeader, Button, Avatar, CardBody, CardFooter} from "@landing-ui/react";
+import {clsx} from "@landing-ui/shared-utils";
 
 interface UserTwitterCardProps {
   className?: string;

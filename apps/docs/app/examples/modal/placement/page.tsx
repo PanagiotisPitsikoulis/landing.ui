@@ -11,7 +11,7 @@ import {
   RadioGroup,
   Radio,
   ModalProps,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 import {useState} from "react";
 
 export default function Page() {

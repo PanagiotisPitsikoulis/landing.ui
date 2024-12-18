@@ -1,9 +1,9 @@
-import {Snippet} from "@nextui-org/react";
+import {Snippet} from "@landing-ui/react";
 
 export default function App() {
   return (
     <Snippet symbol="#" variant="bordered">
-      npm install @nextui-org/react
+      npm install @landing-ui/react
     </Snippet>
   );
 }

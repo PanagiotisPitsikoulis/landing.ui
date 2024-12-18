@@ -1,6 +1,6 @@
 import {useCallback} from "react";
-import {Spacer} from "@nextui-org/spacer";
-import {forwardRef} from "@nextui-org/system";
+import {Spacer} from "@landing-ui/spacer";
+import {forwardRef} from "@landing-ui/system";
 
 import {UseTableProps, useTable} from "./use-table";
 import TableRowGroup from "./table-row-group";

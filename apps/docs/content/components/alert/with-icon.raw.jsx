@@ -1,4 +1,4 @@
-import {Alert} from "@nextui-org/react";
+import {Alert} from "@landing-ui/react";
 
 const UserIcon = ({fill = "currentColor", size, height, width, ...props}) => {
   return (

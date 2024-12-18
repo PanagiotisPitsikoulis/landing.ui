@@ -1,4 +1,4 @@
-import {Progress} from "@nextui-org/react";
+import {Progress} from "@landing-ui/react";
 
 export default function App() {
   return (

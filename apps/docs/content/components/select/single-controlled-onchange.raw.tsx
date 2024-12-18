@@ -1,5 +1,5 @@
 import React from "react";
-import {Select, SelectItem} from "@nextui-org/react";
+import {Select, SelectItem} from "@landing-ui/react";
 
 export const animals = [
   {key: "cat", label: "Cat"},

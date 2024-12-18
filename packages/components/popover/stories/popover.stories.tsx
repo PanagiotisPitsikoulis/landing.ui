@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/no-autofocus */
 import React from "react";
 import {Meta} from "@storybook/react";
-import {popover, ButtonVariantProps} from "@nextui-org/theme";
-import {Button} from "@nextui-org/button";
-import {Input} from "@nextui-org/input";
-import {Card, CardHeader, CardFooter} from "@nextui-org/card";
+import {popover, ButtonVariantProps} from "@landing-ui/theme";
+import {Button} from "@landing-ui/button";
+import {Input} from "@landing-ui/input";
+import {Card, CardHeader, CardFooter} from "@landing-ui/card";
 
 import {Popover, PopoverTrigger, PopoverContent, PopoverProps} from "../src";
 

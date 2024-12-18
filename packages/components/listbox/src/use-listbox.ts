@@ -1,12 +1,12 @@
 import type {KeyboardDelegate} from "@react-types/shared";
 
 import {AriaListBoxProps, useListBox as useAriaListbox} from "@react-aria/listbox";
-import {HTMLNextUIProps, PropGetter, useProviderContext} from "@nextui-org/system";
-import {listbox, ListboxVariantProps, ListboxSlots, SlotsToClasses} from "@nextui-org/theme";
+import {HTMLNextUIProps, PropGetter, useProviderContext} from "@landing-ui/system";
+import {listbox, ListboxVariantProps, ListboxSlots, SlotsToClasses} from "@landing-ui/theme";
 import {ListState, useListState} from "@react-stately/list";
-import {filterDOMProps, ReactRef, useDOMRef} from "@nextui-org/react-utils";
+import {filterDOMProps, ReactRef, useDOMRef} from "@landing-ui/react-utils";
 import {ReactNode, useMemo} from "react";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@landing-ui/shared-utils";
 
 import {ListboxItemProps} from "./listbox-item";
 

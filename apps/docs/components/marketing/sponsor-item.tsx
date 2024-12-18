@@ -1,6 +1,6 @@
 "use client";
 
-import {Link} from "@nextui-org/react";
+import {Link} from "@landing-ui/react";
 import {usePostHog} from "posthog-js/react";
 
 export type Sponsor = {

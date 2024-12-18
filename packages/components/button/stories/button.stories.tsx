@@ -1,7 +1,7 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {button} from "@nextui-org/theme";
-import {Camera, HeadphonesIcon, Notification} from "@nextui-org/shared-icons";
+import {button} from "@landing-ui/theme";
+import {Camera, HeadphonesIcon, Notification} from "@landing-ui/shared-icons";
 
 import {Button, ButtonProps} from "../src";
 

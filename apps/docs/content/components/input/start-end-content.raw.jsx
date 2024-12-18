@@ -1,4 +1,4 @@
-import {Input} from "@nextui-org/react";
+import {Input} from "@landing-ui/react";
 
 export const MailIcon = (props) => {
   return (

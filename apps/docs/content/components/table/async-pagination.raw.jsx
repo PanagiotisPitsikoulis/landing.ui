@@ -8,7 +8,7 @@ import {
   Pagination,
   Spinner,
   getKeyValue,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 import useSWR from "swr";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());

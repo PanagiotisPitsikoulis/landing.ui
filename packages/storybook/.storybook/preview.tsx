@@ -1,6 +1,6 @@
 import React from "react";
 import {themes} from "@storybook/theming";
-import {NextUIProvider} from "@nextui-org/system/src/provider";
+import {NextUIProvider} from "@landing-ui/system/src/provider";
 import type {Preview} from "@storybook/react";
 
 import "./style.css";

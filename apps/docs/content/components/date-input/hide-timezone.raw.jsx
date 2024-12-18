@@ -1,4 +1,4 @@
-import {DateInput} from "@nextui-org/react";
+import {DateInput} from "@landing-ui/react";
 import {parseZonedDateTime} from "@internationalized/date";
 
 export default function App() {

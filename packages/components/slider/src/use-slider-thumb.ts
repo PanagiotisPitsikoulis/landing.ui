@@ -1,16 +1,16 @@
-import type {SliderVariantProps} from "@nextui-org/theme";
+import type {SliderVariantProps} from "@landing-ui/theme";
 
-import {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import {HTMLNextUIProps, PropGetter} from "@landing-ui/system";
 import {useSliderThumb as useAriaSliderThumb} from "@react-aria/slider";
-import {ReactRef, useDOMRef} from "@nextui-org/react-utils";
+import {ReactRef, useDOMRef} from "@landing-ui/react-utils";
 import {RefObject, useRef} from "react";
 import {AriaSliderThumbProps} from "@react-aria/slider";
 import {SliderState} from "@react-stately/slider";
 import {useHover, usePress} from "@react-aria/interactions";
 import {useFocusRing} from "@react-aria/focus";
 import {mergeProps} from "@react-aria/utils";
-import {dataAttr} from "@nextui-org/shared-utils";
-import {TooltipProps} from "@nextui-org/tooltip";
+import {dataAttr} from "@landing-ui/shared-utils";
+import {TooltipProps} from "@landing-ui/tooltip";
 import {useNumberFormatter} from "@react-aria/i18n";
 
 import {UseSliderProps} from "./use-slider";

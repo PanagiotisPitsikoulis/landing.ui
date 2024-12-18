@@ -4,7 +4,7 @@ import React, {Key} from "react";
 import {Meta} from "@storybook/react";
 import {useForm} from "react-hook-form";
 import {useFilter} from "@react-aria/i18n";
-import {autocomplete, input, button} from "@nextui-org/theme";
+import {autocomplete, input, button} from "@landing-ui/theme";
 import {
   Pokemon,
   usePokemonList,
@@ -12,13 +12,13 @@ import {
   usersData,
   Animal,
   User,
-} from "@nextui-org/stories-utils";
+} from "@landing-ui/stories-utils";
 import {useAsyncList} from "@react-stately/data";
-import {useInfiniteScroll} from "@nextui-org/use-infinite-scroll";
-import {PetBoldIcon, SearchLinearIcon, SelectorIcon} from "@nextui-org/shared-icons";
-import {Avatar} from "@nextui-org/avatar";
-import {Button} from "@nextui-org/button";
-import {Form} from "@nextui-org/form";
+import {useInfiniteScroll} from "@landing-ui/use-infinite-scroll";
+import {PetBoldIcon, SearchLinearIcon, SelectorIcon} from "@landing-ui/shared-icons";
+import {Avatar} from "@landing-ui/avatar";
+import {Button} from "@landing-ui/button";
+import {Form} from "@landing-ui/form";
 
 import {Autocomplete, AutocompleteItem, AutocompleteProps, AutocompleteSection} from "../src";
 

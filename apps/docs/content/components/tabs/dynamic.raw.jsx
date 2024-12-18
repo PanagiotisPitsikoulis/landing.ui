@@ -1,4 +1,4 @@
-import {Tabs, Tab, Card, CardBody} from "@nextui-org/react";
+import {Tabs, Tab, Card, CardBody} from "@landing-ui/react";
 
 export default function App() {
   let tabs = [

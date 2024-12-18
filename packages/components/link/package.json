@@ -1,11 +1,11 @@
 {
-  "name": "@nextui-org/link",
+  "name": "@landing-ui/link",
   "version": "2.2.5",
   "description": "Links allow users to click their way from page to page. This component is styled to resemble a hyperlink and semantically renders an &lt;a&gt;",
   "keywords": [
     "link"
   ],
-  "author": "Junior Garcia <jrgarciadev@gmail.com>",
+  "author": "Panagiotis Pitsikoulis <panagiotispitsikoulis2003@gmail.com>",
   "homepage": "https://nextui.org",
   "license": "MIT",
   "main": "src/index.ts",
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nextui-org/nextui.git",
+    "url": "git+https://github.com/PanagiotisPitsikoulis/landing.ui.git",
     "directory": "packages/components/link"
   },
   "bugs": {
-    "url": "https://github.com/nextui-org/nextui/issues"
+    "url": "https://github.com/PanagiotisPitsikoulis/landing.ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -36,22 +36,22 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@nextui-org/theme": ">=2.4.0",
-    "@nextui-org/system": ">=2.4.0"
+    "@landing-ui/theme": ">=2.4.0",
+    "@landing-ui/system": ">=2.4.0"
   },
   "dependencies": {
-    "@nextui-org/shared-utils": "workspace:*",
-    "@nextui-org/shared-icons": "workspace:*",
-    "@nextui-org/react-utils": "workspace:*",
-    "@nextui-org/use-aria-link": "workspace:*",
+    "@landing-ui/shared-utils": "workspace:*",
+    "@landing-ui/shared-icons": "workspace:*",
+    "@landing-ui/react-utils": "workspace:*",
+    "@landing-ui/use-aria-link": "workspace:*",
     "@react-aria/link": "3.7.7",
     "@react-aria/utils": "3.26.0",
     "@react-aria/focus": "3.19.0",
     "@react-types/link": "3.5.9"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
-    "@nextui-org/system": "workspace:*",
+    "@landing-ui/theme": "workspace:*",
+    "@landing-ui/system": "workspace:*",
     "clean-package": "2.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"

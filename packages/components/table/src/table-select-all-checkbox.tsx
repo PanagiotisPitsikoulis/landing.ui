@@ -1,12 +1,12 @@
 import type {GridNode} from "@react-types/grid";
 
-import {forwardRef, HTMLNextUIProps} from "@nextui-org/system";
-import {useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
+import {forwardRef, HTMLNextUIProps} from "@landing-ui/system";
+import {useDOMRef, filterDOMProps} from "@landing-ui/react-utils";
+import {clsx, dataAttr} from "@landing-ui/shared-utils";
 import {useTableColumnHeader, useTableSelectAllCheckbox} from "@react-aria/table";
 import {mergeProps} from "@react-aria/utils";
 import {useFocusRing} from "@react-aria/focus";
-import {Checkbox} from "@nextui-org/checkbox";
+import {Checkbox} from "@landing-ui/checkbox";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
 
 import {ValuesType} from "./use-table";

@@ -12,7 +12,7 @@ import {
   Dropdown,
   DropdownMenu,
   Avatar,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 
 const Link = (props: LinkProps) => <NextUiLink {...props} onClick={(e) => e.preventDefault()} />;
 

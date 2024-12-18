@@ -1,7 +1,7 @@
-import type {SliderValue} from "@nextui-org/react";
+import type {SliderValue} from "@landing-ui/react";
 
 import React from "react";
-import {Slider, Button} from "@nextui-org/react";
+import {Slider, Button} from "@landing-ui/react";
 
 export const VolumeHighIcon = (props) => {
   return (

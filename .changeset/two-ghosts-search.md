@@ -1,5 +1,5 @@
 ---
-"@nextui-org/alert": patch
+"@landing-ui/alert": patch
 ---
 
 replace decrepate onClick in Alert

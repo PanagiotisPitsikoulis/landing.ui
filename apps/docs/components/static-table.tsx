@@ -1,6 +1,6 @@
 import type {ComponentProps, FC} from "react";
 
-import {cn, table} from "@nextui-org/theme";
+import {cn, table} from "@landing-ui/theme";
 
 const tableSlots = table();
 

@@ -1,8 +1,8 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {button, pagination} from "@nextui-org/theme";
-import {cn} from "@nextui-org/theme";
-import {ChevronIcon} from "@nextui-org/shared-icons";
+import {button, pagination} from "@landing-ui/theme";
+import {cn} from "@landing-ui/theme";
+import {ChevronIcon} from "@landing-ui/shared-icons";
 
 import {Pagination, PaginationItemRenderProps, PaginationItemType, usePagination} from "../src";
 

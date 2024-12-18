@@ -4,7 +4,7 @@
 // import type {ImgHTMLAttributes, MutableRefObject, SyntheticEvent} from "react";
 
 // import {useEffect, useRef, useState} from "react";
-// import {useSafeLayoutEffect} from "@nextui-org/use-safe-layout-effect";
+// import {useSafeLayoutEffect} from "@landing-ui/use-safe-layout-effect";
 
 // type NativeImageProps = ImgHTMLAttributes<HTMLImageElement>;
 
@@ -155,7 +155,7 @@
 import type {ImgHTMLAttributes, SyntheticEvent} from "react";
 
 import {useCallback, useEffect, useRef, useState} from "react";
-import {useSafeLayoutEffect} from "@nextui-org/use-safe-layout-effect";
+import {useSafeLayoutEffect} from "@landing-ui/use-safe-layout-effect";
 
 type NativeImageProps = ImgHTMLAttributes<HTMLImageElement>;
 

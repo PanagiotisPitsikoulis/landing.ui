@@ -6,7 +6,7 @@ import {
   Button,
   RadioGroup,
   Radio,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 
 export default function App() {
   const [selectedColor, setSelectedColor] = React.useState("default");

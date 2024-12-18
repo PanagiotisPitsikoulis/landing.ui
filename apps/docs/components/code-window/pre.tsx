@@ -1,5 +1,5 @@
 import {forwardRef} from "react";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@landing-ui/shared-utils";
 
 export interface PreProps {
   className?: string;

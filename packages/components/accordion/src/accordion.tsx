@@ -1,6 +1,6 @@
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@landing-ui/system";
 import {LayoutGroup} from "framer-motion";
-import {Divider} from "@nextui-org/divider";
+import {Divider} from "@landing-ui/divider";
 import {Fragment, Key, useCallback, useMemo} from "react";
 
 import {UseAccordionProps, useAccordion} from "./use-accordion";

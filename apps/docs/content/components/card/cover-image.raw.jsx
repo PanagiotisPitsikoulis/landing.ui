@@ -1,4 +1,4 @@
-import {Card, CardHeader, CardFooter, Image, Button} from "@nextui-org/react";
+import {Card, CardHeader, CardFooter, Image, Button} from "@landing-ui/react";
 
 export default function App() {
   return (

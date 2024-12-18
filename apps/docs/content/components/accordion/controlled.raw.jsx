@@ -1,5 +1,5 @@
 import React from "react";
-import {Accordion, AccordionItem} from "@nextui-org/react";
+import {Accordion, AccordionItem} from "@landing-ui/react";
 
 export default function App() {
   const [selectedKeys, setSelectedKeys] = React.useState(new Set(["1"]));

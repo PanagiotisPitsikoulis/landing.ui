@@ -1,4 +1,4 @@
-# @nextui-org/navbar
+# @landing-ui/navbar
 
 A responsive navigation header positioned on top side of your page that includes support for branding, links, navigation, collapse menu and more.
 
@@ -7,18 +7,18 @@ Please refer to the [documentation](https://nextui.org/docs/components/navbar) f
 ## Installation
 
 ```sh
-yarn add @nextui-org/navbar
+yarn add @landing-ui/navbar
 # or
-npm i @nextui-org/navbar
+npm i @landing-ui/navbar
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/nextui-org/nextui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/nextui-org/nextui/blob/master/LICENSE).
+[MIT license](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/LICENSE).

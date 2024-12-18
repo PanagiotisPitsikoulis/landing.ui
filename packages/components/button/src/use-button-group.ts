@@ -1,17 +1,17 @@
 import type {ButtonProps} from "./index";
-import type {ReactRef} from "@nextui-org/react-utils";
-import type {ButtonGroupVariantProps} from "@nextui-org/theme";
+import type {ReactRef} from "@landing-ui/react-utils";
+import type {ButtonGroupVariantProps} from "@landing-ui/theme";
 
-import {buttonGroup} from "@nextui-org/theme";
+import {buttonGroup} from "@landing-ui/theme";
 import {
   HTMLNextUIProps,
   PropGetter,
   mapPropsVariants,
   useProviderContext,
-} from "@nextui-org/system";
-import {useDOMRef} from "@nextui-org/react-utils";
+} from "@landing-ui/system";
+import {useDOMRef} from "@landing-ui/react-utils";
 import {useMemo, useCallback} from "react";
-import {objectToDeps} from "@nextui-org/shared-utils";
+import {objectToDeps} from "@landing-ui/shared-utils";
 interface Props extends HTMLNextUIProps, ButtonGroupVariantProps {
   /**
    * Ref to the DOM node.

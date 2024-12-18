@@ -1,4 +1,4 @@
-import type {SelectSlots, SelectVariantProps, SlotsToClasses} from "@nextui-org/theme";
+import type {SelectSlots, SelectVariantProps, SlotsToClasses} from "@landing-ui/theme";
 import type {HiddenSelectProps} from "./hidden-select";
 
 import {
@@ -8,29 +8,29 @@ import {
   PropGetter,
   SharedSelection,
   useProviderContext,
-} from "@nextui-org/system";
-import {select} from "@nextui-org/theme";
-import {ReactRef, useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
+} from "@landing-ui/system";
+import {select} from "@landing-ui/theme";
+import {ReactRef, useDOMRef, filterDOMProps} from "@landing-ui/react-utils";
 import {useMemo, useCallback, useRef, Key, ReactNode, useEffect} from "react";
-import {ListboxProps} from "@nextui-org/listbox";
-import {useAriaButton} from "@nextui-org/use-aria-button";
+import {ListboxProps} from "@landing-ui/listbox";
+import {useAriaButton} from "@landing-ui/use-aria-button";
 import {useFocusRing} from "@react-aria/focus";
-import {clsx, dataAttr, objectToDeps} from "@nextui-org/shared-utils";
+import {clsx, dataAttr, objectToDeps} from "@landing-ui/shared-utils";
 import {mergeProps} from "@react-aria/utils";
 import {useHover} from "@react-aria/interactions";
-import {PopoverProps} from "@nextui-org/popover";
-import {ScrollShadowProps} from "@nextui-org/scroll-shadow";
+import {PopoverProps} from "@landing-ui/popover";
+import {ScrollShadowProps} from "@landing-ui/scroll-shadow";
 import {
   MultiSelectProps,
   MultiSelectState,
   useMultiSelect,
   useMultiSelectState,
-} from "@nextui-org/use-aria-multiselect";
-import {SpinnerProps} from "@nextui-org/spinner";
-import {useSafeLayoutEffect} from "@nextui-org/use-safe-layout-effect";
-import {ariaShouldCloseOnInteractOutside} from "@nextui-org/aria-utils";
+} from "@landing-ui/use-aria-multiselect";
+import {SpinnerProps} from "@landing-ui/spinner";
+import {useSafeLayoutEffect} from "@landing-ui/use-safe-layout-effect";
+import {ariaShouldCloseOnInteractOutside} from "@landing-ui/aria-utils";
 import {CollectionChildren, ValidationError} from "@react-types/shared";
-import {FormContext, useSlottedContext} from "@nextui-org/form";
+import {FormContext, useSlottedContext} from "@landing-ui/form";
 
 export type SelectedItemProps<T = object> = {
   /** A unique key for the item. */

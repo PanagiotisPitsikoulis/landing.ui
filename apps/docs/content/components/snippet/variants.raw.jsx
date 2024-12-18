@@ -1,17 +1,17 @@
-import {Snippet} from "@nextui-org/react";
+import {Snippet} from "@landing-ui/react";
 
 export default function App() {
   return (
     <div className="flex flex-wrap gap-4">
-      <Snippet variant="bordered">npm install @nextui-org/react</Snippet>
+      <Snippet variant="bordered">npm install @landing-ui/react</Snippet>
       <Snippet color="warning" variant="flat">
-        npm install @nextui-org/react
+        npm install @landing-ui/react
       </Snippet>
       <Snippet color="primary" variant="solid">
-        npm install @nextui-org/react
+        npm install @landing-ui/react
       </Snippet>
       <Snippet color="secondary" variant="shadow">
-        npm install @nextui-org/react
+        npm install @landing-ui/react
       </Snippet>
     </div>
   );

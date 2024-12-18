@@ -1,4 +1,4 @@
-import type {InputVariantProps, SlotsToClasses, InputSlots} from "@nextui-org/theme";
+import type {InputVariantProps, SlotsToClasses, InputSlots} from "@landing-ui/theme";
 import type {AriaTextFieldOptions} from "@react-aria/textfield";
 
 import {
@@ -6,19 +6,19 @@ import {
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@nextui-org/system";
-import {useSafeLayoutEffect} from "@nextui-org/use-safe-layout-effect";
+} from "@landing-ui/system";
+import {useSafeLayoutEffect} from "@landing-ui/use-safe-layout-effect";
 import {AriaTextFieldProps} from "@react-types/textfield";
 import {useFocusRing} from "@react-aria/focus";
-import {input} from "@nextui-org/theme";
-import {useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
+import {input} from "@landing-ui/theme";
+import {useDOMRef, filterDOMProps} from "@landing-ui/react-utils";
 import {useFocusWithin, useHover, usePress} from "@react-aria/interactions";
-import {clsx, dataAttr, isEmpty, objectToDeps, safeAriaLabel} from "@nextui-org/shared-utils";
+import {clsx, dataAttr, isEmpty, objectToDeps, safeAriaLabel} from "@landing-ui/shared-utils";
 import {useControlledState} from "@react-stately/utils";
 import {useMemo, Ref, useCallback, useState} from "react";
 import {chain, mergeProps} from "@react-aria/utils";
 import {useTextField} from "@react-aria/textfield";
-import {FormContext, useSlottedContext} from "@nextui-org/form";
+import {FormContext, useSlottedContext} from "@landing-ui/form";
 
 export interface Props<T extends HTMLInputElement | HTMLTextAreaElement = HTMLInputElement>
   extends Omit<HTMLNextUIProps<"input">, keyof InputVariantProps> {

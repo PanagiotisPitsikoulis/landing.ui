@@ -1,4 +1,4 @@
-import {nextui} from '@nextui-org/theme/plugin';
+import {nextui} from '@landing-ui/theme/plugin';
 
 /** @type {import('tailwindcss').Config} */
 export default {

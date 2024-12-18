@@ -7,7 +7,7 @@ import React, {ReactNode, RefObject} from "react";
 import {useFormReset} from "@react-aria/utils";
 import {useInteractionModality} from "@react-aria/interactions";
 import {useVisuallyHidden} from "@react-aria/visually-hidden";
-import {MultiSelectProps, MultiSelectState} from "@nextui-org/use-aria-multiselect";
+import {MultiSelectProps, MultiSelectState} from "@landing-ui/use-aria-multiselect";
 import {useFormValidation} from "@react-aria/form";
 
 import {selectData} from "./use-select";

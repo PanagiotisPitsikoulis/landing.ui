@@ -1,11 +1,11 @@
-import type {ModalProps} from "@nextui-org/modal";
+import type {ModalProps} from "@landing-ui/modal";
 
-import {drawer} from "@nextui-org/theme";
-import {ReactRef, useDOMRef} from "@nextui-org/react-utils";
+import {drawer} from "@landing-ui/theme";
+import {ReactRef, useDOMRef} from "@landing-ui/react-utils";
 import {useCallback, useMemo} from "react";
-import {TRANSITION_EASINGS} from "@nextui-org/framer-utils";
-import {clsx, isEmpty} from "@nextui-org/shared-utils";
-import {PropGetter} from "@nextui-org/system";
+import {TRANSITION_EASINGS} from "@landing-ui/framer-utils";
+import {clsx, isEmpty} from "@landing-ui/shared-utils";
+import {PropGetter} from "@landing-ui/system";
 
 interface Props extends Omit<ModalProps, "placement" | "scrollBehavior" | "children"> {
   /**

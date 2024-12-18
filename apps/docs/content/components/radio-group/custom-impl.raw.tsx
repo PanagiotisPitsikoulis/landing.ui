@@ -1,5 +1,5 @@
 import React from "react";
-import {RadioGroup, useRadio, VisuallyHidden, RadioProps, cn} from "@nextui-org/react";
+import {RadioGroup, useRadio, VisuallyHidden, RadioProps, cn} from "@landing-ui/react";
 
 export const CustomRadio = (props: RadioProps) => {
   const {

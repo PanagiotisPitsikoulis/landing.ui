@@ -1,20 +1,20 @@
-import type {SnippetVariantProps, SnippetSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {SnippetVariantProps, SnippetSlots, SlotsToClasses} from "@landing-ui/theme";
 
-import {snippet} from "@nextui-org/theme";
+import {snippet} from "@landing-ui/theme";
 import {
   HTMLNextUIProps,
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@nextui-org/system";
-import {useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
-import {clsx, dataAttr, objectToDeps} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
-import {useClipboard} from "@nextui-org/use-clipboard";
+} from "@landing-ui/system";
+import {useDOMRef, filterDOMProps} from "@landing-ui/react-utils";
+import {clsx, dataAttr, objectToDeps} from "@landing-ui/shared-utils";
+import {ReactRef} from "@landing-ui/react-utils";
+import {useClipboard} from "@landing-ui/use-clipboard";
 import {useFocusRing} from "@react-aria/focus";
 import {useMemo, useCallback, ReactElement, useRef} from "react";
-import {TooltipProps} from "@nextui-org/tooltip";
-import {ButtonProps} from "@nextui-org/button";
+import {TooltipProps} from "@landing-ui/tooltip";
+import {ButtonProps} from "@landing-ui/button";
 export interface UseSnippetProps extends Omit<HTMLNextUIProps, "onCopy">, SnippetVariantProps {
   /**
    * Ref to the DOM node.

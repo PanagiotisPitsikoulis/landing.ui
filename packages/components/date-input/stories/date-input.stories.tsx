@@ -1,6 +1,6 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {dateInput, button} from "@nextui-org/theme";
+import {dateInput, button} from "@landing-ui/theme";
 import {
   CalendarDate,
   DateValue,
@@ -11,7 +11,7 @@ import {
   parseZonedDateTime,
   today,
 } from "@internationalized/date";
-import {CalendarBoldIcon} from "@nextui-org/shared-icons";
+import {CalendarBoldIcon} from "@landing-ui/shared-icons";
 import {useDateFormatter, I18nProvider} from "@react-aria/i18n";
 import {ValidationResult} from "@react-types/shared";
 

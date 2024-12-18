@@ -1,23 +1,23 @@
-import type {PaginationSlots, PaginationVariantProps, SlotsToClasses} from "@nextui-org/theme";
+import type {PaginationSlots, PaginationVariantProps, SlotsToClasses} from "@landing-ui/theme";
 import type {Key, ReactNode, Ref} from "react";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {HTMLNextUIProps, PropGetter} from "@landing-ui/system";
 
-import {objectToDeps, Timer} from "@nextui-org/shared-utils";
+import {objectToDeps, Timer} from "@landing-ui/shared-utils";
 import {useLocale} from "@react-aria/i18n";
 import {
   UsePaginationProps as UseBasePaginationProps,
   PaginationItemValue,
   PaginationItemType,
-} from "@nextui-org/use-pagination";
+} from "@landing-ui/use-pagination";
 import {useEffect, useRef, useMemo} from "react";
-import {mapPropsVariants, useProviderContext} from "@nextui-org/system";
-import {usePagination as useBasePagination} from "@nextui-org/use-pagination";
+import {mapPropsVariants, useProviderContext} from "@landing-ui/system";
+import {usePagination as useBasePagination} from "@landing-ui/use-pagination";
 import scrollIntoView from "scroll-into-view-if-needed";
-import {pagination} from "@nextui-org/theme";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
+import {pagination} from "@landing-ui/theme";
+import {useDOMRef} from "@landing-ui/react-utils";
+import {clsx, dataAttr} from "@landing-ui/shared-utils";
 import {PressEvent} from "@react-types/shared";
-import {useIntersectionObserver} from "@nextui-org/use-intersection-observer";
+import {useIntersectionObserver} from "@landing-ui/use-intersection-observer";
 
 export type PaginationItemRenderProps = {
   /**

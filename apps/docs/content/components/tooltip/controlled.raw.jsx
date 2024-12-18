@@ -1,4 +1,4 @@
-import {Tooltip, Button} from "@nextui-org/react";
+import {Tooltip, Button} from "@landing-ui/react";
 
 export default function App() {
   const [isOpen, setIsOpen] = React.useState(false);

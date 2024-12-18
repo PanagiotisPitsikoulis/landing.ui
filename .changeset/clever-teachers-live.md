@@ -1,5 +1,5 @@
 ---
-"@nextui-org/shared-utils": patch
+"@landing-ui/shared-utils": patch
 ---
 
 fix process is not defined

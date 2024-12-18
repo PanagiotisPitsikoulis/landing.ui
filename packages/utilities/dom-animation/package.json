@@ -1,5 +1,5 @@
 {
-  "name": "@nextui-org/dom-animation",
+  "name": "@landing-ui/dom-animation",
   "version": "2.1.1",
   "description": "Dom Animation from Framer Motion for dynamic import",
   "keywords": [
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nextui-org/nextui.git",
+    "url": "git+https://github.com/PanagiotisPitsikoulis/landing.ui.git",
     "directory": "packages/utilities/dom-animation"
   },
   "bugs": {
-    "url": "https://github.com/nextui-org/nextui/issues"
+    "url": "https://github.com/PanagiotisPitsikoulis/landing.ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",

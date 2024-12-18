@@ -1,18 +1,18 @@
-import type {PopoverProps} from "@nextui-org/popover";
+import type {PopoverProps} from "@landing-ui/popover";
 import type {MenuTriggerType} from "@react-types/menu";
 import type {Ref} from "react";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {HTMLNextUIProps, PropGetter} from "@landing-ui/system";
 
-import {useProviderContext} from "@nextui-org/system";
+import {useProviderContext} from "@landing-ui/system";
 import {useMenuTriggerState} from "@react-stately/menu";
 import {useMenuTrigger} from "@react-aria/menu";
-import {dropdown} from "@nextui-org/theme";
-import {clsx} from "@nextui-org/shared-utils";
-import {ReactRef, mergeRefs} from "@nextui-org/react-utils";
-import {ariaShouldCloseOnInteractOutside, toReactAriaPlacement} from "@nextui-org/aria-utils";
+import {dropdown} from "@landing-ui/theme";
+import {clsx} from "@landing-ui/shared-utils";
+import {ReactRef, mergeRefs} from "@landing-ui/react-utils";
+import {ariaShouldCloseOnInteractOutside, toReactAriaPlacement} from "@landing-ui/aria-utils";
 import {useMemo, useRef} from "react";
 import {mergeProps} from "@react-aria/utils";
-import {MenuProps} from "@nextui-org/menu";
+import {MenuProps} from "@landing-ui/menu";
 import {CollectionElement} from "@react-types/shared";
 import {useOverlayPosition} from "@react-aria/overlays";
 

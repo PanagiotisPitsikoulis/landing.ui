@@ -1,22 +1,22 @@
-import type {ButtonVariantProps} from "@nextui-org/theme";
-import type {AriaButtonProps} from "@nextui-org/use-aria-button";
+import type {ButtonVariantProps} from "@landing-ui/theme";
+import type {AriaButtonProps} from "@landing-ui/use-aria-button";
 import type {ReactNode} from "react";
-import type {RippleProps} from "@nextui-org/ripple";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {RippleProps} from "@landing-ui/ripple";
+import type {HTMLNextUIProps, PropGetter} from "@landing-ui/system";
 
-import {useProviderContext} from "@nextui-org/system";
-import {dataAttr} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {useProviderContext} from "@landing-ui/system";
+import {dataAttr} from "@landing-ui/shared-utils";
+import {ReactRef} from "@landing-ui/react-utils";
 import {MouseEventHandler, useCallback} from "react";
 import {useFocusRing} from "@react-aria/focus";
 import {chain, mergeProps} from "@react-aria/utils";
-import {useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
-import {button} from "@nextui-org/theme";
+import {useDOMRef, filterDOMProps} from "@landing-ui/react-utils";
+import {button} from "@landing-ui/theme";
 import {isValidElement, cloneElement, useMemo} from "react";
-import {useAriaButton} from "@nextui-org/use-aria-button";
+import {useAriaButton} from "@landing-ui/use-aria-button";
 import {PressEvent, useHover} from "@react-aria/interactions";
-import {SpinnerProps} from "@nextui-org/spinner";
-import {useRipple} from "@nextui-org/ripple";
+import {SpinnerProps} from "@landing-ui/spinner";
+import {useRipple} from "@landing-ui/ripple";
 
 import {useButtonGroupContext} from "./button-group-context";
 

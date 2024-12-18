@@ -7,7 +7,7 @@ import {
   TableCell,
   getKeyValue,
   Spinner,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 import {useAsyncList} from "@react-stately/data";
 
 export default function App() {

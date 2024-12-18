@@ -62,7 +62,7 @@ client side router you provide.
   // app/providers.tsx
   "use client";
 
-  import {NextUIProvider} from "@nextui-org/react";
+  import {NextUIProvider} from "@landing-ui/react";
 
   export function Providers({children}: {children: React.ReactNode}) {
     const router = useRouter();
@@ -80,7 +80,7 @@ client side router you provide.
   // pages/_app.tsx
   import type {AppProps} from "next/app";
   import {useRouter} from "next/router";
-  import {NextUIProvider} from "@nextui-org/react";
+  import {NextUIProvider} from "@landing-ui/react";
 
   function MyApp({Component, pageProps}: AppProps) {
     const router = useRouter();
@@ -115,7 +115,7 @@ client side router you provide.
     DropdownItem,
     Button,
     Link,
-  } from "@nextui-org/react";
+  } from "@landing-ui/react";
 
   function App() {
     return (
@@ -440,4 +440,4 @@ Whether it's a feature request, bug report, or a project to showcase, please get
 
 ## Contributing
 
-PR's on NextUI are always welcome, please see our [contribution guidelines](https://github.com/nextui-org/nextui/blob/main/CONTRIBUTING.md) to learn how you can contribute to this project.
+PR's on NextUI are always welcome, please see our [contribution guidelines](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/main/CONTRIBUTING.md) to learn how you can contribute to this project.

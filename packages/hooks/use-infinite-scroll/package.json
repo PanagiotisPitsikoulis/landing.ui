@@ -1,11 +1,11 @@
 {
-  "name": "@nextui-org/use-infinite-scroll",
+  "name": "@landing-ui/use-infinite-scroll",
   "version": "2.2.1",
   "description": "A hook for handling infinite scroll based on the IntersectionObserver API",
   "keywords": [
     "use-infinite-scroll"
   ],
-  "author": "Junior Garcia <jrgarciadev@gmail.com>",
+  "author": "Panagiotis Pitsikoulis <panagiotispitsikoulis2003@gmail.com>",
   "homepage": "https://nextui.org",
   "license": "MIT",
   "main": "src/index.ts",
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nextui-org/nextui.git",
+    "url": "git+https://github.com/PanagiotisPitsikoulis/landing.ui.git",
     "directory": "packages/hooks/use-infinite-scroll"
   },
   "bugs": {
-    "url": "https://github.com/nextui-org/nextui/issues"
+    "url": "https://github.com/PanagiotisPitsikoulis/landing.ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -37,7 +37,7 @@
     "react": ">=18 || >=19.0.0-rc.0"
   },
   "dependencies": {
-    "@nextui-org/shared-utils": "workspace:*"
+    "@landing-ui/shared-utils": "workspace:*"
   },
   "devDependencies": {
     "clean-package": "2.2.0",

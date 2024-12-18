@@ -1,4 +1,4 @@
-import {DatePicker} from "@nextui-org/react";
+import {DatePicker} from "@landing-ui/react";
 import {parseZonedDateTime, parseAbsoluteToLocal} from "@internationalized/date";
 
 export default function App() {

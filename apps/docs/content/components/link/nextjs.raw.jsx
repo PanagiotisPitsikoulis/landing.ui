@@ -1,4 +1,4 @@
-import {Link} from "@nextui-org/react";
+import {Link} from "@landing-ui/react";
 import NextLink from "next/link";
 
 export default function App() {

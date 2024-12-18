@@ -1,13 +1,13 @@
-import type {ButtonProps} from "@nextui-org/button";
-import type {AlertSlots, AlertVariantProps, SlotsToClasses} from "@nextui-org/theme";
+import type {ButtonProps} from "@landing-ui/button";
+import type {AlertSlots, AlertVariantProps, SlotsToClasses} from "@landing-ui/theme";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
-import {filterDOMProps, ReactRef, useDOMRef} from "@nextui-org/react-utils";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@landing-ui/system";
+import {filterDOMProps, ReactRef, useDOMRef} from "@landing-ui/react-utils";
 import {ReactNode, useCallback, useMemo} from "react";
 import {mergeProps} from "@react-aria/utils";
-import {alert} from "@nextui-org/theme";
+import {alert} from "@landing-ui/theme";
 import {useControlledState} from "@react-stately/utils";
-import {dataAttr, isEmpty, objectToDeps} from "@nextui-org/shared-utils";
+import {dataAttr, isEmpty, objectToDeps} from "@landing-ui/shared-utils";
 
 interface Props extends HTMLNextUIProps<"div"> {
   /**

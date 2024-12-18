@@ -10,7 +10,7 @@ import {
   isIOS,
 } from "@react-aria/utils";
 import {RefObject} from "react";
-import {warn} from "@nextui-org/shared-utils";
+import {warn} from "@landing-ui/shared-utils";
 import {useFocusable} from "@react-aria/focus";
 import {usePress} from "@react-aria/interactions";
 
@@ -63,7 +63,7 @@ export function useAriaLink(props: AriaLinkOptions, ref: RefObject<FocusableElem
 
   if (deprecatedOnClick && typeof deprecatedOnClick === "function") {
     warn(
-      "onClick is deprecated, please use onPress instead. See: https://github.com/nextui-org/nextui/issues/4292",
+      "onClick is deprecated, please use onPress instead. See: https://github.com/PanagiotisPitsikoulis/landing.ui/issues/4292",
       "useLink",
     );
   }
@@ -72,7 +72,7 @@ export function useAriaLink(props: AriaLinkOptions, ref: RefObject<FocusableElem
     // On mobile devices, we need to call onClick directly since react-aria's usePress hook
     // only supports onPress events as of https://github.com/adobe/react-spectrum/commit/1d5def8a
     // This ensures backwards compatibility for onClick handlers on mobile
-    // See: https://github.com/nextui-org/nextui/issues/4292
+    // See: https://github.com/PanagiotisPitsikoulis/landing.ui/issues/4292
     if (isMobile) {
       deprecatedOnClick?.(e as unknown as React.MouseEvent<HTMLAnchorElement>);
     }

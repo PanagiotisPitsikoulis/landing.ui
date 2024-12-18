@@ -10107,14 +10107,14 @@
     }
   },
   {
-    "content": "Install @nextui-org/use-theme",
+    "content": "Install @landing-ui/use-theme",
     "objectID": "4ab37998-6e63-4337-a5ba-d892c6fb598e",
     "type": "lvl3",
     "url": "/docs/customization/dark-mode#install-nextui-orguse-theme",
     "hierarchy": {
       "lvl1": "Dark mode",
       "lvl2": "Using use-theme hook",
-      "lvl3": "Install @nextui-org/use-theme"
+      "lvl3": "Install @landing-ui/use-theme"
     }
   },
   {
@@ -10124,7 +10124,7 @@
     "url": "/docs/customization/dark-mode#add-the-current-theme-to-the-main-element",
     "hierarchy": {
       "lvl1": "Dark mode",
-      "lvl2": "Install @nextui-org/use-theme",
+      "lvl2": "Install @landing-ui/use-theme",
       "lvl3": "Add the current theme to the main element"
     }
   },

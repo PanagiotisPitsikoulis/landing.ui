@@ -1,4 +1,4 @@
-import type {SliderSlots, SliderVariantProps, SlotsToClasses} from "@nextui-org/theme";
+import type {SliderSlots, SliderVariantProps, SlotsToClasses} from "@landing-ui/theme";
 
 import {
   DOMAttributes,
@@ -6,16 +6,16 @@ import {
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@nextui-org/system";
-import {slider} from "@nextui-org/theme";
-import {ReactRef, useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
+} from "@landing-ui/system";
+import {slider} from "@landing-ui/theme";
+import {ReactRef, useDOMRef, filterDOMProps} from "@landing-ui/react-utils";
 import {useSliderState} from "@react-stately/slider";
 import {ReactNode, useCallback, useMemo, useRef} from "react";
 import {useNumberFormatter, useLocale} from "@react-aria/i18n";
 import {mergeProps} from "@react-aria/utils";
 import {AriaSliderProps, useSlider as useAriaSlider} from "@react-aria/slider";
-import {clsx, objectToDeps} from "@nextui-org/shared-utils";
-import {TooltipProps} from "@nextui-org/tooltip";
+import {clsx, objectToDeps} from "@landing-ui/shared-utils";
+import {TooltipProps} from "@landing-ui/tooltip";
 import {useHover} from "@react-aria/interactions";
 import {ValueBase} from "@react-types/shared";
 

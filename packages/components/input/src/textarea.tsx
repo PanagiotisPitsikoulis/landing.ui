@@ -1,9 +1,9 @@
-import {dataAttr} from "@nextui-org/shared-utils";
-import {forwardRef} from "@nextui-org/system";
+import {dataAttr} from "@landing-ui/shared-utils";
+import {forwardRef} from "@landing-ui/system";
 import {mergeProps} from "@react-aria/utils";
 import {useMemo, useState} from "react";
 import TextareaAutosize from "react-textarea-autosize";
-import {CloseFilledIcon} from "@nextui-org/shared-icons";
+import {CloseFilledIcon} from "@landing-ui/shared-icons";
 
 import {UseInputProps, useInput} from "./use-input";
 

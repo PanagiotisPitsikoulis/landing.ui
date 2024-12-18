@@ -1,6 +1,6 @@
-import {forwardRef} from "@nextui-org/system";
-import {LinkIcon} from "@nextui-org/shared-icons";
-import {linkAnchorClasses} from "@nextui-org/theme";
+import {forwardRef} from "@landing-ui/system";
+import {LinkIcon} from "@landing-ui/shared-icons";
+import {linkAnchorClasses} from "@landing-ui/theme";
 
 import {UseLinkProps, useLink} from "./use-link";
 

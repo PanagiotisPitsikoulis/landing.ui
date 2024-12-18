@@ -1,8 +1,8 @@
 "use client";
 
 import {FC, useMemo, useRef} from "react";
-import {Avatar, AvatarProps, Button, Spacer, Tooltip} from "@nextui-org/react";
-import {clamp} from "@nextui-org/shared-utils";
+import {Avatar, AvatarProps, Button, Spacer, Tooltip} from "@landing-ui/react";
+import {clamp} from "@landing-ui/shared-utils";
 import {usePostHog} from "posthog-js/react";
 
 import {sectionWrapper, titleWrapper, title, subtitle} from "../primitives";

@@ -1,6 +1,6 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {calendar} from "@nextui-org/theme";
+import {calendar} from "@landing-ui/theme";
 import {
   today,
   parseDate,
@@ -10,10 +10,10 @@ import {
   startOfMonth,
 } from "@internationalized/date";
 import {I18nProvider, useLocale} from "@react-aria/i18n";
-import {Button, ButtonGroup} from "@nextui-org/button";
-import {Radio, RadioGroup} from "@nextui-org/radio";
-import {cn} from "@nextui-org/theme";
-import {NextUIProvider} from "@nextui-org/system";
+import {Button, ButtonGroup} from "@landing-ui/button";
+import {Radio, RadioGroup} from "@landing-ui/radio";
+import {cn} from "@landing-ui/theme";
+import {NextUIProvider} from "@landing-ui/system";
 
 import {Calendar, CalendarProps, DateValue} from "../src";
 

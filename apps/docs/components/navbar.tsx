@@ -18,11 +18,11 @@ import {
   DropdownTrigger,
   Chip,
   Divider,
-} from "@nextui-org/react";
-import {dataFocusVisibleClasses} from "@nextui-org/theme";
-import {ChevronDownIcon, LinkIcon} from "@nextui-org/shared-icons";
+} from "@landing-ui/react";
+import {dataFocusVisibleClasses} from "@landing-ui/theme";
+import {ChevronDownIcon, LinkIcon} from "@landing-ui/shared-icons";
 import {isAppleDevice} from "@react-aria/utils";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@landing-ui/shared-utils";
 import NextLink from "next/link";
 import {usePathname} from "next/navigation";
 import {motion, AnimatePresence} from "framer-motion";

@@ -1,14 +1,14 @@
-import type {ScrollShadowVariantProps} from "@nextui-org/theme";
+import type {ScrollShadowVariantProps} from "@landing-ui/theme";
 
-import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@nextui-org/system";
-import {scrollShadow} from "@nextui-org/theme";
-import {ReactRef, useDOMRef} from "@nextui-org/react-utils";
+import {HTMLNextUIProps, mapPropsVariants, PropGetter} from "@landing-ui/system";
+import {scrollShadow} from "@landing-ui/theme";
+import {ReactRef, useDOMRef} from "@landing-ui/react-utils";
 import {
   useDataScrollOverflow,
   UseDataScrollOverflowProps,
-} from "@nextui-org/use-data-scroll-overflow";
+} from "@landing-ui/use-data-scroll-overflow";
 import {useMemo} from "react";
-import {objectToDeps} from "@nextui-org/shared-utils";
+import {objectToDeps} from "@landing-ui/shared-utils";
 
 interface Props extends HTMLNextUIProps<"div">, Omit<UseDataScrollOverflowProps, "domRef"> {
   /**

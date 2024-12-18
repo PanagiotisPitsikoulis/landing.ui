@@ -1,5 +1,5 @@
 import React from "react";
-import {DateInput} from "@nextui-org/react";
+import {DateInput} from "@landing-ui/react";
 import {DateValue, parseAbsoluteToLocal} from "@internationalized/date";
 import {I18nProvider} from "@react-aria/i18n";
 

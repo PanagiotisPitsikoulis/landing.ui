@@ -16,7 +16,7 @@ export type {
   ExtendVariantWithSlotsProps,
   ExtendVariants,
   SharedSelection,
-} from "@nextui-org/system-rsc";
+} from "@landing-ui/system-rsc";
 
 export {
   forwardRef,
@@ -25,7 +25,7 @@ export {
   mapPropsVariantsWithCommon,
   isNextUIEl,
   extendVariants,
-} from "@nextui-org/system-rsc";
+} from "@landing-ui/system-rsc";
 
 export type {SupportedCalendars} from "./types";
 export type {NextUIProviderProps} from "./provider";

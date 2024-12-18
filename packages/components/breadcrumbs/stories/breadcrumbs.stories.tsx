@@ -1,9 +1,9 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {breadcrumbItem} from "@nextui-org/theme";
-import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@nextui-org/dropdown";
-import {Button} from "@nextui-org/button";
-import {Tooltip} from "@nextui-org/tooltip";
+import {breadcrumbItem} from "@landing-ui/theme";
+import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@landing-ui/dropdown";
+import {Button} from "@landing-ui/button";
+import {Tooltip} from "@landing-ui/tooltip";
 import {
   CheckIcon,
   ChevronDownIcon,
@@ -12,8 +12,8 @@ import {
   MailFilledIcon,
   PetBoldIcon,
   ShoppingCartBoldIcon,
-} from "@nextui-org/shared-icons";
-import {clsx} from "@nextui-org/shared-utils";
+} from "@landing-ui/shared-icons";
+import {clsx} from "@landing-ui/shared-utils";
 
 import {Breadcrumbs, BreadcrumbItem, BreadcrumbsProps} from "../src";
 

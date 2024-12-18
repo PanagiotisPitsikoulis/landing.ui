@@ -1,7 +1,7 @@
 import React from "react";
 import {useSandpack} from "@codesandbox/sandpack-react";
-import {Tooltip, Button} from "@nextui-org/react";
-import {useClipboard} from "@nextui-org/use-clipboard";
+import {Tooltip, Button} from "@landing-ui/react";
+import {useClipboard} from "@landing-ui/use-clipboard";
 
 import {CopyLinearIcon} from "@/components/icons";
 

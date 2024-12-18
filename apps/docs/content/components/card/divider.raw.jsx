@@ -1,4 +1,4 @@
-import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@nextui-org/react";
+import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@landing-ui/react";
 
 export default function App() {
   return (
@@ -22,7 +22,7 @@ export default function App() {
       </CardBody>
       <Divider />
       <CardFooter>
-        <Link isExternal showAnchorIcon href="https://github.com/nextui-org/nextui">
+        <Link isExternal showAnchorIcon href="https://github.com/PanagiotisPitsikoulis/landing.ui">
           Visit source code on GitHub.
         </Link>
       </CardFooter>

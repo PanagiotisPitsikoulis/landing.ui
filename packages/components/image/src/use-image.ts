@@ -1,4 +1,4 @@
-import type {ImageVariantProps, SlotsToClasses, ImageSlots} from "@nextui-org/theme";
+import type {ImageVariantProps, SlotsToClasses, ImageSlots} from "@landing-ui/theme";
 
 import {ImgHTMLAttributes, useCallback} from "react";
 import {
@@ -6,12 +6,12 @@ import {
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@nextui-org/system";
-import {image} from "@nextui-org/theme";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, dataAttr, objectToDeps} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
-import {useImage as useImageBase} from "@nextui-org/use-image";
+} from "@landing-ui/system";
+import {image} from "@landing-ui/theme";
+import {useDOMRef} from "@landing-ui/react-utils";
+import {clsx, dataAttr, objectToDeps} from "@landing-ui/shared-utils";
+import {ReactRef} from "@landing-ui/react-utils";
+import {useImage as useImageBase} from "@landing-ui/use-image";
 import {useMemo} from "react";
 type NativeImageProps = ImgHTMLAttributes<HTMLImageElement>;
 

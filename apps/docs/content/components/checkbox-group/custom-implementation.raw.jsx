@@ -1,4 +1,4 @@
-import {useCheckbox, CheckboxGroup, Chip, VisuallyHidden, tv} from "@nextui-org/react";
+import {useCheckbox, CheckboxGroup, Chip, VisuallyHidden, tv} from "@landing-ui/react";
 
 const checkbox = tv({
   slots: {

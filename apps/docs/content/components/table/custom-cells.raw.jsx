@@ -8,7 +8,7 @@ import {
   User,
   Chip,
   Tooltip,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 
 export const columns = [
   {name: "NAME", uid: "name"},

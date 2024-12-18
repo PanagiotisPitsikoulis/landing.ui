@@ -1,4 +1,4 @@
-# @nextui-org/aria-utils
+# @landing-ui/aria-utils
 
 A Quick description of the component
 
@@ -7,18 +7,18 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/aria-utils
+yarn add @landing-ui/aria-utils
 # or
-npm i @nextui-org/aria-utils
+npm i @landing-ui/aria-utils
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/nextui-org/nextui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/nextui-org/nextui/blob/master/LICENSE).
+[MIT license](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/LICENSE).

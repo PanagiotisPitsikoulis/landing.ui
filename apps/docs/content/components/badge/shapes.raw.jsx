@@ -1,4 +1,4 @@
-import {Badge, Avatar} from "@nextui-org/react";
+import {Badge, Avatar} from "@landing-ui/react";
 
 export default function App() {
   return (

@@ -1,13 +1,13 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {menuItem} from "@nextui-org/theme";
+import {menuItem} from "@landing-ui/theme";
 import {
   AddNoteBulkIcon,
   CopyDocumentBulkIcon,
   EditDocumentBulkIcon,
   DeleteDocumentBulkIcon,
-} from "@nextui-org/shared-icons";
-import {clsx} from "@nextui-org/shared-utils";
+} from "@landing-ui/shared-icons";
+import {clsx} from "@landing-ui/shared-utils";
 
 import {Menu, MenuItem, MenuSection, MenuProps} from "../src";
 

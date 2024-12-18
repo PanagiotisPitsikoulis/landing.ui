@@ -1,10 +1,10 @@
-import {listboxSection} from "@nextui-org/theme";
+import {listboxSection} from "@landing-ui/theme";
 import {Node} from "@react-types/shared";
 import {useMemo} from "react";
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@landing-ui/system";
 import {mergeProps} from "@react-aria/utils";
-import {clsx} from "@nextui-org/shared-utils";
-import {Divider} from "@nextui-org/divider";
+import {clsx} from "@landing-ui/shared-utils";
+import {Divider} from "@landing-ui/divider";
 import {ListState} from "@react-stately/list";
 import {useListBoxSection} from "@react-aria/listbox";
 

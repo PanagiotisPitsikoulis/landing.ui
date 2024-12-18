@@ -1,4 +1,4 @@
-import {Kbd} from "@nextui-org/react";
+import {Kbd} from "@landing-ui/react";
 
 export default function App() {
   return (

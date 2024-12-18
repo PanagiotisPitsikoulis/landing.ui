@@ -1,4 +1,4 @@
-# @nextui-org/loading
+# @landing-ui/loading
 
 Spinner express an unspecified wait time or display the length of a process.
 
@@ -7,18 +7,18 @@ Please refer to the [documentation](https://nextui.org/docs/components/loading) 
 ## Installation
 
 ```sh
-yarn add @nextui-org/loading
+yarn add @landing-ui/loading
 # or
-npm i @nextui-org/loading
+npm i @landing-ui/loading
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/nextui-org/nextui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/nextui-org/nextui/blob/master/LICENSE).
+[MIT license](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/LICENSE).

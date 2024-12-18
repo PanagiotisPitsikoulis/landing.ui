@@ -3,7 +3,7 @@ import type {
   SlotsToClasses,
   TableReturnType,
   TableSlots,
-} from "@nextui-org/theme";
+} from "@landing-ui/theme";
 import type {Layout} from "@react-stately/virtualizer";
 import type {SelectionBehavior, DisabledBehavior, Node} from "@react-types/shared";
 import type {TableState, TableStateProps} from "@react-stately/table";
@@ -17,14 +17,14 @@ import {
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@nextui-org/system";
-import {table} from "@nextui-org/theme";
-import {useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
+} from "@landing-ui/system";
+import {table} from "@landing-ui/theme";
+import {useDOMRef, filterDOMProps} from "@landing-ui/react-utils";
 import {mergeProps} from "@react-aria/utils";
-import {clsx, objectToDeps} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+import {clsx, objectToDeps} from "@landing-ui/shared-utils";
+import {ReactRef} from "@landing-ui/react-utils";
 import {useMemo} from "react";
-import {CheckboxProps} from "@nextui-org/checkbox";
+import {CheckboxProps} from "@landing-ui/checkbox";
 
 type TableContentPlacement = "inside" | "outside";
 

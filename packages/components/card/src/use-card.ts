@@ -1,24 +1,24 @@
 import type {FocusableProps, PressEvents} from "@react-types/shared";
-import type {SlotsToClasses, CardSlots, CardReturnType, CardVariantProps} from "@nextui-org/theme";
-import type {AriaButtonProps} from "@nextui-org/use-aria-button";
-import type {RippleProps} from "@nextui-org/ripple";
+import type {SlotsToClasses, CardSlots, CardReturnType, CardVariantProps} from "@landing-ui/theme";
+import type {AriaButtonProps} from "@landing-ui/use-aria-button";
+import type {RippleProps} from "@landing-ui/ripple";
 
-import {card} from "@nextui-org/theme";
+import {card} from "@landing-ui/theme";
 import {MouseEventHandler, ReactNode, useCallback, useMemo} from "react";
 import {chain, mergeProps} from "@react-aria/utils";
 import {useFocusRing} from "@react-aria/focus";
 import {PressEvent, useHover} from "@react-aria/interactions";
-import {useAriaButton} from "@nextui-org/use-aria-button";
+import {useAriaButton} from "@landing-ui/use-aria-button";
 import {
   HTMLNextUIProps,
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@nextui-org/system";
-import {clsx, dataAttr, objectToDeps} from "@nextui-org/shared-utils";
-import {ReactRef, filterDOMProps} from "@nextui-org/react-utils";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {useRipple} from "@nextui-org/ripple";
+} from "@landing-ui/system";
+import {clsx, dataAttr, objectToDeps} from "@landing-ui/shared-utils";
+import {ReactRef, filterDOMProps} from "@landing-ui/react-utils";
+import {useDOMRef} from "@landing-ui/react-utils";
+import {useRipple} from "@landing-ui/ripple";
 
 export interface Props extends Omit<HTMLNextUIProps<"div">, "onClick"> {
   /**

@@ -1,4 +1,4 @@
-import {TimeInput} from "@nextui-org/react";
+import {TimeInput} from "@landing-ui/react";
 import {parseAbsoluteToLocal} from "@internationalized/date";
 
 export default function App() {

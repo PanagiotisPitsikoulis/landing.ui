@@ -1,4 +1,4 @@
-import {ModalHeader, ModalBody, ModalFooter, ModalContent} from "@nextui-org/modal";
+import {ModalHeader, ModalBody, ModalFooter, ModalContent} from "@landing-ui/modal";
 
 import Drawer from "./drawer";
 

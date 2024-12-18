@@ -1,4 +1,4 @@
-import {Calendar} from "@nextui-org/react";
+import {Calendar} from "@landing-ui/react";
 import {parseDate} from "@internationalized/date";
 
 export default function App() {

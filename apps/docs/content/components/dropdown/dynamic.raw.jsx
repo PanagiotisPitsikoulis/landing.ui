@@ -1,4 +1,4 @@
-import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@nextui-org/react";
+import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button} from "@landing-ui/react";
 
 export default function App() {
   const items = [

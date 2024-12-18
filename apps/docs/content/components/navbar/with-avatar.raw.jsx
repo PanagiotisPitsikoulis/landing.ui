@@ -9,7 +9,7 @@ import {
   Dropdown,
   DropdownMenu,
   Avatar,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 
 export const AcmeLogo = () => {
   return (

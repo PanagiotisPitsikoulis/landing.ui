@@ -1,7 +1,7 @@
-import type {DateInputReturnType, DateInputSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {DateInputReturnType, DateInputSlots, SlotsToClasses} from "@landing-ui/theme";
 import type {AriaDatePickerProps} from "@react-types/datepicker";
-import type {HTMLNextUIProps} from "@nextui-org/system";
-import type {DateInputProps} from "@nextui-org/date-input";
+import type {HTMLNextUIProps} from "@landing-ui/system";
+import type {DateInputProps} from "@landing-ui/date-input";
 
 import {createCalendar} from "@internationalized/date";
 import {forwardRef, useRef} from "react";
@@ -9,8 +9,8 @@ import {DateValue} from "@react-types/datepicker";
 import {useDateField as useAriaDateField} from "@react-aria/datepicker";
 import {ForwardedRef, ReactElement} from "react";
 import {useDateFieldState} from "@react-stately/datepicker";
-import {DateInputSegment} from "@nextui-org/date-input";
-import {filterDOMProps, useDOMRef} from "@nextui-org/react-utils";
+import {DateInputSegment} from "@landing-ui/date-input";
+import {filterDOMProps, useDOMRef} from "@landing-ui/react-utils";
 import {useLocale} from "@react-aria/i18n";
 import {mergeProps} from "@react-aria/utils";
 

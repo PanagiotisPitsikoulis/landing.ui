@@ -1,5 +1,5 @@
 import {forwardRef} from "react";
-import {useButton, Ripple, Spinner} from "@nextui-org/react";
+import {useButton, Ripple, Spinner} from "@landing-ui/react";
 
 const MyButton = forwardRef((props, ref) => {
   const {

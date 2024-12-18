@@ -1,4 +1,4 @@
-import {Autocomplete, AutocompleteItem, Avatar} from "@nextui-org/react";
+import {Autocomplete, AutocompleteItem, Avatar} from "@landing-ui/react";
 
 export default function App() {
   return (

@@ -1,11 +1,11 @@
-import type {SkeletonVariantProps, SkeletonSlots, SlotsToClasses} from "@nextui-org/theme";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {SkeletonVariantProps, SkeletonSlots, SlotsToClasses} from "@landing-ui/theme";
+import type {HTMLNextUIProps, PropGetter} from "@landing-ui/system";
 
-import {mapPropsVariants} from "@nextui-org/system";
-import {skeleton} from "@nextui-org/theme";
-import {clsx, dataAttr, objectToDeps} from "@nextui-org/shared-utils";
+import {mapPropsVariants} from "@landing-ui/system";
+import {skeleton} from "@landing-ui/theme";
+import {clsx, dataAttr, objectToDeps} from "@landing-ui/shared-utils";
 import {useMemo, Ref} from "react";
-import {useProviderContext} from "@nextui-org/system";
+import {useProviderContext} from "@landing-ui/system";
 
 interface Props extends HTMLNextUIProps<"div"> {
   /**

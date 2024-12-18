@@ -1,18 +1,18 @@
-import type {NavbarVariantProps, SlotsToClasses, NavbarSlots} from "@nextui-org/theme";
+import type {NavbarVariantProps, SlotsToClasses, NavbarSlots} from "@landing-ui/theme";
 
 import {
   HTMLNextUIProps,
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@nextui-org/system";
-import {navbar} from "@nextui-org/theme";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, dataAttr, objectToDeps} from "@nextui-org/shared-utils";
-import {ReactRef} from "@nextui-org/react-utils";
+} from "@landing-ui/system";
+import {navbar} from "@landing-ui/theme";
+import {useDOMRef} from "@landing-ui/react-utils";
+import {clsx, dataAttr, objectToDeps} from "@landing-ui/shared-utils";
+import {ReactRef} from "@landing-ui/react-utils";
 import {useCallback, useEffect, useMemo, useRef, useState} from "react";
 import {mergeProps, useResizeObserver} from "@react-aria/utils";
-import {useScrollPosition} from "@nextui-org/use-scroll-position";
+import {useScrollPosition} from "@landing-ui/use-scroll-position";
 import {useControlledState} from "@react-stately/utils";
 import {HTMLMotionProps} from "framer-motion";
 import {usePreventScroll} from "@react-aria/overlays";

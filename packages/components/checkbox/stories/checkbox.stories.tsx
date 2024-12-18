@@ -1,10 +1,10 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {checkbox} from "@nextui-org/theme";
-import {CloseIcon} from "@nextui-org/shared-icons";
-import {button} from "@nextui-org/theme";
+import {checkbox} from "@landing-ui/theme";
+import {CloseIcon} from "@landing-ui/shared-icons";
+import {button} from "@landing-ui/theme";
 import {useForm} from "react-hook-form";
-import {Form} from "@nextui-org/form";
+import {Form} from "@landing-ui/form";
 import {ValidationErrors} from "@react-types/shared";
 
 import {Checkbox, CheckboxIconProps, CheckboxProps} from "../src";

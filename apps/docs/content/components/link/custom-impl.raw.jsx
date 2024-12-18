@@ -1,7 +1,7 @@
 import {forwardRef} from "react";
-import {LinkIcon} from "@nextui-org/shared-icons";
-import {linkAnchorClasses} from "@nextui-org/theme";
-import {useLink} from "@nextui-org/react";
+import {LinkIcon} from "@landing-ui/shared-icons";
+import {linkAnchorClasses} from "@landing-ui/theme";
+import {useLink} from "@landing-ui/react";
 
 const MyLink = forwardRef((props, ref) => {
   const {

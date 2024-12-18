@@ -1,5 +1,5 @@
-import {Select, SelectItem} from "@nextui-org/react";
-import {useInfiniteScroll} from "@nextui-org/use-infinite-scroll";
+import {Select, SelectItem} from "@landing-ui/react";
+import {useInfiniteScroll} from "@landing-ui/use-infinite-scroll";
 
 export function usePokemonList({fetchDelay = 0} = {}) {
   const [items, setItems] = React.useState([]);

@@ -1,5 +1,5 @@
 import {useMemo} from "react";
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@landing-ui/system";
 
 import {AvatarIcon} from "./avatar-icon";
 import {useAvatar, UseAvatarProps} from "./use-avatar";

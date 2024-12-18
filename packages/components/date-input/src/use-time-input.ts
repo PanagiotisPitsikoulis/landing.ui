@@ -1,20 +1,20 @@
-import type {DateInputVariantProps, DateInputSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {DateInputVariantProps, DateInputSlots, SlotsToClasses} from "@landing-ui/theme";
 import type {AriaTimeFieldProps, TimeValue} from "@react-types/datepicker";
-import type {ReactRef} from "@nextui-org/react-utils";
+import type {ReactRef} from "@landing-ui/react-utils";
 import type {DOMAttributes, GroupDOMAttributes} from "@react-types/shared";
 import type {DateInputGroupProps} from "./date-input-group";
 
 import {useLocale} from "@react-aria/i18n";
 import {mergeProps} from "@react-aria/utils";
-import {PropGetter, useProviderContext} from "@nextui-org/system";
-import {HTMLNextUIProps, mapPropsVariants} from "@nextui-org/system";
-import {useDOMRef} from "@nextui-org/react-utils";
+import {PropGetter, useProviderContext} from "@landing-ui/system";
+import {HTMLNextUIProps, mapPropsVariants} from "@landing-ui/system";
+import {useDOMRef} from "@landing-ui/react-utils";
 import {useTimeField as useAriaTimeField} from "@react-aria/datepicker";
 import {useTimeFieldState} from "@react-stately/datepicker";
-import {objectToDeps, clsx, dataAttr} from "@nextui-org/shared-utils";
-import {dateInput} from "@nextui-org/theme";
+import {objectToDeps, clsx, dataAttr} from "@landing-ui/shared-utils";
+import {dateInput} from "@landing-ui/theme";
 import {useMemo} from "react";
-import {FormContext, useSlottedContext} from "@nextui-org/form";
+import {FormContext, useSlottedContext} from "@landing-ui/form";
 
 type NextUIBaseProps<T extends TimeValue> = Omit<
   HTMLNextUIProps<"div">,

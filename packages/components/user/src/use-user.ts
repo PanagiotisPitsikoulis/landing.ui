@@ -1,13 +1,13 @@
-import type {SlotsToClasses, UserSlots} from "@nextui-org/theme";
-import type {AvatarProps} from "@nextui-org/avatar";
+import type {SlotsToClasses, UserSlots} from "@landing-ui/theme";
+import type {AvatarProps} from "@landing-ui/avatar";
 
 import {ReactNode, useMemo, useCallback} from "react";
 import {useFocusRing} from "@react-aria/focus";
-import {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
-import {user} from "@nextui-org/theme";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
-import {filterDOMProps, ReactRef} from "@nextui-org/react-utils";
-import {useDOMRef} from "@nextui-org/react-utils";
+import {HTMLNextUIProps, PropGetter} from "@landing-ui/system";
+import {user} from "@landing-ui/theme";
+import {clsx, dataAttr} from "@landing-ui/shared-utils";
+import {filterDOMProps, ReactRef} from "@landing-ui/react-utils";
+import {useDOMRef} from "@landing-ui/react-utils";
 import {mergeProps} from "@react-aria/utils";
 interface Props {
   /**

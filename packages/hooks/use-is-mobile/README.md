@@ -1,4 +1,4 @@
-# @nextui-org/use-is-mobile
+# @landing-ui/use-is-mobile
 
 A Quick description of the component
 
@@ -7,18 +7,18 @@ A Quick description of the component
 ## Installation
 
 ```sh
-yarn add @nextui-org/use-is-mobile
+yarn add @landing-ui/use-is-mobile
 # or
-npm i @nextui-org/use-is-mobile
+npm i @landing-ui/use-is-mobile
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/nextui-org/nextui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/nextui-org/nextui/blob/master/LICENSE).
+[MIT license](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/LICENSE).

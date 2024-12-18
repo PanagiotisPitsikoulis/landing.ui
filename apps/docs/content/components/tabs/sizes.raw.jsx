@@ -1,4 +1,4 @@
-import {Tabs, Tab} from "@nextui-org/react";
+import {Tabs, Tab} from "@landing-ui/react";
 
 export default function App() {
   const sizes = ["sm", "md", "lg"];

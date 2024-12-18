@@ -4,17 +4,17 @@ import type {ValidationResult} from "@react-types/shared";
 
 import React from "react";
 import {Meta} from "@storybook/react";
-import {input} from "@nextui-org/theme";
+import {input} from "@landing-ui/theme";
 import {
   MailFilledIcon,
   EyeFilledIcon,
   EyeSlashFilledIcon,
   SearchIcon,
   CloseFilledIcon,
-} from "@nextui-org/shared-icons";
-import {button} from "@nextui-org/theme";
+} from "@landing-ui/shared-icons";
+import {button} from "@landing-ui/theme";
 import {useForm} from "react-hook-form";
-import {Form} from "@nextui-org/form";
+import {Form} from "@landing-ui/form";
 
 import {Input, InputProps, useInput} from "../src";
 

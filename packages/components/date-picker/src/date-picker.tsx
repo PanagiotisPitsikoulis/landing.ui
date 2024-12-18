@@ -2,13 +2,13 @@ import type {DateValue} from "@internationalized/date";
 
 import {ForwardedRef, ReactElement, useMemo} from "react";
 import {cloneElement, isValidElement} from "react";
-import {forwardRef} from "@nextui-org/system";
-import {Button} from "@nextui-org/button";
-import {DateInput, TimeInput} from "@nextui-org/date-input";
-import {FreeSoloPopover} from "@nextui-org/popover";
-import {Calendar} from "@nextui-org/calendar";
+import {forwardRef} from "@landing-ui/system";
+import {Button} from "@landing-ui/button";
+import {DateInput, TimeInput} from "@landing-ui/date-input";
+import {FreeSoloPopover} from "@landing-ui/popover";
+import {Calendar} from "@landing-ui/calendar";
 import {AnimatePresence} from "framer-motion";
-import {CalendarBoldIcon} from "@nextui-org/shared-icons";
+import {CalendarBoldIcon} from "@landing-ui/shared-icons";
 
 import {UseDatePickerProps, useDatePicker} from "./use-date-picker";
 

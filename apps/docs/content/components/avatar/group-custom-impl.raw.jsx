@@ -1,5 +1,5 @@
 import {forwardRef} from "react";
-import {Avatar, useAvatarGroup, AvatarGroupProvider} from "@nextui-org/react";
+import {Avatar, useAvatarGroup, AvatarGroupProvider} from "@landing-ui/react";
 
 const AvatarGroup = forwardRef((props, ref) => {
   const {

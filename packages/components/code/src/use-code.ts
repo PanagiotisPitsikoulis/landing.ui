@@ -1,11 +1,11 @@
-import type {CodeVariantProps} from "@nextui-org/theme";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system-rsc";
+import type {CodeVariantProps} from "@landing-ui/theme";
+import type {HTMLNextUIProps, PropGetter} from "@landing-ui/system-rsc";
 
-import {code} from "@nextui-org/theme";
-import {mapPropsVariants} from "@nextui-org/system-rsc";
-import {ReactRef} from "@nextui-org/react-utils";
+import {code} from "@landing-ui/theme";
+import {mapPropsVariants} from "@landing-ui/system-rsc";
+import {ReactRef} from "@landing-ui/react-utils";
 import {useMemo} from "react";
-import {objectToDeps} from "@nextui-org/shared-utils";
+import {objectToDeps} from "@landing-ui/shared-utils";
 
 export interface UseCodeProps extends HTMLNextUIProps<"code">, CodeVariantProps {
   /**

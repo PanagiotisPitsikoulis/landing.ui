@@ -1,4 +1,4 @@
-import {Listbox, ListboxItem} from "@nextui-org/react";
+import {Listbox, ListboxItem} from "@landing-ui/react";
 
 const generateItems = (n) => {
   const items = [

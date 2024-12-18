@@ -1,5 +1,5 @@
 import {cloneElement} from "react";
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@landing-ui/system";
 
 import {UseImageProps, useImage} from "./use-image";
 

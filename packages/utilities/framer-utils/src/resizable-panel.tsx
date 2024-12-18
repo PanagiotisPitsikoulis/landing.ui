@@ -2,8 +2,8 @@ import type {Ref} from "react";
 
 import {forwardRef} from "react";
 import {domAnimation, LazyMotion, m} from "framer-motion";
-import {useMeasure} from "@nextui-org/use-measure";
-import {HTMLNextUIProps} from "@nextui-org/system";
+import {useMeasure} from "@landing-ui/use-measure";
+import {HTMLNextUIProps} from "@landing-ui/system";
 
 /**
  * Props for the ResizablePanel component.

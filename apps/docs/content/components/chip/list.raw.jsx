@@ -1,4 +1,4 @@
-import {Chip} from "@nextui-org/react";
+import {Chip} from "@landing-ui/react";
 
 const initialFruits = ["Apple", "Banana", "Cherry", "Watermelon", "Orange"];
 

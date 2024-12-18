@@ -1,8 +1,8 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {chip} from "@nextui-org/theme";
-import {Avatar} from "@nextui-org/avatar";
-import {CheckIcon} from "@nextui-org/shared-icons";
+import {chip} from "@landing-ui/theme";
+import {Avatar} from "@landing-ui/avatar";
+import {CheckIcon} from "@landing-ui/shared-icons";
 
 import {Chip, ChipProps} from "../src";
 

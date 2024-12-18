@@ -1,5 +1,5 @@
 import React from "react";
-import {DatePicker} from "@nextui-org/react";
+import {DatePicker} from "@landing-ui/react";
 import {DateValue, parseAbsoluteToLocal} from "@internationalized/date";
 import {I18nProvider} from "@react-aria/i18n";
 

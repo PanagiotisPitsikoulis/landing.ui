@@ -1,12 +1,12 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {navbar} from "@nextui-org/theme";
-import {Link} from "@nextui-org/link";
-import {Button} from "@nextui-org/button";
-import {Avatar} from "@nextui-org/avatar";
-import {Input} from "@nextui-org/input";
+import {navbar} from "@landing-ui/theme";
+import {Link} from "@landing-ui/link";
+import {Button} from "@landing-ui/button";
+import {Avatar} from "@landing-ui/avatar";
+import {Input} from "@landing-ui/input";
 import Lorem from "react-lorem-component";
-import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@nextui-org/dropdown";
+import {Dropdown, DropdownTrigger, DropdownMenu, DropdownItem} from "@landing-ui/dropdown";
 import {
   ChevronDown,
   Lock,
@@ -16,7 +16,7 @@ import {
   TagUser,
   Scale,
   SearchIcon,
-} from "@nextui-org/shared-icons";
+} from "@landing-ui/shared-icons";
 
 import {
   Navbar,

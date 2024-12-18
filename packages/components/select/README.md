@@ -1,4 +1,4 @@
-# @nextui-org/select
+# @landing-ui/select
 
 A select displays a collapsible list of options and allows a user to select one of them.
 
@@ -7,18 +7,18 @@ Please refer to the [documentation](https://nextui.org/docs/components/select) f
 ## Installation
 
 ```sh
-yarn add @nextui-org/select
+yarn add @landing-ui/select
 # or
-npm i @nextui-org/select
+npm i @landing-ui/select
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/nextui-org/nextui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/nextui-org/nextui/blob/master/LICENSE).
+[MIT license](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/LICENSE).

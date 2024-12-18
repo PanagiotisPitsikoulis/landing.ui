@@ -1,5 +1,5 @@
 import React from "react";
-import {DateInput} from "@nextui-org/react";
+import {DateInput} from "@landing-ui/react";
 import {DateValue, now, parseAbsoluteToLocal} from "@internationalized/date";
 
 export default function App() {

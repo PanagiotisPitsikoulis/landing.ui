@@ -1,4 +1,4 @@
-import {Popover, PopoverTrigger, PopoverContent, Button} from "@nextui-org/react";
+import {Popover, PopoverTrigger, PopoverContent, Button} from "@landing-ui/react";
 
 export default function App() {
   return (

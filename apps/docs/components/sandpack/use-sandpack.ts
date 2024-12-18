@@ -71,7 +71,7 @@ export const useSandpack = ({
 
   let dependencies = {
     "framer-motion": "11.9.0",
-    "@nextui-org/react": "latest",
+    "@landing-ui/react": "latest",
   };
 
   // sort files by dependency
@@ -148,14 +148,14 @@ export const useSandpack = ({
 
   //   if (hasComponents) {
   //     let deps = {
-  //       "@nextui-org/theme": "canary",
-  //       "@nextui-org/system": "canary",
+  //       "@landing-ui/theme": "canary",
+  //       "@landing-ui/system": "canary",
   //     };
 
   //     nextUIComponents.forEach((component) => {
   //       deps = {
   //         ...deps,
-  //         [`@nextui-org/${component}`]: "canary",
+  //         [`@landing-ui/${component}`]: "canary",
   //       };
   //     });
 
@@ -164,7 +164,7 @@ export const useSandpack = ({
 
   //   return {
   //     ...deps,
-  //     "@nextui-org/react": "canary",
+  //     "@landing-ui/react": "canary",
   //   };
   // }, [hasComponents, nextUIComponents, component]);
 

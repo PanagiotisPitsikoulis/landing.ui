@@ -1,4 +1,4 @@
-import {Alert, Button} from "@nextui-org/react";
+import {Alert, Button} from "@landing-ui/react";
 
 export default function App() {
   const [isVisible, setIsVisible] = React.useState(true);

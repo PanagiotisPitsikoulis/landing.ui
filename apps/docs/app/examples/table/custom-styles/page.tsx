@@ -20,10 +20,10 @@ import {
   ChipProps,
   Pagination,
   SortDescriptor,
-} from "@nextui-org/react";
-import {ChevronDownIcon, SearchIcon} from "@nextui-org/shared-icons";
+} from "@landing-ui/react";
+import {ChevronDownIcon, SearchIcon} from "@landing-ui/shared-icons";
 import {useCallback, useMemo, useState} from "react";
-import {capitalize} from "@nextui-org/shared-utils";
+import {capitalize} from "@landing-ui/shared-utils";
 
 import {PlusLinearIcon} from "@/components/icons";
 import {VerticalDotsIcon} from "@/components/icons/vertical-dots";

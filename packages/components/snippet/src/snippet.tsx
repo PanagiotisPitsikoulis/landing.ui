@@ -1,9 +1,9 @@
 import {ReactNode, useCallback, useMemo, cloneElement} from "react";
-import {forwardRef} from "@nextui-org/system";
-import {Tooltip} from "@nextui-org/tooltip";
-import {CopyLinearIcon, CheckLinearIcon} from "@nextui-org/shared-icons";
-import {Button} from "@nextui-org/button";
-import {objectToDeps} from "@nextui-org/shared-utils";
+import {forwardRef} from "@landing-ui/system";
+import {Tooltip} from "@landing-ui/tooltip";
+import {CopyLinearIcon, CheckLinearIcon} from "@landing-ui/shared-icons";
+import {Button} from "@landing-ui/button";
+import {objectToDeps} from "@landing-ui/shared-utils";
 
 import {useSnippet, UseSnippetProps} from "./use-snippet";
 

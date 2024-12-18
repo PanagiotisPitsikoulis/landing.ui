@@ -1,7 +1,7 @@
 import {FC} from "react";
-import {Button, ButtonProps} from "@nextui-org/react";
-import {useClipboard} from "@nextui-org/use-clipboard";
-import {clsx} from "@nextui-org/shared-utils";
+import {Button, ButtonProps} from "@landing-ui/react";
+import {useClipboard} from "@landing-ui/use-clipboard";
+import {clsx} from "@landing-ui/shared-utils";
 
 import {CheckLinearIcon, CopyLinearIcon} from "@/components/icons";
 

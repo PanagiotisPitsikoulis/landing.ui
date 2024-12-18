@@ -10,7 +10,7 @@ import {
   getKeyValue,
   Spinner,
   Pagination,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 import {useMemo, useState} from "react";
 import useSWR from "swr";
 

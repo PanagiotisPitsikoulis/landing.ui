@@ -1,9 +1,9 @@
-import type {SpinnerVariantProps, SpinnerSlots, SlotsToClasses} from "@nextui-org/theme";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system-rsc";
+import type {SpinnerVariantProps, SpinnerSlots, SlotsToClasses} from "@landing-ui/theme";
+import type {HTMLNextUIProps, PropGetter} from "@landing-ui/system-rsc";
 
-import {mapPropsVariants} from "@nextui-org/system-rsc";
-import {spinner} from "@nextui-org/theme";
-import {clsx, objectToDeps} from "@nextui-org/shared-utils";
+import {mapPropsVariants} from "@landing-ui/system-rsc";
+import {spinner} from "@landing-ui/theme";
+import {clsx, objectToDeps} from "@landing-ui/shared-utils";
 import {useMemo, useCallback, Ref} from "react";
 
 interface Props extends HTMLNextUIProps<"div"> {

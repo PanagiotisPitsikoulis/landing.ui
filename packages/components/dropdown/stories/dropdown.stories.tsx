@@ -1,16 +1,16 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {dropdown, popover} from "@nextui-org/theme";
-import {Button} from "@nextui-org/button";
-import {Avatar} from "@nextui-org/avatar";
-import {User} from "@nextui-org/user";
+import {dropdown, popover} from "@landing-ui/theme";
+import {Button} from "@landing-ui/button";
+import {Avatar} from "@landing-ui/avatar";
+import {User} from "@landing-ui/user";
 import {
   AddNoteBulkIcon,
   CopyDocumentBulkIcon,
   EditDocumentBulkIcon,
   DeleteDocumentBulkIcon,
-} from "@nextui-org/shared-icons";
-import {clsx} from "@nextui-org/shared-utils";
+} from "@landing-ui/shared-icons";
+import {clsx} from "@landing-ui/shared-utils";
 
 import {
   Dropdown,

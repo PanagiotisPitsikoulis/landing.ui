@@ -1,8 +1,8 @@
 "use client";
 
 import NextLink from "next/link";
-import {Button, Link, Chip, Snippet} from "@nextui-org/react";
-import {ArrowRightIcon} from "@nextui-org/shared-icons";
+import {Button, Link, Chip, Snippet} from "@landing-ui/react";
+import {ArrowRightIcon} from "@landing-ui/shared-icons";
 import dynamic from "next/dynamic";
 import {usePostHog} from "posthog-js/react";
 
@@ -104,7 +104,7 @@ export const Hero = () => {
             isExternal
             as={Link}
             className="w-full md:hidden"
-            href="https://github.com/nextui-org/nextui"
+            href="https://github.com/PanagiotisPitsikoulis/landing.ui"
             radius="full"
             size="lg"
             startContent={<GithubIcon />}
@@ -114,7 +114,7 @@ export const Hero = () => {
                 name: "Github",
                 action: "click",
                 category: "landing-page",
-                data: "https://github.com/nextui-org/nextui",
+                data: "https://github.com/PanagiotisPitsikoulis/landing.ui",
               });
             }}
           >

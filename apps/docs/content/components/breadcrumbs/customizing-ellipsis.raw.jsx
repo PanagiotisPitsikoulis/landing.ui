@@ -6,7 +6,7 @@ import {
   DropdownMenu,
   DropdownItem,
   Button,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 
 export default function App() {
   return (

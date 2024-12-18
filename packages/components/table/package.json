@@ -1,11 +1,11 @@
 {
-  "name": "@nextui-org/table",
+  "name": "@landing-ui/table",
   "version": "2.2.6",
   "description": "Tables are used to display tabular data using rows and columns. ",
   "keywords": [
     "table"
   ],
-  "author": "Junior Garcia <jrgarciadev@gmail.com>",
+  "author": "Panagiotis Pitsikoulis <panagiotispitsikoulis2003@gmail.com>",
   "homepage": "https://nextui.org",
   "license": "MIT",
   "main": "src/index.ts",
@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nextui-org/nextui.git",
+    "url": "git+https://github.com/PanagiotisPitsikoulis/landing.ui.git",
     "directory": "packages/components/table"
   },
   "bugs": {
-    "url": "https://github.com/nextui-org/nextui/issues"
+    "url": "https://github.com/PanagiotisPitsikoulis/landing.ui/issues"
   },
   "scripts": {
     "build": "tsup src --dts",
@@ -36,15 +36,15 @@
   "peerDependencies": {
     "react": ">=18 || >=19.0.0-rc.0",
     "react-dom": ">=18 || >=19.0.0-rc.0",
-    "@nextui-org/theme": ">=2.4.0",
-    "@nextui-org/system": ">=2.4.0"
+    "@landing-ui/theme": ">=2.4.0",
+    "@landing-ui/system": ">=2.4.0"
   },
   "dependencies": {
-    "@nextui-org/checkbox": "workspace:*",
-    "@nextui-org/react-utils": "workspace:*",
-    "@nextui-org/shared-icons": "workspace:*",
-    "@nextui-org/shared-utils": "workspace:*",
-    "@nextui-org/spacer": "workspace:*",
+    "@landing-ui/checkbox": "workspace:*",
+    "@landing-ui/react-utils": "workspace:*",
+    "@landing-ui/shared-icons": "workspace:*",
+    "@landing-ui/shared-utils": "workspace:*",
+    "@landing-ui/spacer": "workspace:*",
     "@react-aria/focus": "3.19.0",
     "@react-aria/interactions": "3.22.5",
     "@react-aria/table": "3.16.0",
@@ -56,15 +56,15 @@
     "@react-types/table": "3.10.3"
   },
   "devDependencies": {
-    "@nextui-org/theme": "workspace:*",
-    "@nextui-org/system": "workspace:*",
-    "@nextui-org/button": "workspace:*",
-    "@nextui-org/chip": "workspace:*",
-    "@nextui-org/pagination": "workspace:*",
-    "@nextui-org/spinner": "workspace:*",
-    "@nextui-org/tooltip": "workspace:*",
-    "@nextui-org/use-infinite-scroll": "workspace:*",
-    "@nextui-org/user": "workspace:*",
+    "@landing-ui/theme": "workspace:*",
+    "@landing-ui/system": "workspace:*",
+    "@landing-ui/button": "workspace:*",
+    "@landing-ui/chip": "workspace:*",
+    "@landing-ui/pagination": "workspace:*",
+    "@landing-ui/spinner": "workspace:*",
+    "@landing-ui/tooltip": "workspace:*",
+    "@landing-ui/use-infinite-scroll": "workspace:*",
+    "@landing-ui/user": "workspace:*",
     "@react-stately/data": "3.12.0",
     "clean-package": "2.2.0",
     "react": "^18.0.0",

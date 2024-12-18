@@ -1,4 +1,4 @@
-import {DatePicker} from "@nextui-org/react";
+import {DatePicker} from "@landing-ui/react";
 
 export const SelectorIcon = () => {
   return (

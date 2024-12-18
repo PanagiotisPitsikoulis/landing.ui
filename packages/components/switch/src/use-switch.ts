@@ -1,15 +1,15 @@
-import type {ToggleVariantProps, ToggleSlots, SlotsToClasses} from "@nextui-org/theme";
+import type {ToggleVariantProps, ToggleSlots, SlotsToClasses} from "@landing-ui/theme";
 import type {AriaSwitchProps} from "@react-aria/switch";
-import type {HTMLNextUIProps, PropGetter} from "@nextui-org/system";
+import type {HTMLNextUIProps, PropGetter} from "@landing-ui/system";
 
 import {ReactNode, Ref, useCallback, useId, useRef} from "react";
-import {mapPropsVariants, useProviderContext} from "@nextui-org/system";
-import {mergeRefs} from "@nextui-org/react-utils";
-import {useSafeLayoutEffect} from "@nextui-org/use-safe-layout-effect";
+import {mapPropsVariants, useProviderContext} from "@landing-ui/system";
+import {mergeRefs} from "@landing-ui/react-utils";
+import {useSafeLayoutEffect} from "@landing-ui/use-safe-layout-effect";
 import {useHover} from "@react-aria/interactions";
-import {toggle} from "@nextui-org/theme";
+import {toggle} from "@landing-ui/theme";
 import {chain, mergeProps} from "@react-aria/utils";
-import {clsx, dataAttr, objectToDeps} from "@nextui-org/shared-utils";
+import {clsx, dataAttr, objectToDeps} from "@landing-ui/shared-utils";
 import {useSwitch as useReactAriaSwitch} from "@react-aria/switch";
 import {useMemo} from "react";
 import {useToggleState} from "@react-stately/toggle";

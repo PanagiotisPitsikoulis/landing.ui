@@ -1,11 +1,11 @@
 /* eslint-disable react/display-name */
 import React from "react";
 import {Meta} from "@storybook/react";
-import {toggle} from "@nextui-org/theme";
+import {toggle} from "@landing-ui/theme";
 import {VisuallyHidden} from "@react-aria/visually-hidden";
-import {SunFilledIcon, MoonFilledIcon} from "@nextui-org/shared-icons";
-import {clsx} from "@nextui-org/shared-utils";
-import {button} from "@nextui-org/theme";
+import {SunFilledIcon, MoonFilledIcon} from "@landing-ui/shared-icons";
+import {clsx} from "@landing-ui/shared-utils";
+import {button} from "@landing-ui/theme";
 import {useForm} from "react-hook-form";
 
 import {Switch, SwitchProps, SwitchThumbIconProps, useSwitch} from "../src";

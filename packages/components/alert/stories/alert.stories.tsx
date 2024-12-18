@@ -1,7 +1,7 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {alert, cn} from "@nextui-org/theme";
-import {Button} from "@nextui-org/button";
+import {alert, cn} from "@landing-ui/theme";
+import {Button} from "@landing-ui/button";
 
 import {Alert, AlertProps} from "../src";
 

@@ -1,4 +1,4 @@
-# @nextui-org/slider
+# @landing-ui/slider
 
 Slider allows a user to select one or more values within a range.
 
@@ -7,18 +7,18 @@ Please refer to the [documentation](https://nextui.org/docs/components/slider) f
 ## Installation
 
 ```sh
-yarn add @nextui-org/slider
+yarn add @landing-ui/slider
 # or
-npm i @nextui-org/slider
+npm i @landing-ui/slider
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/nextui-org/nextui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/nextui-org/nextui/blob/master/LICENSE).
+[MIT license](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/LICENSE).

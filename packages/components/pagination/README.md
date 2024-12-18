@@ -1,4 +1,4 @@
-# @nextui-org/pagination
+# @landing-ui/pagination
 
 The Pagination component allows you to display active page and navigate between multiple pages.
 
@@ -7,18 +7,18 @@ Please refer to the [documentation](https://nextui.org/docs/components/paginatio
 ## Installation
 
 ```sh
-yarn add @nextui-org/pagination
+yarn add @landing-ui/pagination
 # or
-npm i @nextui-org/pagination
+npm i @landing-ui/pagination
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/nextui-org/nextui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/nextui-org/nextui/blob/master/LICENSE).
+[MIT license](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/LICENSE).

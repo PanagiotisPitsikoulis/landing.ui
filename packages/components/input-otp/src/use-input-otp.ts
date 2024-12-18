@@ -3,17 +3,17 @@ import type {
   InputOtpSlots,
   InputOtpVariantProps,
   SlotsToClasses,
-} from "@nextui-org/theme";
+} from "@landing-ui/theme";
 
 import {
   HTMLNextUIProps,
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@nextui-org/system";
-import {inputOtp} from "@nextui-org/theme";
-import {filterDOMProps, ReactRef, useDOMRef} from "@nextui-org/react-utils";
-import {clsx, dataAttr, objectToDeps} from "@nextui-org/shared-utils";
+} from "@landing-ui/system";
+import {inputOtp} from "@landing-ui/theme";
+import {filterDOMProps, ReactRef, useDOMRef} from "@landing-ui/react-utils";
+import {clsx, dataAttr, objectToDeps} from "@landing-ui/shared-utils";
 import {useCallback, useMemo} from "react";
 import {chain, mergeProps, useFormReset} from "@react-aria/utils";
 import {AriaTextFieldProps} from "@react-types/textfield";
@@ -22,7 +22,7 @@ import {useFormValidationState} from "@react-stately/form";
 import {useFormValidation} from "@react-aria/form";
 import {useFocusRing} from "@react-aria/focus";
 import {OTPInputProps} from "input-otp";
-import {FormContext, useSlottedContext} from "@nextui-org/form";
+import {FormContext, useSlottedContext} from "@landing-ui/form";
 
 interface Props extends HTMLNextUIProps<"div"> {
   /**

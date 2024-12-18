@@ -1,6 +1,6 @@
-import {forwardRef, HTMLNextUIProps} from "@nextui-org/system";
-import {useDOMRef} from "@nextui-org/react-utils";
-import {clsx, dataAttr} from "@nextui-org/shared-utils";
+import {forwardRef, HTMLNextUIProps} from "@landing-ui/system";
+import {useDOMRef} from "@landing-ui/react-utils";
+import {clsx, dataAttr} from "@landing-ui/shared-utils";
 
 import {useNavbarContext} from "./navbar-context";
 

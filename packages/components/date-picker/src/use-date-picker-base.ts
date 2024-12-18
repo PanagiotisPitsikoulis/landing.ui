@@ -1,18 +1,18 @@
 import type {DateValue} from "@internationalized/date";
 import type {AriaDatePickerBaseProps} from "@react-types/datepicker";
-import type {DateInputProps, TimeInputProps} from "@nextui-org/date-input";
-import type {ButtonProps} from "@nextui-org/button";
-import type {CalendarProps} from "@nextui-org/calendar";
-import type {PopoverProps} from "@nextui-org/popover";
+import type {DateInputProps, TimeInputProps} from "@landing-ui/date-input";
+import type {ButtonProps} from "@landing-ui/button";
+import type {CalendarProps} from "@landing-ui/calendar";
+import type {PopoverProps} from "@landing-ui/popover";
 import type {ReactNode} from "react";
 import type {ValueBase} from "@react-types/shared";
 
-import {dataAttr} from "@nextui-org/shared-utils";
-import {dateInput, DatePickerVariantProps} from "@nextui-org/theme";
+import {dataAttr} from "@landing-ui/shared-utils";
+import {dateInput, DatePickerVariantProps} from "@landing-ui/theme";
 import {useCallback} from "react";
-import {HTMLNextUIProps, mapPropsVariants, useProviderContext} from "@nextui-org/system";
+import {HTMLNextUIProps, mapPropsVariants, useProviderContext} from "@landing-ui/system";
 import {mergeProps} from "@react-aria/utils";
-import {useDOMRef} from "@nextui-org/react-utils";
+import {useDOMRef} from "@landing-ui/react-utils";
 import {useLocalizedStringFormatter} from "@react-aria/i18n";
 import {useControlledState} from "@react-stately/utils";
 

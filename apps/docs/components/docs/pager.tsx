@@ -1,10 +1,10 @@
 "use client";
 
 import * as React from "react";
-import {Link} from "@nextui-org/react";
+import {Link} from "@landing-ui/react";
 import {usePostHog} from "posthog-js/react";
 import {useRouter} from "next/navigation";
-import {ChevronIcon} from "@nextui-org/shared-icons";
+import {ChevronIcon} from "@landing-ui/shared-icons";
 
 import manifest from "@/config/routes.json";
 import {removeFromLast} from "@/utils";

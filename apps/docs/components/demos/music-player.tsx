@@ -1,8 +1,8 @@
 "use client";
 
-import {Card, CardBody, Button, Image, Slider, CardProps} from "@nextui-org/react";
+import {Card, CardBody, Button, Image, Slider, CardProps} from "@landing-ui/react";
 import {useState, FC} from "react";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@landing-ui/shared-utils";
 import NextImage from "next/image";
 
 import {

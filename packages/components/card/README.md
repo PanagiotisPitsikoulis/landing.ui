@@ -1,4 +1,4 @@
-# @nextui-org/card
+# @landing-ui/card
 
 Card is a container for text, photos, and actions in the context of a single subject.
 
@@ -7,18 +7,18 @@ Please refer to the [documentation](https://nextui.org/docs/components/card) for
 ## Installation
 
 ```sh
-yarn add @nextui-org/card
+yarn add @landing-ui/card
 # or
-npm i @nextui-org/card
+npm i @landing-ui/card
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/nextui-org/nextui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/nextui-org/nextui/blob/master/LICENSE).
+[MIT license](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/LICENSE).

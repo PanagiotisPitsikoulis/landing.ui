@@ -1,5 +1,5 @@
-import {forwardRef} from "@nextui-org/system";
-import {Modal} from "@nextui-org/modal";
+import {forwardRef} from "@landing-ui/system";
+import {Modal} from "@landing-ui/modal";
 
 import {useDrawer, UseDrawerProps} from "./use-drawer";
 

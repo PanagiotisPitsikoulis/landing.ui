@@ -1,4 +1,4 @@
-import {Form, Input, Button} from "@nextui-org/react";
+import {Form, Input, Button} from "@landing-ui/react";
 
 export default function App() {
   const [errors, setErrors] = React.useState({});

@@ -1,22 +1,22 @@
 import type {ListboxItemBaseProps} from "./base/listbox-item-base";
-import type {MenuItemVariantProps} from "@nextui-org/theme";
+import type {MenuItemVariantProps} from "@landing-ui/theme";
 
 import {useMemo, useRef, useCallback} from "react";
-import {listboxItem} from "@nextui-org/theme";
+import {listboxItem} from "@landing-ui/theme";
 import {
   HTMLNextUIProps,
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@nextui-org/system";
+} from "@landing-ui/system";
 import {useFocusRing} from "@react-aria/focus";
 import {Node} from "@react-types/shared";
-import {filterDOMProps} from "@nextui-org/react-utils";
-import {clsx, dataAttr, objectToDeps, removeEvents, warn} from "@nextui-org/shared-utils";
+import {filterDOMProps} from "@landing-ui/react-utils";
+import {clsx, dataAttr, objectToDeps, removeEvents, warn} from "@landing-ui/shared-utils";
 import {useOption} from "@react-aria/listbox";
 import {mergeProps} from "@react-aria/utils";
 import {useHover, usePress} from "@react-aria/interactions";
-import {useIsMobile} from "@nextui-org/use-is-mobile";
+import {useIsMobile} from "@landing-ui/use-is-mobile";
 import {ListState} from "@react-stately/list";
 
 interface Props<T extends object> extends ListboxItemBaseProps<T> {
@@ -70,7 +70,7 @@ export function useListboxItem<T extends object>(originalProps: UseListboxItemPr
 
   if (deprecatedOnClick && typeof deprecatedOnClick === "function") {
     warn(
-      "onClick is deprecated, please use onPress instead. See: https://github.com/nextui-org/nextui/issues/4292",
+      "onClick is deprecated, please use onPress instead. See: https://github.com/PanagiotisPitsikoulis/landing.ui/issues/4292",
       "ListboxItem",
     );
   }

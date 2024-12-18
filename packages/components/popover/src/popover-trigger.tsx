@@ -1,7 +1,7 @@
 import React, {Children, cloneElement, useMemo} from "react";
-import {pickChildren} from "@nextui-org/react-utils";
-import {useAriaButton} from "@nextui-org/use-aria-button";
-import {Button} from "@nextui-org/button";
+import {pickChildren} from "@landing-ui/react-utils";
+import {useAriaButton} from "@landing-ui/use-aria-button";
+import {Button} from "@landing-ui/button";
 import {mergeProps} from "@react-aria/utils";
 
 import {usePopoverContext} from "./popover-context";

@@ -1,4 +1,4 @@
-const App = `import {Button} from '@nextui-org/react';
+const App = `import {Button} from '@landing-ui/react';
 
 export default function App() {
   return (

@@ -1,4 +1,4 @@
-# @nextui-org/checkbox
+# @landing-ui/checkbox
 
 Checkboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.
 
@@ -7,18 +7,18 @@ Please refer to the [documentation](https://nextui.org/docs/components/checkbox)
 ## Installation
 
 ```sh
-yarn add @nextui-org/checkbox
+yarn add @landing-ui/checkbox
 # or
-npm i @nextui-org/checkbox
+npm i @landing-ui/checkbox
 ```
 
 ## Contribution
 
 Yes please! See the
-[contributing guidelines](https://github.com/nextui-org/nextui/blob/master/CONTRIBUTING.md)
+[contributing guidelines](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/CONTRIBUTING.md)
 for details.
 
 ## License
 
 This project is licensed under the terms of the
-[MIT license](https://github.com/nextui-org/nextui/blob/master/LICENSE).
+[MIT license](https://github.com/PanagiotisPitsikoulis/landing.ui/blob/master/LICENSE).

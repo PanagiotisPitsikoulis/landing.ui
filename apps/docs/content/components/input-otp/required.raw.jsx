@@ -1,4 +1,4 @@
-import {Button, InputOtp, Form} from "@nextui-org/react";
+import {Button, InputOtp, Form} from "@landing-ui/react";
 
 export default function App() {
   const [otp, setOtp] = React.useState("");

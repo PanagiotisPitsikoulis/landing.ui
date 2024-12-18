@@ -1,4 +1,4 @@
-import {Image} from "@nextui-org/react";
+import {Image} from "@landing-ui/react";
 
 import {ScriptProviders} from "@/components/scripts/script-providers";
 

@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import "@/styles/sandpack.css";
 import {Metadata, Viewport} from "next";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@landing-ui/shared-utils";
 
 import {Providers} from "./providers";
 

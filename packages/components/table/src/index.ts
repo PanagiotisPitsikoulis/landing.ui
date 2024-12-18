@@ -12,7 +12,7 @@ export type {
 export {useTable} from "./use-table";
 
 // export utils
-export {getKeyValue} from "@nextui-org/shared-utils";
+export {getKeyValue} from "@landing-ui/shared-utils";
 
 // export component
 export {default as Table} from "./table";

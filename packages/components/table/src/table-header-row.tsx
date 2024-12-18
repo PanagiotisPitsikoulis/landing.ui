@@ -1,8 +1,8 @@
 import type {GridNode} from "@react-types/grid";
 
-import {forwardRef, HTMLNextUIProps} from "@nextui-org/system";
-import {useDOMRef, filterDOMProps} from "@nextui-org/react-utils";
-import {clsx} from "@nextui-org/shared-utils";
+import {forwardRef, HTMLNextUIProps} from "@landing-ui/system";
+import {useDOMRef, filterDOMProps} from "@landing-ui/react-utils";
+import {clsx} from "@landing-ui/shared-utils";
 import {useTableHeaderRow} from "@react-aria/table";
 import {mergeProps} from "@react-aria/utils";
 

@@ -5,7 +5,7 @@ import {
   DropdownTrigger,
   DropdownMenu,
   DropdownItem,
-} from "@nextui-org/react";
+} from "@landing-ui/react";
 
 export const ChevronDownIcon = () => {
   return (

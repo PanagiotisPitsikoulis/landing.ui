@@ -1,4 +1,4 @@
-import {Pagination} from "@nextui-org/react";
+import {Pagination} from "@landing-ui/react";
 
 export default function App() {
   const sizes = ["sm", "md", "lg"];

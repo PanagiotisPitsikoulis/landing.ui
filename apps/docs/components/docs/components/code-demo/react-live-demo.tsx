@@ -1,7 +1,7 @@
 import React from "react";
 import {LivePreview, LiveProvider, LiveError} from "react-live";
-import {clsx} from "@nextui-org/shared-utils";
-import * as NextUI from "@nextui-org/react";
+import {clsx} from "@landing-ui/shared-utils";
+import * as NextUI from "@landing-ui/react";
 import * as intlDateUtils from "@internationalized/date";
 import * as reactAriaI18n from "@react-aria/i18n";
 import * as reactHookFormBase from "react-hook-form";
@@ -24,7 +24,7 @@ export interface ReactLiveDemoProps {
 }
 
 // 🚨 Do not pass react-hook-form to scope, it will break the live preview since
-// it also has a "Form" component that will override the one from @nextui-org/react
+// it also has a "Form" component that will override the one from @landing-ui/react
 const reactHookForm = {
   useForm: reactHookFormBase.useForm,
   Controller: reactHookFormBase.Controller,

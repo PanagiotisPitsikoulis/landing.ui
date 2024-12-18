@@ -1,5 +1,5 @@
 import {renderHook, waitFor} from "@testing-library/react";
-import {mocks} from "@nextui-org/test-utils";
+import {mocks} from "@landing-ui/test-utils";
 
 import {useImage} from "../src";
 

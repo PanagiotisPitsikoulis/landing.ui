@@ -1,9 +1,9 @@
-import type {PopoverVariantProps, SlotsToClasses, PopoverSlots} from "@nextui-org/theme";
+import type {PopoverVariantProps, SlotsToClasses, PopoverSlots} from "@landing-ui/theme";
 import type {HTMLMotionProps} from "framer-motion";
 import type {PressEvent} from "@react-types/shared";
 
 import {RefObject, Ref, useEffect} from "react";
-import {ReactRef, useDOMRef} from "@nextui-org/react-utils";
+import {ReactRef, useDOMRef} from "@landing-ui/react-utils";
 import {OverlayTriggerState, useOverlayTriggerState} from "@react-stately/overlays";
 import {useFocusRing} from "@react-aria/focus";
 import {ariaHideOutside, useOverlayTrigger, usePreventScroll} from "@react-aria/overlays";
@@ -13,11 +13,11 @@ import {
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@nextui-org/system";
-import {getArrowPlacement, getShouldUseAxisPlacement} from "@nextui-org/aria-utils";
-import {popover} from "@nextui-org/theme";
+} from "@landing-ui/system";
+import {getArrowPlacement, getShouldUseAxisPlacement} from "@landing-ui/aria-utils";
+import {popover} from "@landing-ui/theme";
 import {mergeProps, mergeRefs} from "@react-aria/utils";
-import {clsx, dataAttr, objectToDeps} from "@nextui-org/shared-utils";
+import {clsx, dataAttr, objectToDeps} from "@landing-ui/shared-utils";
 import {useMemo, useCallback, useRef} from "react";
 import {AriaDialogProps} from "@react-aria/dialog";
 

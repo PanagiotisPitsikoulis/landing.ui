@@ -1,5 +1,5 @@
-import {CloseFilledIcon} from "@nextui-org/shared-icons";
-import {forwardRef} from "@nextui-org/system";
+import {CloseFilledIcon} from "@landing-ui/shared-icons";
+import {forwardRef} from "@landing-ui/system";
 import {useMemo} from "react";
 
 import {UseChipProps, useChip} from "./use-chip";

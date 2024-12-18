@@ -1,15 +1,15 @@
-import type {ButtonProps} from "@nextui-org/button";
+import type {ButtonProps} from "@landing-ui/button";
 
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@landing-ui/system";
 import {
   CloseIcon,
   DangerIcon,
   InfoCircleIcon,
   SuccessIcon,
   WarningIcon,
-} from "@nextui-org/shared-icons";
-import {isEmpty} from "@nextui-org/shared-utils";
-import {Button} from "@nextui-org/button";
+} from "@landing-ui/shared-icons";
+import {isEmpty} from "@landing-ui/shared-utils";
+import {Button} from "@landing-ui/button";
 import {cloneElement, isValidElement} from "react";
 
 import {useAlert, UseAlertProps} from "./use-alert";

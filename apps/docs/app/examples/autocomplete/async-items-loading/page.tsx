@@ -2,8 +2,8 @@
 "use client";
 
 import * as React from "react";
-import {Autocomplete, AutocompleteItem} from "@nextui-org/react";
-import {useInfiniteScroll} from "@nextui-org/use-infinite-scroll";
+import {Autocomplete, AutocompleteItem} from "@landing-ui/react";
+import {useInfiniteScroll} from "@landing-ui/use-infinite-scroll";
 
 type Pokemon = {
   name: string;

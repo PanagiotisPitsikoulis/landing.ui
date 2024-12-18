@@ -1,7 +1,7 @@
 import {useRef} from "react";
 import {mergeProps} from "@react-aria/utils";
 import {useVirtualizer} from "@tanstack/react-virtual";
-import {isEmpty} from "@nextui-org/shared-utils";
+import {isEmpty} from "@landing-ui/shared-utils";
 
 import ListboxItem from "./listbox-item";
 import ListboxSection from "./listbox-section";

@@ -1,7 +1,7 @@
 import React from "react";
 import {Meta} from "@storybook/react";
-import {dateInput, button} from "@nextui-org/theme";
-import {ClockCircleLinearIcon} from "@nextui-org/shared-icons";
+import {dateInput, button} from "@landing-ui/theme";
+import {ClockCircleLinearIcon} from "@landing-ui/shared-icons";
 import {
   parseAbsoluteToLocal,
   parseZonedDateTime,

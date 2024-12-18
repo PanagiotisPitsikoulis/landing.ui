@@ -1,5 +1,5 @@
 ---
-"@nextui-org/input": patch
+"@landing-ui/input": patch
 ---
 
 label placement with file input type (#4364)

@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/no-autofocus */
 import {Meta} from "@storybook/react";
-import {modal} from "@nextui-org/theme";
-import {Button} from "@nextui-org/button";
-import {Input} from "@nextui-org/input";
-import {Checkbox} from "@nextui-org/checkbox";
-import {Link} from "@nextui-org/link";
-import {Switch} from "@nextui-org/switch";
-import {MailFilledIcon, LockFilledIcon} from "@nextui-org/shared-icons";
+import {modal} from "@landing-ui/theme";
+import {Button} from "@landing-ui/button";
+import {Input} from "@landing-ui/input";
+import {Checkbox} from "@landing-ui/checkbox";
+import {Link} from "@landing-ui/link";
+import {Switch} from "@landing-ui/switch";
+import {MailFilledIcon, LockFilledIcon} from "@landing-ui/shared-icons";
 import Lorem from "react-lorem-component";
 
 import {

@@ -1,8 +1,8 @@
-import type {PopoverVariantProps, SlotsToClasses} from "@nextui-org/theme";
+import type {PopoverVariantProps, SlotsToClasses} from "@landing-ui/theme";
 import type {AriaTooltipProps} from "@react-types/tooltip";
 import type {OverlayTriggerProps} from "@react-types/overlays";
 import type {HTMLMotionProps} from "framer-motion";
-import type {OverlayOptions} from "@nextui-org/aria-utils";
+import type {OverlayOptions} from "@landing-ui/aria-utils";
 
 import {ReactNode, Ref, useId, useImperativeHandle} from "react";
 import {useTooltipTriggerState} from "@react-stately/tooltip";
@@ -14,14 +14,14 @@ import {
   mapPropsVariants,
   PropGetter,
   useProviderContext,
-} from "@nextui-org/system";
-import {popover} from "@nextui-org/theme";
-import {clsx, dataAttr, objectToDeps} from "@nextui-org/shared-utils";
-import {ReactRef, mergeRefs} from "@nextui-org/react-utils";
-import {createDOMRef} from "@nextui-org/react-utils";
+} from "@landing-ui/system";
+import {popover} from "@landing-ui/theme";
+import {clsx, dataAttr, objectToDeps} from "@landing-ui/shared-utils";
+import {ReactRef, mergeRefs} from "@landing-ui/react-utils";
+import {createDOMRef} from "@landing-ui/react-utils";
 import {useMemo, useRef, useCallback} from "react";
-import {toReactAriaPlacement, getArrowPlacement} from "@nextui-org/aria-utils";
-import {useSafeLayoutEffect} from "@nextui-org/use-safe-layout-effect";
+import {toReactAriaPlacement, getArrowPlacement} from "@landing-ui/aria-utils";
+import {useSafeLayoutEffect} from "@landing-ui/use-safe-layout-effect";
 
 interface Props extends Omit<HTMLNextUIProps, "content"> {
   /**

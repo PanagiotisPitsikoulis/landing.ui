@@ -1,4 +1,4 @@
-import {CircularProgress, Card, CardBody, CardFooter, Chip} from "@nextui-org/react";
+import {CircularProgress, Card, CardBody, CardFooter, Chip} from "@landing-ui/react";
 
 export default function App() {
   return (

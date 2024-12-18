@@ -1,13 +1,13 @@
 import type {DateValue, AriaCalendarProps} from "@react-types/calendar";
-import type {ButtonProps} from "@nextui-org/button";
+import type {ButtonProps} from "@landing-ui/button";
 import type {CalendarState} from "@react-stately/calendar";
 
 import {useMemo, useRef} from "react";
-import {filterDOMProps} from "@nextui-org/react-utils";
+import {filterDOMProps} from "@landing-ui/react-utils";
 import {useCalendar as useAriaCalendar} from "@react-aria/calendar";
 import {useCalendarState} from "@react-stately/calendar";
 import {createCalendar} from "@internationalized/date";
-import {clsx} from "@nextui-org/shared-utils";
+import {clsx} from "@landing-ui/shared-utils";
 import {chain, mergeProps} from "@react-aria/utils";
 
 import {ContextType, useCalendarBase, UseCalendarBaseProps} from "./use-calendar-base";

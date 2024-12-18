@@ -25,7 +25,7 @@ export interface AccordionItemAria {
 }
 
 /**
- * @deprecated use useReactAriaAccordionItem instead from @nextui-org/use-aria-accordion
+ * @deprecated use useReactAriaAccordionItem instead from @landing-ui/use-aria-accordion
  */
 export function useAriaAccordionItem<T>(
   props: AccordionItemAriaProps<T>,

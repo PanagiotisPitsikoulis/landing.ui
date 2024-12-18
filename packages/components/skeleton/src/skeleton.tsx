@@ -1,4 +1,4 @@
-import {forwardRef} from "@nextui-org/system";
+import {forwardRef} from "@landing-ui/system";
 
 import {UseSkeletonProps, useSkeleton} from "./use-skeleton";
 

@@ -1,4 +1,4 @@
-import {Spinner} from "@nextui-org/react";
+import {Spinner} from "@landing-ui/react";
 
 export default function App() {
   return (
