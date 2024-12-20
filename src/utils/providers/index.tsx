@@ -1,5 +1,5 @@
-import React from "react";
 import { NextUIProvider } from "@nextui-org/react";
+import type React from "react";
 import { Toaster } from "sonner";
 import { ThemeProvider } from "../theme";
 
@@ -11,18 +11,18 @@ import { ThemeProvider } from "../theme";
  * @returns JSX.Element
  */
 function LandingUIProvider({ children }: { children: React.ReactNode }) {
-  return (
-    <>
-      <ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
-        <NextUIProvider>
-          <div className={"dark:border-content2 border-content4"}>
-            {children}
-          </div>
-          <Toaster closeButton={true} richColors={true} />
-        </NextUIProvider>
-      </ThemeProvider>
-    </>
-  );
+	return (
+		<>
+			<ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+				<NextUIProvider>
+					<div className={"border-content4 dark:border-content2"}>
+						{children}
+					</div>
+					<Toaster closeButton={true} richColors={true} />
+				</NextUIProvider>
+			</ThemeProvider>
+		</>
+	);
 }
 
 export default LandingUIProvider;

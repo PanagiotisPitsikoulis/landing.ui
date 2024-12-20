@@ -7,20 +7,20 @@ import { useTheme } from "../../utils/theme";
  * @returns JSX.Element
  */
 export const ThemeSwitch = () => {
-  const { theme, setTheme } = useTheme();
+	const { theme, setTheme } = useTheme();
 
-  const toggleTheme = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
+	const toggleTheme = () => {
+		setTheme(theme === "dark" ? "light" : "dark");
+	};
 
-  return (
-    <Button variant='light' size={"sm"} isIconOnly={true} onPress={toggleTheme}>
-      {theme === "dark" ? (
-        <Sun className='w-4 h-4' />
-      ) : (
-        <Moon className='w-4 h-4' />
-      )}
-      <span className='sr-only'>Toggle theme</span>
-    </Button>
-  );
+	return (
+		<Button variant="light" size={"sm"} isIconOnly={true} onPress={toggleTheme}>
+			{theme === "dark" ? (
+				<Sun className="h-4 w-4" />
+			) : (
+				<Moon className="h-4 w-4" />
+			)}
+			<span className="sr-only">Toggle theme</span>
+		</Button>
+	);
 };

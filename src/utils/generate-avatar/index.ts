@@ -4,12 +4,12 @@
  * @returns The hashed string.
  */
 function hashString(input: string) {
-  let hash = 2166136261; // FNV offset basis
-  for (let i = 0; i < input.length; i++) {
-    hash ^= input.charCodeAt(i); // XOR with the character code
-    hash *= 16777619; // FNV prime
-  }
-  return (hash >>> 0).toString(16); // Ensure unsigned integer and convert to hex
+	let hash = 2166136261; // FNV offset basis
+	for (let i = 0; i < input.length; i++) {
+		hash ^= input.charCodeAt(i); // XOR with the character code
+		hash *= 16777619; // FNV prime
+	}
+	return (hash >>> 0).toString(16); // Ensure unsigned integer and convert to hex
 }
 
 /**
@@ -18,9 +18,9 @@ function hashString(input: string) {
  * @returns The Gravatar URL.
  */
 export function getAvatarUrl(id: string) {
-  if (!id) {
-    return "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=identicon";
-  }
-  const hash = hashString(id.trim().toLowerCase()); // Generate hash
-  return `https://www.gravatar.com/avatar/${hash}?d=identicon`;
+	if (!id) {
+		return "https://www.gravatar.com/avatar/00000000000000000000000000000000?d=identicon";
+	}
+	const hash = hashString(id.trim().toLowerCase()); // Generate hash
+	return `https://www.gravatar.com/avatar/${hash}?d=identicon`;
 }

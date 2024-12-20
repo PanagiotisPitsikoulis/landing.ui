@@ -1,7 +1,7 @@
 import mitt from "mitt";
 
 type Events = {
-  bannerVisibilityChange: "hidden" | "visible";
+	bannerVisibilityChange: "hidden" | "visible";
 };
 /**
  * Event emitter for the application.

@@ -1,22 +1,22 @@
-import React from "react";
 import { motion } from "framer-motion";
+import type React from "react";
 import { useIsOnScreen } from "../../hooks/use-is-on-screen";
 
 export type AnimatedWrapperProps = {
-  children: React.ReactNode;
-  left?: number;
-  right?: number;
-  top?: number;
-  bottom?: number;
-  opacity?: number;
-  duration?: number;
-  delay?: number;
-  ease?: string | number[];
-  initialOpacity?: number;
-  triggerOnView?: boolean;
-  rootMargin?: string;
-  threshold?: number | number[];
-  className?: string;
+	children: React.ReactNode;
+	left?: number;
+	right?: number;
+	top?: number;
+	bottom?: number;
+	opacity?: number;
+	duration?: number;
+	delay?: number;
+	ease?: string | number[];
+	initialOpacity?: number;
+	triggerOnView?: boolean;
+	rootMargin?: string;
+	threshold?: number | number[];
+	className?: string;
 };
 
 /**
@@ -37,51 +37,51 @@ export type AnimatedWrapperProps = {
  * @param className - Additional class name for the wrapper. Deprecated, use rootMargin and threshold instead.
  */
 export function AnimatedWrapper({
-  children,
-  left,
-  right,
-  top,
-  bottom,
-  opacity = 1,
-  duration = 0.4,
-  delay = 0,
-  ease = "easeOut",
-  initialOpacity = 0,
-  className,
-  triggerOnView = false,
-  rootMargin = "0px",
-  threshold = 0.5,
+	children,
+	left,
+	right,
+	top,
+	bottom,
+	opacity = 1,
+	duration = 0.4,
+	delay = 0,
+	ease = "easeOut",
+	initialOpacity = 0,
+	className,
+	triggerOnView = false,
+	rootMargin = "0px",
+	threshold = 0.5,
 }: AnimatedWrapperProps) {
-  const [ref, isVisible] = useIsOnScreen<HTMLDivElement>({
-    rootMargin,
-    threshold,
-  });
+	const [ref, isVisible] = useIsOnScreen<HTMLDivElement>({
+		rootMargin,
+		threshold,
+	});
 
-  const initialPosition = {
-    x: left ? -left : right ? right : 0,
-    y: top ? -top : bottom ? bottom : 0,
-    opacity: initialOpacity,
-  };
+	const initialPosition = {
+		x: left ? -left : right ? right : 0,
+		y: top ? -top : bottom ? bottom : 0,
+		opacity: initialOpacity,
+	};
 
-  const animatePosition = {
-    x: 0,
-    y: 0,
-    opacity,
-  };
+	const animatePosition = {
+		x: 0,
+		y: 0,
+		opacity,
+	};
 
-  return (
-    <motion.div
-      ref={triggerOnView ? ref : null}
-      initial={initialPosition}
-      animate={triggerOnView && !isVisible ? initialPosition : animatePosition}
-      transition={{
-        duration,
-        delay,
-        ease,
-      }}
-      className={className}
-    >
-      {children}
-    </motion.div>
-  );
+	return (
+		<motion.div
+			ref={triggerOnView ? ref : null}
+			initial={initialPosition}
+			animate={triggerOnView && !isVisible ? initialPosition : animatePosition}
+			transition={{
+				duration,
+				delay,
+				ease,
+			}}
+			className={className}
+		>
+			{children}
+		</motion.div>
+	);
 }

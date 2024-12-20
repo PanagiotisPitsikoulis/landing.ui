@@ -1,4 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
+import type React from "react";
+import { useEffect, useRef, useState } from "react";
 
 /**
  * A custom React hook to check if an element is visible on the screen.
@@ -6,27 +7,27 @@ import React, { useEffect, useRef, useState } from "react";
  * @returns A ref to attach to the element and a boolean indicating visibility.
  */
 export function useIsOnScreen<T extends HTMLElement>(
-  options?: IntersectionObserverInit
+	options?: IntersectionObserverInit,
 ): [React.RefObject<T | null>, boolean] {
-  const ref = useRef<T | null>(null); // Allow null since it may not be set initially
-  const [isVisible, setIsVisible] = useState(false);
+	const ref = useRef<T | null>(null); // Allow null since it may not be set initially
+	const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(([entry]) => {
-      setIsVisible(entry.isIntersecting);
-    }, options);
+	useEffect(() => {
+		const observer = new IntersectionObserver(([entry]) => {
+			setIsVisible(entry.isIntersecting);
+		}, options);
 
-    const currentElement = ref.current;
-    if (currentElement) {
-      observer.observe(currentElement);
-    }
+		const currentElement = ref.current;
+		if (currentElement) {
+			observer.observe(currentElement);
+		}
 
-    return () => {
-      if (currentElement) {
-        observer.unobserve(currentElement);
-      }
-    };
-  }, [options]);
+		return () => {
+			if (currentElement) {
+				observer.unobserve(currentElement);
+			}
+		};
+	}, [options]);
 
-  return [ref, isVisible];
+	return [ref, isVisible];
 }

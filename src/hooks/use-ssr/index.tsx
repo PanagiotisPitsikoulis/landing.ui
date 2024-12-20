@@ -5,16 +5,16 @@ import { useEffect, useState } from "react";
  * @returns A boolean indicating whether the application is running on the server side.
  */
 const isBrowser = (): boolean => {
-  return Boolean(
-    typeof window !== "undefined" &&
-      window.document &&
-      window.document.createElement
-  );
+	return Boolean(
+		typeof window !== "undefined" &&
+			window.document &&
+			window.document.createElement,
+	);
 };
 
 export type SSRState = {
-  isBrowser: boolean;
-  isServer: boolean;
+	isBrowser: boolean;
+	isServer: boolean;
 };
 
 /**
@@ -22,14 +22,14 @@ export type SSRState = {
  * @returns An object containing the current state of the hook.
  */
 export const useSSR = (): SSRState => {
-  const [browser, setBrowser] = useState<boolean>(false);
+	const [browser, setBrowser] = useState<boolean>(false);
 
-  useEffect(() => {
-    setBrowser(isBrowser());
-  }, []);
+	useEffect(() => {
+		setBrowser(isBrowser());
+	}, []);
 
-  return {
-    isBrowser: browser,
-    isServer: !browser,
-  };
+	return {
+		isBrowser: browser,
+		isServer: !browser,
+	};
 };
